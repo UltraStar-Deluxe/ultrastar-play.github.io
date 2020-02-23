@@ -1,1 +1,4 @@
-theme: jekyll-theme-minimal
+theme: minimal-mistakes-jekyll
+repository: UltraStar-Deluxe/Play
+twitter:
+  username: UltraStarPlay
