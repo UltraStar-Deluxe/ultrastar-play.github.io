@@ -19,11 +19,11 @@ locale                   : "en-US"
 title                    : "UltraStar Play - free & libre sing-along karaoke game"
 title_separator          : "-"
 subtitle                 : # site tagline that appears below site title in masthead
-name                     : "Ultrastar"
+name                     : "UltraStar Play"
 description              : "Official Website of the UltraStar Play karaoke game"
 url                      : "https://usplay.net" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
-repository               : "UltraStar-Deluxe/ultrastar-play.github.io" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
+repository               : "UltraStar-Deluxe/Play" # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
 teaser                   : # path of fallback teaser image, e.g. "/assets/images/500x300.png"
 logo                     : # path of logo image to display in the masthead, e.g. "/assets/images/88x88.png"
 masthead_title           : # overrides the website title displayed in the masthead, use " " for no title
@@ -107,10 +107,10 @@ analytics:
 
 # Site Author
 author:
-  name             : "Ultrastar"
+  name             : "Ultrastar Deluxe"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : "free & libre sing-along karaoke game "
-  location         : "Equestria"
+  location         : 
   email            :
   links:
     - label: "Email"
@@ -118,19 +118,13 @@ author:
       # url: mailto:your.name@email.com
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      # url: "https://your-website.com"
+      # url: "https://usplay.net"
     - label: "Twitter"
       icon: "fab fa-fw fa-twitter-square"
-      # url: "https://twitter.com/"
-    - label: "Facebook"
-      icon: "fab fa-fw fa-facebook-square"
-      # url: "https://facebook.com/"
+      # url: "https://twitter.com/UltraStarPlay"
     - label: "GitHub"
       icon: "fab fa-fw fa-github"
-      # url: "https://github.com/"
-    - label: "Instagram"
-      icon: "fab fa-fw fa-instagram"
-      # url: "https://instagram.com/"
+      url: "https://github.com/UltraStar-Deluxe/Play"
 
 # Site Footer
 footer:
