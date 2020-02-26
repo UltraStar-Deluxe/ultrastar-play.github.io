@@ -1,6 +1,6 @@
 ---
 title: UltraStar Play - Privacy Policy
-permalink: /privacy-policy
+permalink: /privacy-policy/
 ---
 
 <h1>Privacy Policy for UltraStar Play Project Developers</h1>
