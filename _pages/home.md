@@ -18,7 +18,7 @@ song packages (free or paid-for, depending on licensing).
 
 ### Download
 
-_UltraStar Play_ is a new project which started in 2018/2019 and is not ready for "production use". A preview version will be available for download here shortly, 
+_UltraStar Play_ is a new project which started in 2018/2019 and is not ready for "production use". Preview alpha versions are available for download at [this link](https://github.com/UltraStar-Deluxe/Play/releases), 
 targeting Windows, Linux, macOS, and Android.
 
 Until _UltraStar Play_ is ready to use, you might want to try one of these already existing free karaoke games instead:
