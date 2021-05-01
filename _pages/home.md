@@ -7,7 +7,7 @@ _UltraStar Play_ is a free and open source "sing-along" karaoke game for desktop
 
 The game plays an audio file, displays lyrics, notes, and optionally a background video or image. Up to six players sing along and try to hit notes to earn points.
 
-See the [wiki](https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps) to get started.
+Checkout the [wiki](https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps) to get started.
 
 [<img src="/images/singing3.jpg?raw=true" width="80%" alt="song singing in two player mode">](/images/singing3.jpg?raw=true)
 
@@ -24,7 +24,7 @@ Furthermore, _UltraStar Play_ has an integrated [song editor](https://github.com
 ### Download
 _UltraStar Play_ is not "finished" yet, but already fun to play. 
 
-Preview alpha versions are available for download on [GitHub](https://github.com/UltraStar-Deluxe/Play/releases), 
+Preview alpha versions are available for [download on GitHub](https://github.com/UltraStar-Deluxe/Play/releases), 
 targeting Windows, Linux, macOS, and Android.
 
 You might also be interested in the more stable [UltraStar Deluxe](https://github.com/UltraStar-Deluxe/USDX) or similar projects such as [Performous](https://github.com/performous/performous) or [Vocaluxe](https://github.com/Vocaluxe/Vocaluxe).
@@ -32,7 +32,7 @@ You might also be interested in the more stable [UltraStar Deluxe](https://githu
 ### Companion App
 Use your smartphone as mic or browse the song list via the _UltraStar Play Companion App_.
 
-A pre-release for Android can be found on [GitHub](https://github.com/UltraStar-Deluxe/PlayCompanion/releases)
+A pre-release for Android is available for [download on GitHub](https://github.com/UltraStar-Deluxe/PlayCompanion/releases)
 
 ### Source Code and Getting Involved
  _UltraStar Play_ is created using the [Unity game engine](https://www.unity.com) and mostly C# as software development language.
