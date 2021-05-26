@@ -1,0 +1,11 @@
+.sponsor-button {
+    background-color: #fafbfc;
+}
+
+.sponsor-button:hover {
+    background-color: #dadbdc;
+}
+
+.sponsor-button:active {
+    border-color: #0a53be;
+}

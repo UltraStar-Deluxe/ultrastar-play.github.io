@@ -1,0 +1,3 @@
+https://github.com/StartBootstrap/startbootstrap-heroic-features
+A Bootstrap HTML homepage template with feature boxes - created by Start Bootstrap 
+License: MIT
