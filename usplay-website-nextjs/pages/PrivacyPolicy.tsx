@@ -1,53 +1,33 @@
-<!DOCTYPE html>
-<html lang="en">
+import type { NextPage } from 'next'
+import Link from 'next/link';
 
-<head>
-    <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
-    <title>UltraStar Play - Privacy Policy</title>
-    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
-    <!-- Bootstrap icons-->
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
-    <!-- Google fonts-->
-    <link rel="preconnect" href="https://fonts.gstatic.com" />
-    <link href="https://fonts.googleapis.com/css2?family=Newsreader:ital,wght@0,600;1,600&amp;display=swap"
-        rel="stylesheet" />
-    <link
-        href="https://fonts.googleapis.com/css2?family=Mulish:ital,wght@0,300;0,500;0,600;0,700;1,300;1,500;1,600;1,700&amp;display=swap"
-        rel="stylesheet" />
-    <link href="https://fonts.googleapis.com/css2?family=Kanit:ital,wght@0,400;1,400&amp;display=swap"
-        rel="stylesheet" />
-    <!-- Core theme CSS (includes Bootstrap)-->
-    <link href="css/styles.css" rel="stylesheet" />
-    <link href="css/additional-styles.css" rel="stylesheet" />
-</head>
+const PrivacyPolicy: NextPage = () => {
+  return (
 
-<body id="page-top">
-    <!-- Navigation-->
-    <nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav"
-        style="padding-top: 0.5rem; padding-bottom: 0.5rem;">
-        <div class="container px-5">
-            <a class="navbar-brand fw-bold" href="#page-top">UltraStar Play - Privacy Policy</a>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
+<>
+    {/* Navigation */}
+    <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav"
+        style={{paddingTop: "0.5rem", paddingBottom: "0.5rem"}}>
+        <div className="container px-5">
+            <a className="navbar-brand fw-bold" href="#page-top">UltraStar Play - Privacy Policy</a>
+            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
                 aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
                 Menu
-                <i class="bi-list"></i>
+                <i className="bi-list"></i>
             </button>
-            <div class="collapse navbar-collapse" id="navbarResponsive">
-                <ul class="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li class="nav-item"><a class="nav-link me-lg-3" href="index.html">Home</a></li>
+            <div className="collapse navbar-collapse" id="navbarResponsive">
+                <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
+                    <li className="nav-item"><Link className="nav-link me-lg-3" href="/">Home</Link></li>
                 </ul>
             </div>
         </div>
     </nav>
-    <!-- Basic features section-->
-    <section class="bg-light">
-        <div class="container px-5">
-            <div class="row gx-5 align-items-center justify-content-center justify-content-lg-between">
-                <div class="col-12">
-                    <!-------------------------------------------------------------->
+    {/* Basic features section */}
+    <section className="bg-light">
+        <div className="container px-5">
+            <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+                <div className="col-12">
+                    {/*---------------------------------------------------------- */}
                     <h1>Privacy Policy for UltraStar Play Project Developers</h1>
 
                     <p>At UltraStar Play, accessible from usplay.net, one of our main priorities is the privacy of our
@@ -57,7 +37,7 @@
                     <p>If you have additional questions or require more information about our Privacy Policy, do not
                         hesitate to contact us.</p>
 
-                    <!-------------------------------------------------------------->
+                    {/*---------------------------------------------------------- */}
                     <h2>General Data Protection Regulation (GDPR)</h2>
                     <p>We are a Data Controller of your information.</p>
 
@@ -92,18 +72,18 @@
                         <li>The right to withdraw consent</li>
                     </ul>
 
-                    <!-------------------------------------------------------------->
+                    {/*---------------------------------------------------------- */}
                     <h2>Log Files</h2>
 
                     <p>UltraStar Play follows a standard procedure of using log files. These files log visitors when
-                        they visit websites. All hosting companies do this and a part of hosting services' analytics.
+                        they visit websites. All hosting companies do this and a part of hosting services&apos; analytics.
                         The information collected by log files include internet protocol (IP) addresses, browser type,
                         Internet Service Provider (ISP), date and time stamp, referring/exit pages, and possibly the
                         number of clicks. These are not linked to any information that is personally identifiable. The
-                        purpose of the information is for analyzing trends, administering the site, tracking users'
+                        purpose of the information is for analyzing trends, administering the site, tracking users&apos;
                         movement on the website, and gathering demographic information.</p>
 
-                    <!-------------------------------------------------------------->
+                    {/*---------------------------------------------------------- */}
                     <h2>Privacy Policies</h2>
 
                     <p>You may consult this list to find the Privacy Policy for each of the advertising partners of
@@ -111,28 +91,28 @@
 
                     <p>Third-party ad servers or ad networks uses technologies like cookies, JavaScript, or Web Beacons
                         that are used in their respective advertisements and links that appear on UltraStar Play, which
-                        are sent directly to users' browser. They automatically receive your IP address when this
+                        are sent directly to users&apos; browser. They automatically receive your IP address when this
                         occurs. These technologies are used to measure the effectiveness of their advertising campaigns
                         and/or to personalize the advertising content that you see on websites that you visit.</p>
 
                     <p>Note that UltraStar Play has no access to or control over these cookies that are used by
                         third-party advertisers.</p>
 
-                    <!-------------------------------------------------------------->
+                    {/*---------------------------------------------------------- */}
                     <h2>Third Party Privacy Policies</h2>
 
-                    <p>UltraStar Play's Privacy Policy does not apply to other advertisers or websites. Thus, we are
+                    <p>UltraStar Play&apos;s Privacy Policy does not apply to other advertisers or websites. Thus, we are
                         advising you to consult the respective Privacy Policies of these third-party ad servers for more
                         detailed information. It may include their practices and instructions about how to opt-out of
                         certain options. You may find a complete list of these Privacy Policies and their links here:
                         Privacy Policy Links.</p>
 
                     <p>You can choose to disable cookies through your individual browser options. To know more detailed
-                        information about cookie management with specific web browsers, it can be found at the browsers'
+                        information about cookie management with specific web browsers, it can be found at the browsers&apos;
                         respective websites. What Are Cookies?</p>
 
-                    <!-------------------------------------------------------------->
-                    <h2>Children's Information</h2>
+                    {/*---------------------------------------------------------- */}
+                    <h2>Children&apos;s Information</h2>
 
                     <p>Another part of our priority is adding protection for children while using the internet. We
                         encourage parents and guardians to observe, participate in, and/or monitor and guide their
@@ -143,7 +123,7 @@
                         website, we strongly encourage you to contact us immediately and we will do our best efforts to
                         promptly remove such information from our records.</p>
 
-                    <!-------------------------------------------------------------->
+                    {/*---------------------------------------------------------- */}
                     <h2>Online Privacy Policy Only</h2>
 
                     <p>Our Privacy Policy applies only to our online activities and is valid for visitors to our website
@@ -151,7 +131,7 @@
                         is not applicable to any information collected offline or via channels other than this website.
                     </p>
 
-                    <!-------------------------------------------------------------->
+                    {/*---------------------------------------------------------- */}
                     <h2>Consent</h2>
 
                     <p>By using our website, you hereby consent to our Privacy Policy and agree to its terms.</p>
@@ -160,23 +140,24 @@
             </div>
         </div>
     </section>
-    <!-- Footer-->
-    <footer class="bg-black text-center py-4">
-        <div class="container px-5">
-            <div class="text-white-50 small">
-                <!-- <div class="mb-2">&copy; Your Website 2021. All Rights Reserved.</div> -->
-                <!-- <a href="#!">Privacy</a> -->
-                <!-- <span class="mx-1">&middot;</span>
+    {/* Footer */}
+    <footer className="bg-black text-center py-4">
+        <div className="container px-5">
+            <div className="text-white-50 small">
+                {/* <div className="mb-2">&copy; Your Website 2021. All Rights Reserved.</div>*/}
+                {/* <a href="#!">Privacy</a>*/}
+                {/* <span className="mx-1">&middot;</span>
                     <a href="#!">Terms</a>
-                    <span class="mx-1">&middot;</span>
-                    <a href="#!">FAQ</a> -->
+                    <span className="mx-1">&middot;</span>
+                    <a href="#!">FAQ</a>*/}
             </div>
         </div>
     </footer>
-    <!-- Bootstrap core JS-->
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
-    <!-- Core theme JS-->
-    <script src="js/scripts.js"></script>
-</body>
+    {/* Bootstrap core JS */}
+    <script async src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"></script>
+</>
 
-</html>
+  )
+}
+
+export default PrivacyPolicy;
