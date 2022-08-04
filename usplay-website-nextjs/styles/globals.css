@@ -1,29 +1,19 @@
 @import "bootstrap-new-age-v6-0-0.css";
-@import "additional-styles.css";
 
-html,
-body {
-  padding: 0;
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
-    Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+.sponsor-button {
+    background-color: #dee2e6;
+    flex-grow: 1;
+    border: 1px solid darkgrey;
 }
 
-a {
-  color: inherit;
-  text-decoration: none;
+.sponsor-button:hover {
+    background-color: #dadbdc;
 }
 
-* {
-  box-sizing: border-box;
+.sponsor-button:active {
+    border-color: #0a53be;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
+.download-button {
+    flex-grow: 1;
 }

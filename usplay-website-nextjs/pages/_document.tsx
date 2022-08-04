@@ -8,7 +8,7 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>UltraStar&nbsp;Play - open source singing game</title>
+        <title>UltraStar&nbsp;Play - Free Singing Game for Desktop and Mobile</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
         {/* Bootstrap icons */}
         <link href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css" rel="stylesheet" />
@@ -24,6 +24,9 @@ export default function Document() {
     <body id="page-top">
         <Main />
         <NextScript />
+
+        {/* Visitor Statistics by Clicky.com  */}
+        <script async src="//static.getclicky.com/101369458.js"></script>
     </body>
 </Html>
     )
