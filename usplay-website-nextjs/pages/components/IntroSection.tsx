@@ -25,7 +25,7 @@ const IntroSection = () => (
             <div className="col-lg-6">
                 {/* Mashead text and app badges */}
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                    <h1 className="lh-1 mb-3 font-alt">Enjoy a Fun Singing Experience</h1>
+                    <h1 className="lh-1 mb-3 font-alt">Enjoy a Fun Singing Party!</h1>
                     <div className="lead text-muted" style={{marginBottom: '1rem'}}>
                         Want to <span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
                     </div>
