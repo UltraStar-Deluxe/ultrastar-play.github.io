@@ -1,64 +1,123 @@
+import WaveBackground from "./WaveBackground"
+
+const FeatureItem = (props: {icon: string, title: string, children?: React.ReactNode}) => (
+    <div className="col-md-6 col-lg-4">
+        <div className="text-center mb-3">
+            <i className={`${props.icon} icon-feature text-gradient d-block`}></i>
+            <h3 className="font-alt">{props.title}</h3>
+            <p className="text-muted mb-0">{props.children}</p>
+        </div>
+    </div>
+)
+
 const FeaturesSection = () => (
 
-<section id="features">
+<>
+<div  id="features" className="stage-and-audience-background text-white pt-5">
+    <div className="container">
+        <div className="row">
+            {/* Feature overview */}
+            <div className="row row-cols-auto justify-content-center">
+                <h1>With UltraStar Play, <span className="emphasize">YOU'LL GET</span>:</h1>
+            </div>
+            <div className="row row-cols-auto justify-content-center lead">
+                <div className="mx-5" >
+                    <ul className="item-symbol-mic">
+                        <li>Pitch detection to guide your voice</li>
+                        <li>Custom songs and song editor</li>
+                        <li>Cooperative score mode</li>
+                        <li>Duet songs</li>
+                    </ul>
+                </div>
+                <div className="mx-5">
+                    <ul className="item-symbol-mic">
+                        <li>Companion App as mic</li>
+                        <li>Favorites and playlists</li>
+                        <li>Up to 16 players</li>
+                        <li>Controller support</li>
+                    </ul>
+                </div>
+            </div>
+
+            {/* YouTube video (game teaser)  */}
+            <div className="row gx-5 my-5 justify-content-center">
+                <div className="col-lg-6">
+                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4hXKOLafpDg" title="YouTube video player" frameBorder="0"
+                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                            allowFullScreen
+                            style={{maxWidth: "100%"}}></iframe>
+                </div>
+            </div>
+
+            {/* Imagine fun time */}
+            <div className="row row-cols-auto justify-content-center">
+                <h2>Imagine what it would be like to...</h2>
+            </div>
+            <div className="row row-cols-auto justify-content-center lead">
+                <div className="mx-5" >
+                    <ul className="item-symbol-mic">
+                        <li>Enjoy a fun singing event</li>
+                        <li>Create the songs you want, no matter your taste in music</li>
+                        <li>Invite family and friends to break the highscore</li>
+                        <li>Use your smartphone as mic, no need to buy additional equipment</li>
+                        <li>Start the game anywhere, right from your smartphone</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+
+<WaveBackground flipX={false} flipY={true} colorFrom="#151515" colorTo="#151515" />
+
+<section>
     <div className="container px-5">
         <div className="row gx-5 align-items-center">
             <div className="container-fluid px-5">
                 <div className="row gx-5">
-                    <div className="col-md-6 col-lg-4">
-                        {/* Feature item */}
-                        <div className="text-center mb-3">
-                            <i className="bi-phone icon-feature text-gradient d-block"></i>
-                            <h3 className="font-alt">Companion App</h3>
-                            <p className="text-muted mb-0">Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play <a href="https://github.com/UltraStar-Deluxe/Play" style={{whiteSpace: "nowrap"}}>Companion App</a>.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        {/* Feature item */}
-                        <div className="text-center mb-5">
-                            <i className="bi-people icon-feature text-gradient d-block"></i>
-                            <h3 className="font-alt">Solos, Duets, Groups</h3>
-                            <p className="text-muted mb-0">Sing a duet with a friend or make a party and sing with up to 16 players at the same time.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        {/* Feature item */}
-                        <div className="text-center  mb-5">
-                            <i className="bi-music-note-list icon-feature text-gradient d-block"></i>
-                            <h3 className="font-alt">Playlists & Favorites</h3>
-                            <p className="text-muted mb-0">Handle large song collections by marking songs as favorites or adding playlists.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        {/* Feature item */}
-                        <div className="text-center  mb-5">
-                            <i className="bi-file-earmark-person icon-feature text-gradient d-block"></i>
-                            <h3 className="font-alt">Player & Mic Profiles</h3>
-                            <p className="text-muted mb-0">Configure each player and device individually. Quickly switch mics between players.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        {/* Feature item */}
-                        <div className="text-center  mb-5">
-                            <i className="bi-gear icon-feature text-gradient d-block"></i>
-                            <h3 className="font-alt">Made with Unity</h3>
-                            <p className="text-muted mb-0">Built on a professional game engine and modern tools to provide the best experience for developers and users.</p>
-                        </div>
-                    </div>
-                    <div className="col-md-6 col-lg-4">
-                        {/* Feature item */}
-                        <div className="text-center  mb-5">
-                            <i className="bi-code icon-feature text-gradient d-block"></i>
-                            <h3 className="font-alt">Open Source</h3>
-                            <p className="text-muted mb-0">UltraStar&nbsp;Play belongs to everyone. Get involved, add features, ideas, styles, or translations on <a href="https://github.com/UltraStar-Deluxe/Play">GitHub</a>.</p>
-                        </div>
-                    </div>
+                    <FeatureItem icon="bi-phone" title="Companion App">
+                        Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play Companion&nbsp;App.
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-people" title="Solos, Duets, Groups">
+                        Sing a duet where each player has different lyrics and notes.
+                        Or make a party and sing with up to 16 players at the same time.
+                    </FeatureItem>
+                    
+                    <FeatureItem icon="bi-collection-play" title="Open song format">
+                        UltraStar&nbsp;Play supports a widespread song format. There are already thousands of community created songs.
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-pencil" title="Song editor">
+                        The integrated song editor lets you create a karaoke version of any song you like - unlimited possibilities!
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-music-note-list" title="Playlists & Favorites">
+                        Handle large song collections by marking songs as favorites, adding playlists or searching for songs by <i>language</i>, <i>year</i>, <i>artist</i>, etc.
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-person-hearts" title="Entertained Audience">
+                        Each song can have a background video or image. A delight for the audience as well as the singers. 
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-link-45deg" title="Score Modes">
+                        A cooperative score mode emphasizes SINGING TOGETHER with your loved ones. You can also turn off scores and ratings completely.
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-file-earmark-person" title="Player & Mic Profiles">
+                        Configure each player and device individually. Quickly switch mics between players.
+                    </FeatureItem>
+
+                    <FeatureItem icon="bi-tv" title="Cross-platform">
+                        Use the devices you already have with Windows, MacOS, Linux, Android or iOS.
+                    </FeatureItem>
                 </div>
             </div>
         </div>
     </div>
 </section>
 
+</>
 )
 
 export default FeaturesSection

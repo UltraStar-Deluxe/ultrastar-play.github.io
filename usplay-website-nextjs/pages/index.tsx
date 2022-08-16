@@ -15,9 +15,9 @@ const Home: NextPage = () => {
 
     <IntroSection />
 
-    <CommunityCreatedSongsSection />
-
     <FeaturesSection />
+
+    <CommunityCreatedSongsSection />
     
     <SongEditorSection />
 

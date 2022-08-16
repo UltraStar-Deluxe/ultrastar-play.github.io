@@ -1,23 +1,46 @@
-const IntroSection = () => (
+import isWindows from "../utils"
+import ImageCarousel from "./ImageCarousel"
+import WaveBackground from "./WaveBackground"
+import Typewriter, { TypewriterClass } from "typewriter-effect"
 
+const PlatformComponent = () => 
+{
+    if (isWindows())
+    {
+        return <p>WINDOWS!</p>
+    }
+    else
+    {
+        return <p>NON WINDOWS!</p>
+    }
+}
+
+const typewriterTexts = ["sing your favorite songs?", "challenge your friends?", "feel like a superstar?"]
+
+const IntroSection = () => (
+<>
 <header className="masthead">
     <div className="container px-5">
         <div className="row gx-5 align-items-center">
             <div className="col-lg-6">
                 {/* Mashead text and app badges */}
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                    <h1 className="display-1 lh-1 mb-3 font-alt">UltraStar&nbsp;Play</h1>
-                    <p className="lead text-muted">Free and open source singing game for desktop and mobile.</p>
-                    <p className="lead text-muted">The successor of UltraStar Deluxe, inspired by SingStar™.
-                        The game plays a song, displays lyrics, notes, and a background video or image.
-                        The players sing along and try to hit notes to earn points.</p>
-                    <p className="lead text-muted mb">Available for Windows, MacOS, iOS, Android, and Linux.</p>
+                    <h1 className="lh-1 mb-3 font-alt">Enjoy a Fun Singing Experience</h1>
+                    <div className="lead text-muted" style={{marginBottom: '1rem'}}>
+                        Want to <span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
+                    </div>
+                    <p className="lead text-muted">UltraStar Play is a singing game with boundless possibilities, without the need to buy additional hardware.</p>
+                    <p className="lead text-muted">Players sing along their favorite songs and try to hit notes for points.
+Feel like a superstar while you break the highscore! Invite your family and friends to rock the virtual stage together!</p>
+
+                    {/* <p className="lead text-muted">UltraStar Play is a free singing game with custom songs that lets players score points by singing into a microphone.</p> */}
+                    <p className="lead text-muted">Available for Windows, MacOS, iOS, Android, and Linux.</p>
                     <p className="lead text-muted mb-5">Checkout the <a href="https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps">wiki</a> to get started or <a href="https://discord.gg/PAUJFKCGbb">Discord</a> for help.</p>
-                    
+
                     {/* Buttons */}
                     <div className="d-flex flex-column flex-lg-row align-items-center">
-                        <a className="btn btn-primary btn-lg blue-bg bg-gradient mb-2" href="https://github.com/UltraStar-Deluxe/Play/releases" target="_blank" rel="noreferrer" style={{width: "300px", marginLeft: "5px", marginRight: "5px;"}}>Get UltraStar&nbsp;Play</a>
-                        <a className="btn btn-primary btn-lg blue-bg bg-gradient mb-2" href="https://github.com/UltraStar-Deluxe/Play/releases" target="_blank" rel="noreferrer" style={{width: "300px", marginLeft: "5px", marginRight: "5px;"}}>Get Companion&nbsp;App</a>
+                        <a className="btn btn-primary btn-lg blue-bg bg-gradient mb-2" href="https://github.com/UltraStar-Deluxe/Play/releases" target="_blank" rel="noreferrer" style={{width: "300px", marginLeft: "5px", marginRight: "5px"}}>Get UltraStar&nbsp;Play</a>
+                        <a className="btn btn-primary btn-lg blue-bg bg-gradient mb-2" href="https://github.com/UltraStar-Deluxe/Play/releases" target="_blank" rel="noreferrer" style={{width: "300px", marginLeft: "5px", marginRight: "5px"}}>Get Companion&nbsp;App</a>
                         {/* Sponsor Button  */}
                         {/* <a className="btn btn-block sponsor-button mb-2" style="margin-left: 5px; margin-right: 5px; width: 300px; height: 45px; box-shadow: none;" aria-label="Sponsor @UltraStarPlay" target="_top" href="https://usplay.net/sponsors.html">
                             <svg aria-hidden="true" viewBox="0 0 16 16" version="1.1" data-view-component="true" height="16" width="16" className="octicon octicon-heart icon-sponsor text-pink mr-2">
@@ -28,86 +51,13 @@ const IntroSection = () => (
                     </div>
                 </div>
             </div>
-            <div className="col-lg-6">
-                <div id="image-carousel" className="carousel carousel-dark slide" data-bs-ride="carousel">
-                    <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="0" className="active"
-                            aria-current="true" aria-label="Slide 1"></button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="1"
-                            aria-label="Slide 2"></button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="2"
-                            aria-label="Slide 3"></button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="3"
-                            aria-label="Slide 4"></button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="4"
-                            aria-label="Slide 5"></button>
-                    </div>
-                    <div className="carousel-inner">
-                        <div className="carousel-item active">
-                            <img src="img/devices_usplay_platforms.png"
-                                style={{maxWidth: "100%", maxHeight: "100%", width: "600px", height: "100%"}} />
-                        </div>
-                        <div className="carousel-item">
-                            <img src="img/screenshots/singing-resized.png?version=2"
-                                style={{maxWidth: "100%", maxHeight: "100%", width: "600px", height: "100%"}} />
-                        </div>
-                        <div className="carousel-item">
-                            <img src="img/screenshots/results-resized.png?version=2"
-                                style={{maxWidth: "100%", maxHeight: "100%", width: "600px", height: "100%"}} />
-                        </div>
-                        <div className="carousel-item">
-                            <img src="img/screenshots/song-select-resized.png?version=2"
-                                style={{maxWidth: "100%", maxHeight: "100%", width: "600px", height: "100%"}} />
-                        </div>
-                        <div className="carousel-item">
-                            <img src="img/screenshots/companion-app-resized.png?version=2"
-                                style={{maxWidth: "100%", maxHeight: "100%", width: "600px", height: "100%"}} />
-                        </div>
-                    </div>
-                    <button className="carousel-control-prev" type="button" data-bs-target="#image-carousel"
-                        data-bs-slide="prev">
-                        <span className="carousel-control-prev-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Previous</span>
-                    </button>
-                    <button className="carousel-control-next" type="button" data-bs-target="#image-carousel"
-                        data-bs-slide="next">
-                        <span className="carousel-control-next-icon" aria-hidden="true"></span>
-                        <span className="visually-hidden">Next</span>
-                    </button>
-            
-                    <div className="carousel-indicators">
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="0" className="active"
-                            aria-current="true" aria-label="Slide 1">
-                        </button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="1"
-                            aria-label="Slide 2">
-                        </button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="2"
-                            aria-label="Slide 3">
-                        </button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="3"
-                            aria-label="Slide 4">
-                        </button>
-                        <button type="button" data-bs-target="#image-carousel" data-bs-slide-to="4"
-                            aria-label="Slide 5">
-                        </button>
-                    </div>
-                </div>
-            </div>
-        </div>
 
-        {/* YouTube video (game teaser)  */}
-        <div className="row gx-5 my-5 justify-content-center">
-            <div className="col-lg-6">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/4hXKOLafpDg" title="YouTube video player" frameBorder="0"
-                        allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                        allowFullScreen
-                        style={{maxWidth: "100%"}}></iframe>
-            </div>
+            <ImageCarousel />
         </div>
     </div>
 </header>
 
+</>
 )
 
 export default IntroSection
