@@ -56,9 +56,9 @@ const FeaturesSection = () => (
             <div className="row row-cols-auto justify-content-center lead">
                 <div className="mx-5" >
                     <ul className="item-symbol-mic">
-                        <li>Enjoy a fun singing event</li>
+                        <li>Throw a singing party with family and friends</li>
+                        <li>Break the highscore or sing duets together</li>
                         <li>Create the songs you want, no matter your taste in music</li>
-                        <li>Invite family and friends to break the highscore</li>
                         <li>Use your smartphone as mic, no need to buy additional equipment</li>
                         <li>Start the game anywhere, right from your smartphone</li>
                     </ul>
@@ -85,7 +85,7 @@ const FeaturesSection = () => (
                     </FeatureItem>
                     
                     <FeatureItem icon="bi-collection-play" title="Open song format">
-                        UltraStar&nbsp;Play supports a widespread song format. There are already thousands of community created songs.
+                        UltraStar&nbsp;Play supports a widespread and open song format. Create and change songs as you please.
                     </FeatureItem>
 
                     <FeatureItem icon="bi-pencil" title="Song editor">
@@ -93,7 +93,7 @@ const FeaturesSection = () => (
                     </FeatureItem>
 
                     <FeatureItem icon="bi-music-note-list" title="Playlists & Favorites">
-                        Handle large song collections by marking songs as favorites, adding playlists or searching for songs by <i>language</i>, <i>year</i>, <i>artist</i>, etc.
+                        Handle large song collections by marking songs as favorites, adding playlists, or searching for songs by <i>language</i>, <i>year</i>, <i>artist</i>, etc.
                     </FeatureItem>
 
                     <FeatureItem icon="bi-person-hearts" title="Entertained Audience">
@@ -105,11 +105,11 @@ const FeaturesSection = () => (
                     </FeatureItem>
 
                     <FeatureItem icon="bi-file-earmark-person" title="Player & Mic Profiles">
-                        Configure each player and device individually. Quickly switch mics between players.
+                        Configure each player and device individually. Quickly switch microphones between players.
                     </FeatureItem>
 
-                    <FeatureItem icon="bi-tv" title="Cross-platform">
-                        Use the devices you already have with Windows, MacOS, Linux, Android or iOS.
+                    <FeatureItem icon="bi-controller" title="Controller Support">
+                        No need to hang around your keyboard. Just use your gamepad to control UltraStar&nbsp;Play.
                     </FeatureItem>
                 </div>
             </div>
