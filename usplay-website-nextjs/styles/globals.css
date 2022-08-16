@@ -17,3 +17,27 @@
 .download-button {
     flex-grow: 1;
 }
+
+.emphasize {
+    text-decoration: underline;
+    font-weight: bold;
+}
+
+ul.item-symbol-mic {
+    list-style-type: "🎤 ";
+}
+
+.stage-and-audience-background {
+    background: url('/img/stage-and-audience.png');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.Typewriter {
+    display: inline;
+}
+
+.bold {
+    font-weight: bold;
+}
