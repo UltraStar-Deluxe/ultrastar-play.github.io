@@ -34,10 +34,31 @@ ul.item-symbol-mic {
     background-repeat: no-repeat;
 }
 
+.mic-background {
+    background: url('/img/audio-1851517_1920.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.blue-background {
+    background: url('/img/blue-background.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .Typewriter {
     display: inline;
 }
 
 .bold {
     font-weight: bold;
+}
+
+.circle-image-cropped {
+    width: 150px;
+    height: 150px;
+    border-radius: 75px;
+    overflow: hidden;
 }

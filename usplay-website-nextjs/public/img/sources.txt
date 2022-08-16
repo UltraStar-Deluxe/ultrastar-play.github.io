@@ -1,3 +1,9 @@
 - stage-and-audience
     - https://pixabay.com/photos/band-music-performance-stage-4823341/
     - https://pixabay.com/vectors/party-cheers-people-pleasure-1458869/
+    
+- audio-1851517_1920.jpg
+    - https://pixabay.com/photos/audio-microphone-bokeh-lights-1851517/
+    
+- headphones-6636989_1920.jpg
+    - https://pixabay.com/photos/headphones-gamepad-game-joystick-6636989/
