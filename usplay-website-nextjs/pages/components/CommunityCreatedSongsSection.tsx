@@ -18,7 +18,7 @@ const CommunityCreatedSongsSection = () => (
     <WaveBackground colorFrom="#0f0163" colorTo="#0f0163" />
 
     <section className="text-center py-0" style={{background: 'linear-gradient(0deg, #380a74, #0f0163)'}}>
-        <div className="container px-5">
+        <div className="container px-md-5">
             <div className="row justify-content-center">
                 <div className="col-xl-8">
                     <h1 className="text-white font-alt">Sing your favorite songs!</h1>
@@ -27,7 +27,7 @@ const CommunityCreatedSongsSection = () => (
             </div>
         </div>
 
-        <div className="container px-5">
+        <div className="container px-md-5">
             <hr className="bg-light"/>
             <div className="row">
                 <SingIdeaEntry title="Sing current top hits" image="img/vinyl-2202325_1280.png"/>

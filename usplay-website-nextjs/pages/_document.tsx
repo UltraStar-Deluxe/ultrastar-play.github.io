@@ -8,7 +8,7 @@ export default function Document() {
         <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
         <meta name="description" content="" />
         <meta name="author" content="" />
-        <title>UltraStar&nbsp;Play - Free Singing Game for Desktop and Mobile</title>
+        <title>UltraStar&nbsp;Play - Fun Singing and Party Game for Desktop and Mobile</title>
         <link rel="icon" type="image/x-icon" href="favicon.ico" />
     </Head>
     <body id="page-top">

@@ -17,11 +17,13 @@ const FeaturesSection = () => (
     <div className="container">
         <div className="row">
             {/* Feature overview */}
-            <div className="row row-cols-auto justify-content-center">
-                <h1>With UltraStar Play, <span className="emphasize">YOU'LL GET</span>:</h1>
+            <div className="row justify-content-center">
+                <div className="col-auto">
+                    <h1>With UltraStar Play, <span className="emphasize">YOU'LL GET</span>:</h1>
+                </div>
             </div>
-            <div className="row row-cols-auto justify-content-center lead">
-                <div className="mx-5" >
+            <div className="row md-justify-content-center lead">
+                <div className="col-auto">
                     <ul className="item-symbol-mic">
                         <li>Pitch detection to guide your voice</li>
                         <li>Custom songs and song editor</li>
@@ -29,7 +31,7 @@ const FeaturesSection = () => (
                         <li>Duet songs</li>
                     </ul>
                 </div>
-                <div className="mx-5">
+                <div className="col-auto">
                     <ul className="item-symbol-mic">
                         <li>Companion App as mic</li>
                         <li>Favorites and playlists</li>
@@ -50,11 +52,13 @@ const FeaturesSection = () => (
             </div>
 
             {/* Imagine fun time */}
-            <div className="row row-cols-auto justify-content-center">
-                <h2>Imagine what it would be like to...</h2>
+            <div className="row justify-content-center">
+                <div className="col-auto">
+                    <h2>Imagine what it would be like to...</h2>
+                </div>
             </div>
-            <div className="row row-cols-auto justify-content-center lead">
-                <div className="mx-5" >
+            <div className="row justify-content-center lead">
+                <div className="col-auto">
                     <ul className="item-symbol-mic">
                         <li>Throw a singing party with family and friends</li>
                         <li>Break the highscore or sing duets together</li>
@@ -71,9 +75,9 @@ const FeaturesSection = () => (
 <WaveBackground flipX={false} flipY={true} colorFrom="#151515" colorTo="#151515" />
 
 <section>
-    <div className="container px-5">
+    <div className="container">
         <div className="row gx-5 align-items-center">
-            <div className="container-fluid px-5">
+            <div className="container-fluid">
                 <div className="row gx-5">
                     <FeatureItem icon="bi-phone" title="Companion App">
                         Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play Companion&nbsp;App.
@@ -88,7 +92,7 @@ const FeaturesSection = () => (
                         UltraStar&nbsp;Play supports a widespread and open song format. Create and change songs as you please.
                     </FeatureItem>
 
-                    <FeatureItem icon="bi-pencil" title="Song editor">
+                    <FeatureItem icon="bi-tools" title="Song editor">
                         The integrated song editor lets you create a karaoke version of any song you like - unlimited possibilities!
                     </FeatureItem>
 

@@ -20,7 +20,7 @@ const typewriterTexts = ["sing your favorite songs?", "challenge your friends?",
 const IntroSection = () => (
 <>
 <section className="masthead">
-    <div className="container px-5">
+    <div className="container">
         <div className="row gx-5 align-items-center">
             <div className="col-lg-6">
                 {/* Mashead text and app badges */}
@@ -35,7 +35,7 @@ Feel like a superstar while you break the highscore! Invite your family and frie
 
                     {/* <p className="lead text-muted">UltraStar Play is a free singing game with custom songs that lets players score points by singing into a microphone.</p> */}
                     <p className="lead text-muted">Available for Windows, MacOS, iOS, Android, and Linux.</p>
-                    <p className="lead text-muted mb-5">Checkout the <a href="https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps">wiki</a> to get started or <a href="https://discord.gg/PAUJFKCGbb">Discord</a> for help.</p>
+                    <p className="lead text-muted mb-5">Checkout the <a href="https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps">wiki</a> to get started or <a href="https://discord.gg/PAUJFKCGbb">Discord</a> for questions.</p>
 
                     {/* Buttons */}
                     <div className="d-flex flex-column flex-lg-row align-items-center">
