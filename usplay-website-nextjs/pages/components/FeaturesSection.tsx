@@ -97,7 +97,7 @@ const FeaturesSection = () => (
                     </FeatureItem>
 
                     <FeatureItem icon="bi-person-hearts" title="Entertained Audience">
-                        Each song can have a background video or image. A delight for the audience as well as the singers. 
+                        Each song can have a background video or image. A delight for both, the audience and the singers. 
                     </FeatureItem>
 
                     <FeatureItem icon="bi-link-45deg" title="Score Modes">

@@ -6,6 +6,7 @@ import FeaturesSection from './components/FeaturesSection'
 import SongEditorSection from './components/SongEditorSection'
 import FutureFeaturesSection from './components/FutureFeaturesSection'
 import DownloadCallToActionSection from './components/DownloadCallToActionSection'
+import EasyToUseSection from './components/EasyToUseSection'
 
 const Home: NextPage = () => {
   return (
@@ -19,6 +20,8 @@ const Home: NextPage = () => {
 
     <CommunityCreatedSongsSection />
     
+    <EasyToUseSection />
+
     <SongEditorSection />
 
     <FutureFeaturesSection />

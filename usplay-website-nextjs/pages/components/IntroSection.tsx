@@ -19,7 +19,7 @@ const typewriterTexts = ["sing your favorite songs?", "challenge your friends?",
 
 const IntroSection = () => (
 <>
-<header className="masthead">
+<section className="masthead">
     <div className="container px-5">
         <div className="row gx-5 align-items-center">
             <div className="col-lg-6">
@@ -55,7 +55,7 @@ Feel like a superstar while you break the highscore! Invite your family and frie
             <ImageCarousel />
         </div>
     </div>
-</header>
+</section>
 
 </>
 )
