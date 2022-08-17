@@ -7,8 +7,8 @@ const EasyToUseSection = () => (
                 <h1>You Can <span className="text-gradient bold">Have Fun in Minutes</span></h1>
             </div>
         </div>
-        <div className="row justify-content-center lead">
-            <div className="col-8">
+        <div className="row justify-content-center lead text-muted">
+            <div className="col-12 col-md-8">
                 <p>There is a free song package that can be downloaded in-game within seconds.</p>
                 <ul>
                     <li>You don't need to be a talented singer.</li>

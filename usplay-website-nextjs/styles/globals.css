@@ -23,8 +23,12 @@
     font-weight: bold;
 }
 
-ul.item-symbol-mic {
+.item-symbol-mic {
     list-style-type: "🎤 ";
+}
+
+.item-symbol-tools {
+    list-style-type: "🛠 ";
 }
 
 .stage-and-audience-background {
@@ -44,6 +48,13 @@ ul.item-symbol-mic {
 .blue-background {
     background: url('/img/blue-background.jpg');
     background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.musician-with-wig-background {
+    background: url('/img/musician-664432_1920.jpg');
+    background-position: center;
     background-size: cover;
     background-repeat: no-repeat;
 }

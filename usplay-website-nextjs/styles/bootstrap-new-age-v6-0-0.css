@@ -8171,6 +8171,10 @@ textarea.form-control-lg {
   }
 }
 @media (min-width: 768px) {
+  .md-justify-content-center {
+    justify-content: center !important;
+  }
+
   .float-md-start {
     float: left !important;
   }
