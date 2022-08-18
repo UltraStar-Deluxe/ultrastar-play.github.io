@@ -22,7 +22,7 @@ const SongEditorSection = () => (
                 <div className="">
                     <p>The integrated <span className="bold text-gradient">SONG&nbsp;EDITOR</span> allows to easily create a sing-along version of any song.</p>
                     
-                    <p>UltraStar Play's song editor combines features that previously required multiple tools.
+                    <p>UltraStar&nbsp;Play's song editor combines features that previously required multiple tools.
                     Plus, you can quickly <span className="bold text-gradient">switch between editing and testing</span> your song.</p>
 
                     <div className="row" >

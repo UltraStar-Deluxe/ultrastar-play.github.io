@@ -16,7 +16,7 @@ const EasyToUseSection = () => (
                     <li>You don't need to buy a console.</li>
                 </ul>
                 <p>Anyone can have a fun time singing!
-                Just start UltraStar Play and <span className="bold text-gradient">let&nbsp;the&nbsp;game guide&nbsp;your&nbsp;pitch</span> to the next highscore.</p>
+                Just start UltraStar&nbsp;Play and <span className="bold text-gradient">let&nbsp;the&nbsp;game guide&nbsp;your&nbsp;pitch</span> to the next highscore.</p>
             </div>
         </div>
     </div>

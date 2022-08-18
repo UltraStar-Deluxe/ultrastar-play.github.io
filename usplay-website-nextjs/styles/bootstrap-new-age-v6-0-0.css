@@ -5935,10 +5935,10 @@ textarea.form-control-lg {
   filter: invert(1) grayscale(100);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #000;
+  background-color: #555555;
 }
 .carousel-dark .carousel-caption {
-  color: #000;
+  color: #555555;
 }
 
 @-webkit-keyframes spinner-border {

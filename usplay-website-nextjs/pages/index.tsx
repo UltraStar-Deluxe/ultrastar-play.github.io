@@ -4,10 +4,12 @@ import IntroSection from './components/IntroSection'
 import CommunityCreatedSongsSection from './components/CommunityCreatedSongsSection'
 import FeaturesSection from './components/FeaturesSection'
 import SongEditorSection from './components/SongEditorSection'
-import FutureFeaturesSection from './components/FutureFeaturesSection'
+import PlannedFeaturesSection from './components/FutureFeaturesSection'
 import DownloadCallToActionSection from './components/DownloadCallToActionSection'
 import EasyToUseSection from './components/EasyToUseSection'
 import FooterSection from './components/FooterSection'
+import CrossPlatformSection from './components/CrossPlatformSection'
+import OpenSourceSection from './components/OpenSourceSection'
 
 const Home: NextPage = () => {
   return (
@@ -19,7 +21,9 @@ const Home: NextPage = () => {
     <CommunityCreatedSongsSection />
     <EasyToUseSection />
     <SongEditorSection />
-    <FutureFeaturesSection />
+    <CrossPlatformSection />
+    <OpenSourceSection />
+    <PlannedFeaturesSection />
     <DownloadCallToActionSection />
     <FooterSection />
 </>

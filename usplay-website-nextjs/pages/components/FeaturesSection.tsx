@@ -13,13 +13,13 @@ const FeatureItem = (props: {icon: string, title: string, children?: React.React
 const FeaturesSection = () => (
 
 <>
-<div  id="features" className="stage-and-audience-background text-white pt-5">
+<section id="features" className="stage-and-audience-background text-white pt-5">
     <div className="container">
         <div className="row">
             {/* Feature overview */}
             <div className="row justify-content-center">
                 <div className="col-auto">
-                    <h1>With UltraStar Play, <span className="emphasize">YOU'LL GET</span>:</h1>
+                    <h1 className="display-5 font-alt">With UltraStar&nbsp;Play, <span className="emphasize">YOU'LL GET</span>:</h1>
                 </div>
             </div>
             <div className="row md-justify-content-center lead">
@@ -54,7 +54,7 @@ const FeaturesSection = () => (
             {/* Imagine fun time */}
             <div className="row justify-content-center">
                 <div className="col-auto">
-                    <h2>Imagine what it would be like to...</h2>
+                    <h1>Imagine what it would be like to...</h1>
                 </div>
             </div>
             <div className="row justify-content-center lead">
@@ -70,7 +70,7 @@ const FeaturesSection = () => (
             </div>
         </div>
     </div>
-</div>
+</section>
 
 <WaveBackground flipX={false} flipY={true} colorFrom="#151515" colorTo="#151515" />
 
@@ -88,11 +88,11 @@ const FeaturesSection = () => (
                         Or make a party and sing with up to 16 players at the same time.
                     </FeatureItem>
                     
-                    <FeatureItem icon="bi-collection-play" title="Open song format">
+                    <FeatureItem icon="bi-collection-play" title="Open Song Format">
                         UltraStar&nbsp;Play supports a widespread and open song format. Create and change songs as you please.
                     </FeatureItem>
 
-                    <FeatureItem icon="bi-tools" title="Song editor">
+                    <FeatureItem icon="bi-tools" title="Song Editor">
                         The integrated song editor lets you create a karaoke version of any song you like - unlimited possibilities!
                     </FeatureItem>
 
