@@ -1,6 +1,6 @@
-const FutureFeaturesSection = () => (
+const PlannedFeaturesSection = () => (
 
-<section className="cta py-5">
+<section id="planned-features" className="cta py-5">
     <div className="cta-content">
         <div className="container px-5">
             <h2 className="text-white display-1 lh-1 mb-4 font-alt">More to Come</h2>
@@ -18,4 +18,4 @@ const FutureFeaturesSection = () => (
 
 )
 
-export default FutureFeaturesSection
+export default PlannedFeaturesSection

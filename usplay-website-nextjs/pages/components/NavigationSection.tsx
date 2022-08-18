@@ -17,6 +17,9 @@ const NavigationSection = () => (
                         <li><a className="dropdown-item" href="#features">Overview</a></li>
                         <li><a className="dropdown-item" href="#community-created-songs">Community</a></li>
                         <li><a className="dropdown-item" href="#song-editor">Song Editor</a></li>
+                        <li><a className="dropdown-item" href="#cross-platform">Cross-Platform</a></li>
+                        <li><a className="dropdown-item" href="#open-source">Open Source</a></li>
+                        <li><a className="dropdown-item" href="#planned-features">Planned Features</a></li>
                     </ul>
                 </li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="#download">Download</a></li>

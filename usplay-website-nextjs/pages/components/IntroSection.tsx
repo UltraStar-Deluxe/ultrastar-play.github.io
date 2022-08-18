@@ -2,6 +2,7 @@ import isWindows from "../utils"
 import ImageCarousel from "./ImageCarousel"
 import WaveBackground from "./WaveBackground"
 import Typewriter, { TypewriterClass } from "typewriter-effect"
+import SocialMediaLinks from "./SocialMediaLinks"
 
 const PlatformComponent = () => 
 {
@@ -29,13 +30,13 @@ const IntroSection = () => (
                     <div className="lead text-muted" style={{marginBottom: '1rem'}}>
                         Want to <span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
                     </div>
-                    <p className="lead text-muted">UltraStar Play is a singing game with boundless possibilities, without the need to buy additional hardware.</p>
+                    <p className="lead text-muted">UltraStar&nbsp;Play is a singing game with boundless possibilities, without the need to buy additional hardware.</p>
                     <p className="lead text-muted">Players sing along their favorite songs and try to hit notes for points.
 Feel like a superstar while you break the highscore! Invite your family and friends to rock the virtual stage together!</p>
 
-                    {/* <p className="lead text-muted">UltraStar Play is a free singing game with custom songs that lets players score points by singing into a microphone.</p> */}
-                    <p className="lead text-muted">Available for Windows, MacOS, iOS, Android, and Linux.</p>
-                    <p className="lead text-muted mb-5">Checkout the <a href="https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps">wiki</a> to get started or <a href="https://discord.gg/PAUJFKCGbb">Discord</a> for questions.</p>
+                    <p className="lead text-muted">Checkout the <a href="https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps">wiki</a> to get started or <a href="https://discord.gg/PAUJFKCGbb">Discord</a> for questions.</p>
+
+                    <div className="lead text-muted mb-5">Follow the project on <SocialMediaLinks /></div>
 
                     {/* Buttons */}
                     <div className="d-flex flex-column flex-lg-row align-items-center">
