@@ -5,9 +5,9 @@ const SongEditorSection = () => (
 <>
 <WaveBackground colorFrom="#f6f7f8" colorTo="#f6f7f8" />
 
-<section className="bg-light">
+<section id="song-editor" className="bg-light">
     <div className="container px-5" style={{marginTop: '-80px'}}>
-        <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+        <div className="row align-items-center justify-content-center justify-content-lg-between">
             <div className="col-lg-1"></div>
             <div className="col-12 col-lg-3">
                 <img src="/img/musician-664432_1920.jpg" style={{maxWidth: '400px', maxHeight: '100%', width: '100%', borderRadius: '200px', overflow: 'hidden'}}/>
@@ -16,7 +16,7 @@ const SongEditorSection = () => (
                 <div className="display-3 font-alt">Have a weird taste in music? <span className="text-gradient">No&nbsp;problem!</span></div>
             </div>
         </div>
-        <div className="row gx-5 align-items-center justify-content-center justify-content-lg-between">
+        <div className="row align-items-center justify-content-center justify-content-lg-between">
             <div className="col-12 col-lg-8">
                 <h2 className="display-4 mb-4 font-alt">Create your own songs</h2>
                 <div className="">
@@ -59,7 +59,7 @@ const SongEditorSection = () => (
         </div>
 
         {/* YouTube video (song editor)  */}
-        <div className="row gx-5 my-5 justify-content-center">
+        <div className="row my-5 justify-content-center">
             <div className="col-lg-6">
                 <iframe width="560" height="315" src="https://www.youtube.com/embed/osKizOyXYFQ" title="YouTube video player" frameBorder="0"
                         allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"

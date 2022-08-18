@@ -21,7 +21,7 @@ const IntroSection = () => (
 <>
 <section className="masthead">
     <div className="container">
-        <div className="row gx-5 align-items-center">
+        <div className="row align-items-center">
             <div className="col-lg-6">
                 {/* Mashead text and app badges */}
                 <div className="mb-5 mb-lg-0 text-center text-lg-start">

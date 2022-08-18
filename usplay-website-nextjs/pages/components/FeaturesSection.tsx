@@ -42,7 +42,7 @@ const FeaturesSection = () => (
             </div>
 
             {/* YouTube video (game teaser)  */}
-            <div className="row gx-5 my-5 justify-content-center">
+            <div className="row my-5 justify-content-center">
                 <div className="col-lg-6">
                     <iframe width="560" height="315" src="https://www.youtube.com/embed/4hXKOLafpDg" title="YouTube video player" frameBorder="0"
                             allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
@@ -76,9 +76,9 @@ const FeaturesSection = () => (
 
 <section>
     <div className="container">
-        <div className="row gx-5 align-items-center">
+        <div className="row align-items-center">
             <div className="container-fluid">
-                <div className="row gx-5">
+                <div className="row">
                     <FeatureItem icon="bi-phone" title="Companion App">
                         Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play Companion&nbsp;App.
                     </FeatureItem>
