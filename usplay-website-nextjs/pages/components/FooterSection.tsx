@@ -1,4 +1,4 @@
-const Footer = () => (
+const FooterSection = () => (
 
 <footer className="bg-black text-center py-4">
     <div className="container-fluid px-5">
@@ -27,4 +27,4 @@ const Footer = () => (
 
 )
     
-export default Footer
+export default FooterSection

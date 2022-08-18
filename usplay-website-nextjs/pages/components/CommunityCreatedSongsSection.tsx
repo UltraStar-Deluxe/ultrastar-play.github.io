@@ -15,6 +15,9 @@ const SingIdeaEntry = (props: {title: string, image: string}) =>
 const CommunityCreatedSongsSection = () => (
 
 <>
+    <div id="community-created-songs">
+    </div>
+    
     <WaveBackground colorFrom="#0f0163" colorTo="#0f0163" />
 
     <section className="text-center py-0" style={{background: 'linear-gradient(0deg, #380a74, #0f0163)'}}>
