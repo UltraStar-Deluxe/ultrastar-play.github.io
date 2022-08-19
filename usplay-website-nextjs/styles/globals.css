@@ -74,6 +74,11 @@
     font-weight: bold;
 }
 
+.has-tooltip {
+    text-decoration: underline;
+    cursor: pointer;
+}
+
 .circle-image-cropped {
     width: 150px;
     height: 150px;
