@@ -41,7 +41,7 @@ const SongEditorSection = () => (
                                 <li>Import MIDI files</li>
                                 <li>Assign notes to different players</li>
                                 <li>Quality analysis and warnings</li>
-                                <li>…and many more!</li>
+                                <li>&hellip;and many more!</li>
                             </ul>
                         </div>
                     </div>

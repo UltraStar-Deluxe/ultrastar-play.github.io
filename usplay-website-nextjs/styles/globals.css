@@ -59,6 +59,13 @@
     background-repeat: no-repeat;
 }
 
+.planned-features-background {
+    background: url('/img/prairie-679014_1920-dark.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .Typewriter {
     display: inline;
 }
