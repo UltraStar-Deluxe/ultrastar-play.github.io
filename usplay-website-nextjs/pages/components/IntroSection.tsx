@@ -1,20 +1,6 @@
-import isWindows from "../utils"
 import ImageCarousel from "./ImageCarousel"
-import WaveBackground from "./WaveBackground"
-import Typewriter, { TypewriterClass } from "typewriter-effect"
+import Typewriter from "typewriter-effect"
 import SocialMediaLinks from "./SocialMediaLinks"
-
-const PlatformComponent = () => 
-{
-    if (isWindows())
-    {
-        return <p>WINDOWS!</p>
-    }
-    else
-    {
-        return <p>NON WINDOWS!</p>
-    }
-}
 
 const typewriterTexts = ["sing your favorite songs?", "challenge your friends?", "feel like a superstar?"]
 

@@ -1,9 +1,9 @@
 const slides = [
-    "img/devices_usplay_platforms.png",
-    "img/screenshots/singing-resized.png?version=2",
-    "img/screenshots/results-resized.png?version=2",
-    "img/screenshots/song-select-resized.png?version=2",
-    "img/screenshots/companion-app-resized.png?version=2",
+    "img/carousel/devices_usplay_platforms-resized.png",
+    "img/carousel/singing-resized.jpg?version=2",
+    "img/carousel/results-resized.jpg?version=2",
+    "img/carousel/song-select-resized.jpg?version=2",
+    "img/carousel/companion-app-resized.png?version=2",
 ]
 
 const SlideIndicator = (props: {index: number}) => 
@@ -14,8 +14,10 @@ const SlideIndicator = (props: {index: number}) =>
 
 const SlideImage = (props: {index: number, path: string}) =>
 {
-    return <div className={`carousel-item ${props.index === 0 ? 'active' : ''}`}>
-               <img src={props.path} style={{maxWidth: "100%", maxHeight: "100%", width: "600px", height: "100%"}} />
+    let width = 600;
+    let height = width * 0.77;
+    return <div className={`carousel-item ${props.index === 0 ? 'active' : ''}`} style={{textAlign: 'center'}}>
+               <img src={props.path} style={{display: 'inline-block'}} />
            </div>
 }
 
