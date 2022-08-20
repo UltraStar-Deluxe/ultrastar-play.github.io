@@ -11,9 +11,9 @@ const EasyToUseSection = () => (
             <div className="col-12 col-md-8">
                 <p>There is a <span className="bold text-gradient">free song package</span> that can be downloaded in-game within seconds.</p>
                 <ul>
-                    <li>You don't need to be a talented singer.</li>
-                    <li>You don't need to buy a microphone.</li>
-                    <li>You don't need to buy a new console.</li>
+                    <li>You don&apos;t need to be a talented singer.</li>
+                    <li>You don&apos;t need to buy a microphone.</li>
+                    <li>You don&apos;t need to buy a new console.</li>
                 </ul>
                 <p>Anyone can have a fun time singing!
                 Just start UltraStar&nbsp;Play and <span className="bold text-gradient">let&nbsp;the&nbsp;game guide&nbsp;your&nbsp;pitch</span> to the next highscore.</p>

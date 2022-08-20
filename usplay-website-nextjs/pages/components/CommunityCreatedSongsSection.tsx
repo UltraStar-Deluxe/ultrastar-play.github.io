@@ -33,12 +33,12 @@ const CommunityCreatedSongsSection = () => (
         <div className="container px-md-5">
             <hr className="bg-light"/>
             <div className="row">
-                <SingIdeaEntry title="Sing current top hits" image="img/vinyl-2202325_1280.png"/>
-                <SingIdeaEntry title="Sing popular songs from film and TV" image="img/animals-44569_1280.png"/>
+                <SingIdeaEntry title="Sing current top hits" image="img/vinyl-2202325.png"/>
+                <SingIdeaEntry title="Sing popular songs from film and TV" image="img/animals-44569.png"/>
                 <SingIdeaEntry title="Sing amazing game soundtracks" image="img/controller-1784573.svg"/>
-                <SingIdeaEntry title="Sing your favorite Vocaloid and UTAU songs" image="img/sing-570519_1280.png"/>
-                <SingIdeaEntry title="Sing at a convention or event" image="img/halloween-6784081_1920.jpg"/>
-                <SingIdeaEntry title="Sing dialect from your region" image="img/chorus-5977187_1920-cut.jpg"/>
+                <SingIdeaEntry title="Sing your favorite Vocaloid and UTAU songs" image="img/sing-570519.png"/>
+                <SingIdeaEntry title="Sing at a convention or event" image="img/halloween-6784081.jpg"/>
+                <SingIdeaEntry title="Sing dialect from your region" image="img/chorus-5977187-cut.jpg"/>
             </div>
         </div>
     </section>

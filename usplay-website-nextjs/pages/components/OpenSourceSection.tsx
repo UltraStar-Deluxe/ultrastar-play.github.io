@@ -20,13 +20,13 @@ const OpenSourceSection = () => (
                 <h2 className="font-alt text-center">Why Open Source?</h2>
                 <p>Imagine that you would buy another singing game for your current console,
                      only to find that the vendor shuts down the online features, or you loose your song collection when changing the device.</p>
-                <p>This won't happen with UltraStar&nbsp;Play because it
+                <p>This won&apos;t happen with UltraStar&nbsp;Play because it
                  can <span className="bold text-gradient">evolve with the future</span> as long as it has a contributing community behind it.</p>
 
                 <h2 className="font-alt text-center">Made with Unity</h2>
                 <p>UltraStar Play is built on a <span className="bold text-gradient">professional game engine</span> and modern tools
                     to provide the <span className="bold text-gradient">best experience for developers and players</span>.</p>
-                <p>More than 50% of the world's video games are <a href="https://unity.com/madewith">made with Unity</a>.
+                <p>More than 50% of the world&apos;s video games are <a href="https://unity.com/madewith">made with Unity</a>.
                     A <span className="bold text-gradient">strong foundation</span> for UltraStar&nbsp;Play that can grow with new tools and platforms.</p>
 
 
@@ -37,8 +37,8 @@ const OpenSourceSection = () => (
                     which are <span className="bold text-gradient">shared with the community</span>,
                     just like previous open source projects are <span className="bold text-gradient">empowering UltraStar&nbsp;Play</span>.</p>
 
-                <p>For example, UltraStar&nbsp;Play is mentioned in a small paper called <a href="https://ieee-cog.org/2020/papers/paper_308.pdf">Singing with an Angry-Birds-like Game</a>.
-                That's possible <span className="bold text-gradient">#OnlyWithOpenSource</span>.</p>
+                <p>For instance, UltraStar&nbsp;Play is mentioned in a small paper called <a href="https://ieee-cog.org/2020/papers/paper_308.pdf">Singing with an Angry-Birds-like Game</a>.
+                That&apos;s possible <span className="bold text-gradient">#OnlyWithOpenSource</span>.</p>
             </div>
         </div>
     </div>

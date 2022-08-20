@@ -38,29 +38,8 @@
     background-repeat: no-repeat;
 }
 
-.mic-background {
-    background: url('/img/audio-1851517_1920.jpg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.blue-background {
-    background: url('/img/blue-background.jpg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
-.musician-with-wig-background {
-    background: url('/img/musician-664432_1920.jpg');
-    background-position: center;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .planned-features-background {
-    background: url('/img/prairie-679014_1920-dark.jpg');
+    background: url('/img/prairie-679014-dark.jpg');
     background-position: top;
     background-size: cover;
     background-repeat: no-repeat;

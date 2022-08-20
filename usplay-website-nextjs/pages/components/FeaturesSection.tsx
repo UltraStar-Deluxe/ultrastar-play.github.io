@@ -19,7 +19,7 @@ const FeaturesSection = () => (
             {/* Feature overview */}
             <div className="row justify-content-center">
                 <div className="col-auto">
-                    <h1 className="display-5 font-alt">With UltraStar&nbsp;Play, <span className="emphasize">YOU'LL GET</span>:</h1>
+                    <h1 className="display-5 font-alt">With UltraStar&nbsp;Play, <span className="emphasize">YOU&apos;LL GET</span>:</h1>
                 </div>
             </div>
             <div className="row md-justify-content-center lead">
