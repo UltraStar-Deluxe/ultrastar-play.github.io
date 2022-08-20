@@ -5907,8 +5907,8 @@ textarea.form-control-lg {
   border: 0;
   border-top: 10px solid transparent;
   border-bottom: 10px solid transparent;
-  opacity: 0.5;
-  transition: opacity 0.6s ease;
+  opacity: 1;
+  /* transition: opacity 0.6s ease; */
 }
 @media (prefers-reduced-motion: reduce) {
   .carousel-indicators [data-bs-target] {
@@ -5916,7 +5916,7 @@ textarea.form-control-lg {
   }
 }
 .carousel-indicators .active {
-  opacity: 1;
+    background-color: #bbbbbb;
 }
 
 .carousel-caption {
@@ -5932,14 +5932,19 @@ textarea.form-control-lg {
 
 .carousel-dark .carousel-control-prev-icon,
 .carousel-dark .carousel-control-next-icon {
-  filter: invert(1) grayscale(100);
+  filter: invert(0.6);
 }
 .carousel-dark .carousel-indicators [data-bs-target] {
-  background-color: #555555;
+  filter: invert(0.6);
 }
+.carousel-dark .carousel-indicators .active {
+  filter: invert(0);
+}
+
 .carousel-dark .carousel-caption {
-  color: #555555;
+  filter: invert(0.6);
 }
+
 
 @-webkit-keyframes spinner-border {
   to {

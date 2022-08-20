@@ -10,7 +10,7 @@ const SongEditorSection = () => (
         <div className="row align-items-center justify-content-center justify-content-lg-between">
             <div className="col-lg-1"></div>
             <div className="col-12 col-lg-3">
-                <img src="/img/musician-664432_1920.jpg" style={{maxWidth: '400px', maxHeight: '100%', width: '100%', borderRadius: '200px', overflow: 'hidden'}}/>
+                <img src="/img/musician-664432.jpg" style={{maxWidth: '400px', maxHeight: '100%', width: '100%', borderRadius: '200px', overflow: 'hidden'}}/>
             </div>
             <div className="col col-lg-8">
                 <div className="display-3 font-alt">Have a weird taste in music? <span className="text-gradient">No&nbsp;problem!</span></div>
@@ -22,7 +22,7 @@ const SongEditorSection = () => (
                 <div className="">
                     <p>The integrated <span className="bold text-gradient">SONG&nbsp;EDITOR</span> allows to easily create a sing-along version of any song.</p>
                     
-                    <p>UltraStar&nbsp;Play's song editor combines features that previously required multiple tools.
+                    <p>UltraStar&nbsp;Play&apos;s song editor combines features that previously required multiple tools.
                     Plus, you can quickly <span className="bold text-gradient">switch between editing and testing</span> your song.</p>
 
                     <div className="row" >
@@ -54,7 +54,7 @@ const SongEditorSection = () => (
                 </div>
             </div>
             <div className="col-4 d-none d-lg-block">
-                <img src="img/female-1299085_640.png" style={{maxWidth: "100%", maxHeight: "100%", width: "100%", height: "100%"}}/>
+                <img src="img/female-1299085.png" style={{maxWidth: "100%", maxHeight: "100%", width: "100%", height: "100%"}}/>
             </div>
         </div>
 
