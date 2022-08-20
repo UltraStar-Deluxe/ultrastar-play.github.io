@@ -43,11 +43,14 @@ const FeaturesSection = () => (
 
             {/* YouTube video (game teaser)  */}
             <div className="row my-5 justify-content-center">
-                <div className="col-lg-6">
-                    <iframe width="560" height="315" src="https://www.youtube.com/embed/4hXKOLafpDg" title="YouTube video player" frameBorder="0"
-                            allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowFullScreen
-                            style={{maxWidth: "100%"}}></iframe>
+                <div className="col-md-6">
+                    <div className="youtube-video-container">
+                        <iframe src="https://www.youtube.com/embed/4hXKOLafpDg"
+                                title="YouTube video player"
+                                frameBorder="0"
+                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                allowFullScreen></iframe>
+                    </div>
                 </div>
             </div>
 
