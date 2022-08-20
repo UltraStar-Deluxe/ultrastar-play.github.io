@@ -54,7 +54,7 @@ const SongEditorSection = () => (
                 </div>
             </div>
             <div className="col-4 d-none d-lg-block">
-                <img src="img/female-1299085.png" style={{maxWidth: "100%", maxHeight: "100%", width: "100%", height: "100%"}}/>
+                <img src="img/female-1299085.svg" style={{maxWidth: "100%", maxHeight: "100%", width: "100%", height: "100%"}}/>
             </div>
         </div>
 
