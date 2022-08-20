@@ -1,12 +1,14 @@
 /** @type {import('next').NextConfig} */
 const nextConfig = {
-  reactStrictMode: true,
-  swcMinify: true,
-  experimental: {
-    images: {
-        unoptimized: true
+    assetPrefix: '/UltraStar-Deluxe/',
+    basePath: '/UltraStar-Deluxe',
+    reactStrictMode: true,
+    swcMinify: true,
+    experimental: {
+        images: {
+            unoptimized: true
+        }
     }
-  }
 }
 
 module.exports = nextConfig
