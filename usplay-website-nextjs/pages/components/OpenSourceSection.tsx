@@ -14,7 +14,7 @@ const OpenSourceSection = () => (
                 <hr className="bg-light"/>
                 <p>Make this <span className="bold text-gradient">YOUR GAME</span> as well!<br />
                     UltraStar&nbsp;Play is a free and open source project that belongs to everyone. <span className="bold text-gradient">Get involved</span>,
-                    add styles, ideas, translations, or features <span className="bold text-gradient">on GitHub</span>.</p>
+                    add styles, ideas, translations, or features on <a href="https://github.com/UltraStar-Deluxe/Play#how-to-contribute">GitHub</a>.</p>
 
 
                 <h2 className="font-alt text-center">Why Open Source?</h2>

@@ -12,6 +12,11 @@ const PlannedFeaturesSection = () => (
                 <li>Downloadable themes</li>
                 <li>&hellip;</li>
             </ul>
+
+            <p className="text-white fs-4 font-alt" style={{background: 'linear-gradient(90deg, #00000000, #00000099, #00000000)'}}>
+                UltraStar Play is already fun to play.<br />
+                Nonetheless, there are more features planned and more work to do.
+                Join our social media channels to follow the journey of UltraStar Play becoming the next party hit everyone loves.</p>
         </div>
     </div>
 </section>
