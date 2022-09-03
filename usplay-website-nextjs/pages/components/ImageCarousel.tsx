@@ -1,5 +1,5 @@
 const slides = [
-    "img/carousel/devices_usplay_platforms-resized.png",
+    "img/carousel/DevicesWithLogo-resized.png",
     "img/carousel/singing-resized.jpg?version=2",
     "img/carousel/results-resized.jpg?version=2",
     "img/carousel/song-select-resized.jpg?version=2",
