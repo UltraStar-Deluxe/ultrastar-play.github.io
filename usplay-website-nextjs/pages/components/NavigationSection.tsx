@@ -1,3 +1,6 @@
+import LanguageSwitcher from './LanguageSwitcher';
+import RedirectLink from './RedirectLink'
+
 const NavigationSection = () => (
 
 <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
@@ -10,7 +13,6 @@ const NavigationSection = () => (
         <div className="collapse navbar-collapse" id="navbarResponsive">
             <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                 <li className="nav-item"><a className="nav-link me-lg-3 active" href="#page-top">Home</a></li>
-                {/* <li className="nav-item"><a className="nav-link me-lg-3" href="#features">Features</a></li> */}
                 <li className="nav-item dropdown">
                     <a className="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Features</a>
                     <ul className="dropdown-menu">
@@ -23,8 +25,9 @@ const NavigationSection = () => (
                     </ul>
                 </li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="#download">Download</a></li>
-                <li className="nav-item"><a className="nav-link me-lg-3" href="PrivacyPolicy">Privacy Policy</a></li>
+                <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="PrivacyPolicy">Privacy Policy</RedirectLink></li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="https://github.com/UltraStar-Deluxe/Play">GitHub</a></li>
+                <li className="nav-item"><LanguageSwitcher /></li>
             </ul>
         </div>
     </div>
