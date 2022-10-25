@@ -12,6 +12,7 @@ import CrossPlatformSection from '../components/CrossPlatformSection'
 import OpenSourceSection from '../components/OpenSourceSection'
 import { makeStaticProps } from '../../lib/getStatic'
 import { getStaticPaths } from '../../lib/getStatic'
+import GetResponseNewsletterForm from '../components/GetResponseNewsletterForm'
 
 // Load translations (see https://github.com/i18next/next-language-detector/tree/main/examples/basic)
 const getStaticProps = makeStaticProps(['common'])
@@ -34,6 +35,7 @@ const Home: NextPage = () =>
             <PlannedFeaturesSection />
             <DownloadCallToActionSection />
             <FooterSection />
+            <GetResponseNewsletterForm />
         </>
 
     )
