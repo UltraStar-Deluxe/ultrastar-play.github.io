@@ -13,23 +13,25 @@ const LanguageSwitcher = () =>
 
     return (
         <div>
-            <span style={{ lineHeight: '4.65em', fontSize: 'small' }}>{t('change_locale')}</span>
-            {i18nextConfig.i18n.locales.map((locale) => {
-                if (locale === currentLocale)
-                {
-                    // Do not create anything. No need to change to the same locale again.
-                    return null
-                }
+            <a className="nav-link  dropdown-toggle bi bi-translate" data-bs-toggle="dropdown">&nbsp;</a>
+            <ul className="dropdown-menu">
+                {i18nextConfig.i18n.locales.map((locale) => {
+                    if (locale === currentLocale)
+                    {
+                        // Do not create anything. No need to change to the same locale again.
+                        return null
+                    }
 
-                // Create link to change locale on click
-                return (
-                    <LanguageSwitcherLink
-                        locale={locale}
-                        key={locale}
-                    />
-                )
-                })
-            }
+                    // Create link to change locale on click
+                    return (
+                        <LanguageSwitcherLink
+                            locale={locale}
+                            key={locale}
+                        />
+                    )
+                    })
+                }
+            </ul>
         </div>
     )
 }
