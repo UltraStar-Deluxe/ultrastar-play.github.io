@@ -1,5 +1,4 @@
 // See https://locize.com/blog/next-i18n-static/
-import { useTranslation } from 'next-i18next'
 import { useRouter } from 'next/router'
 import i18nextConfig from '../../next-i18next.config'
 import LanguageSwitcherLink from "./LanguageSwitcherLink"
@@ -7,7 +6,6 @@ import LanguageSwitcherLink from "./LanguageSwitcherLink"
 const LanguageSwitcher = () =>
 {
     const router = useRouter()
-    const { t } = useTranslation('common')
     const currentLocale = router.query.locale
                           || i18nextConfig.i18n.defaultLocale
 
