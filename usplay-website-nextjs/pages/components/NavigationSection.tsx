@@ -26,7 +26,6 @@ const NavigationSection = () => (
                 </li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="#download">Download</a></li>
                 <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="PrivacyPolicy">Privacy Policy</RedirectLink></li>
-                <li className="nav-item"><a className="nav-link me-lg-3" href="https://github.com/UltraStar-Deluxe/Play">GitHub</a></li>
                 <li className="nav-item"><LanguageSwitcher /></li>
             </ul>
         </div>
