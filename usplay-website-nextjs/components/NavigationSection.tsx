@@ -84,7 +84,6 @@ const unfoldNavItemOnHover = (element: Element) =>
 
     element.addEventListener('click', function (this: Element, e)
     {
-        console.log("close by click")
         let elementLink = this.querySelector('a[data-bs-toggle]');
         doHide(elementLink);
     });

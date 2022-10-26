@@ -1,5 +1,5 @@
 // See https://locize.com/blog/next-i18n-static/
-import languageDetector from '../../lib/languageDetector'
+import languageDetector from '../lib/languageDetector'
 import { useRouter } from 'next/router'
 import Link from 'next/link'
 
@@ -8,11 +8,6 @@ const LanguageSwitcherLink = ({ locale, ...rest }) =>
 {
     const router = useRouter()
     
-    if (!locale)
-    {
-        return null;
-    }
-
     let buttonLabel = locale;
     if (Intl
         && Intl.DisplayNames)

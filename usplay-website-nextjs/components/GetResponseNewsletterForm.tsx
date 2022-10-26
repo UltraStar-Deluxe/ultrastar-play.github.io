@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { getVerticalScrollPercentage, tryParseInt } from "../../lib/utils";
-import { getCookie, setCookie } from "../../lib/cookieUtils";
+import { getVerticalScrollPercentage, tryParseInt } from "../lib/utils";
+import { getCookie, setCookie } from "../lib/cookieUtils";
 
 let doNotShowFormAgain = false;
 

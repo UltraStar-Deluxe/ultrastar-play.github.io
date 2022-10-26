@@ -1,6 +1,6 @@
 // See https://locize.com/blog/next-i18n-static/
 import { useRouter } from 'next/router'
-import i18nextConfig from '../../next-i18next.config'
+import i18nextConfig from '../next-i18next.config'
 import LanguageSwitcherLink from "./LanguageSwitcherLink"
 
 const LanguageSwitcher = () =>
@@ -14,8 +14,7 @@ const LanguageSwitcher = () =>
             <a className="nav-link  dropdown-toggle bi bi-translate" data-bs-toggle="dropdown">&nbsp;</a>
             <ul className="dropdown-menu">
                 {i18nextConfig.i18n.locales.map((locale) => {
-                    if (!locale
-                        || locale === currentLocale)
+                    if (locale === currentLocale)
                     {
                         // Do not create anything. No need to change to the same locale again.
                         return null

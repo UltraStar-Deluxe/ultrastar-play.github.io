@@ -1,5 +1,5 @@
 import type { NextPage } from 'next'
-import RedirectLink from '../components/RedirectLink'
+import RedirectLink from '../../components/RedirectLink'
 
 const PrivacyPolicy: NextPage = () => {
   return (
