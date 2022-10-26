@@ -8,4 +8,6 @@ module.exports = {
         locales: ['en', 'de'],
         localeExtension: 'yml',
     },
+    // Reload translation properties when page is refreshed in developer mode
+    reloadOnPrerender: true,
 }
