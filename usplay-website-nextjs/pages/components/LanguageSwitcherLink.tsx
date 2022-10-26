@@ -6,6 +6,13 @@ import Link from 'next/link'
 // @ts-ignore
 const LanguageSwitcherLink = ({ locale, ...rest }) =>
 {
+    const router = useRouter()
+    
+    if (!locale)
+    {
+        return null;
+    }
+
     let buttonLabel = locale;
     if (Intl
         && Intl.DisplayNames)
@@ -20,8 +27,6 @@ const LanguageSwitcherLink = ({ locale, ...rest }) =>
             buttonLabel += ` (${regionNamesInEnglish.of(languagePart)})`
         }
     }
-
-    const router = useRouter()
 
     let href = rest.href || router.asPath
     let pName = router.pathname

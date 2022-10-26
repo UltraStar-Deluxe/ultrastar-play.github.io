@@ -1,6 +1,6 @@
 import { useEffect } from "react";
-import { getVerticalScrollPercentage, tryParseInt } from "../utils";
-import { getCookie, setCookie } from "../cookieUtils";
+import { getVerticalScrollPercentage, tryParseInt } from "../../lib/utils";
+import { getCookie, setCookie } from "../../lib/cookieUtils";
 
 let doNotShowFormAgain = false;
 
@@ -92,7 +92,7 @@ const GetResponseNewsletterForm = () =>
         }
     })
 
-    return <form id="getResponseNewsletterForm" className="d-none" action="https://app.getresponse.com/add_subscriber.html" accept-charset="utf-8" method="post" target="_blank">
+    return <form id="getResponseNewsletterForm" className="d-none" action="https://app.getresponse.com/add_subscriber.html" acceptCharset="utf-8" method="post" target="_blank">
         {/* Close button */}
         <div className="bi bi-x-square align-self-end" onClick={closeForm}>
         </div>
@@ -102,7 +102,7 @@ const GetResponseNewsletterForm = () =>
             Get the Newsletter!
         </h3>
         <h5 className="align-self-center mb-3">
-            Don't miss our Kickstarter campaign.
+            Don&apos;t miss our Kickstarter campaign.
         </h5>
 
         {/* Email field (required) */}

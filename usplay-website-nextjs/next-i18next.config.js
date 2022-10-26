@@ -10,4 +10,8 @@ module.exports = {
     },
     // Reload translation properties when page is refreshed in developer mode
     reloadOnPrerender: true,
+    // Run initReactI18next implicitly
+    react: {
+        useSuspense: false
+    },
 }
