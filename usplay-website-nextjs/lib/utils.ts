@@ -1,3 +1,11 @@
+import { useTranslation } from "next-i18next"
+import { UseTranslationOptions } from "react-i18next"
+
+interface Mapping<Key, Value>
+{
+    [index: string]: Value;
+}
+
 const tryParseInt = (text: string, fallbackValue: number): number =>
 {
     try
@@ -20,6 +28,29 @@ const getVerticalScrollPercentage = (element: HTMLElement) =>
 
     return (element.scrollTop || parentElement.scrollTop)
          / (parentElement.scrollHeight - parentElement.clientHeight )
-  }
+}
 
-export { tryParseInt, getVerticalScrollPercentage }
+const doWithElement = (id: string, action: (element: HTMLElement) => void) =>
+{
+    if (typeof document !== "undefined"
+        && document)
+    {
+        const element = document.getElementById(id)
+        if (element)
+        {
+            action(element);
+        }
+    }
+}
+
+const setInnerHtml = (id: string, innerHtml: string) =>
+{
+    doWithElement(id, (element) => element.innerHTML = innerHtml)
+}
+
+const decodeHtml = (input: string): string =>
+{
+    return input.replace("&nbsp;", " ")
+}
+
+export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml, decodeHtml }

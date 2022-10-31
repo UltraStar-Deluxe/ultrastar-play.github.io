@@ -1,1 +1,13 @@
+button_getUltraStarPlay: Download UltraStar&nbsp;Play
+button_getCompanionApp: Download Companion&nbsp;App
 introSection_title: Willkommen zur Singspielparty!
+introSection_typewriterText_prefix: Du willst
+introSection_typewriterText_1: deine Lieblingslieder singen?
+introSection_typewriterText_2: deine Freunde herausfordern?
+introSection_typewriterText_3: dich wie ein Superstar fühlen?
+introSection_p_1: UltraStar&nbsp;Play ist ein Spiel zum Mitsingen mit unbegrenzten Möglichkeiten, ohne Notwendigkeit zusätzliche Hardware zu kaufen.
+introSection_p_2: Spieler singen zu ihren Lieblingsliedern und versuchen dabei, die richtige Tonhöhe zu treffen, um Punkte zu bekommen. Fühl dich wie ein Superstar während du den Highscore knackst! Lade deine Freunde und Familie ein, zusammen die virtuelle Bühne zu rocken!
+introSection_wikiAndDiscord: Schau ins {{wikiLink}} um loszulegen oder bei {{discordLink}} für Hilfe.
+introSection_wikiName: Wiki
+introSection_discordName: Discord
+introSection_follow_prefix: Folge uns auf 

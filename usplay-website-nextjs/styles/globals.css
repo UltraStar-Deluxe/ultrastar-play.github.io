@@ -34,6 +34,11 @@
     width: 100%;
 }
 
+.cursor-pointer
+{
+    cursor: pointer;
+}
+
 .sponsor-button {
     background-color: #dee2e6;
     flex-grow: 1;

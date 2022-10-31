@@ -1,3 +1,4 @@
+import { cursorTo } from 'readline';
 import LanguageSwitcher from './LanguageSwitcher';
 import RedirectLink from './RedirectLink'
 
@@ -14,7 +15,7 @@ const NavigationSection = () => (
             <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
                 <li className="nav-item"><a className="nav-link me-lg-3 active" href="#page-top">Home</a></li>
                 <li className="nav-item dropdown">
-                    <a className="nav-link  dropdown-toggle" data-bs-toggle="dropdown">Features</a>
+                    <a className="nav-link  dropdown-toggle cursor-pointer" data-bs-toggle="dropdown">Features</a>
                     <ul className="dropdown-menu">
                         <li><a className="dropdown-item" href="#features">Overview</a></li>
                         <li><a className="dropdown-item" href="#community-created-songs">Community</a></li>
@@ -26,7 +27,7 @@ const NavigationSection = () => (
                 </li>
                 <li className="nav-item"><a className="nav-link me-lg-3" href="#download">Download</a></li>
                 <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="PrivacyPolicy">Privacy Policy</RedirectLink></li>
-                <li className="nav-item"><LanguageSwitcher /></li>
+                <li className="nav-item cursor-pointer"><LanguageSwitcher /></li>
             </ul>
         </div>
     </div>
