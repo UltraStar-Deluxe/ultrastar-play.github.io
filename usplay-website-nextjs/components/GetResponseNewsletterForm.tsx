@@ -9,7 +9,7 @@ const formSubmittedCookieName = "newsletterFormSubmitted";
 let closeCount = 0;
 const maxCloseCount = 3;
 
-const showByDelayInMillis = 60000;
+const showByDelayInMillis = 20000;
 const showByScrollPercent = 0.33;
 
 const getForm = (): HTMLFormElement =>
