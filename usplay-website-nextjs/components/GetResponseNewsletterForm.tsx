@@ -28,7 +28,7 @@ const showForm = () =>
 
     let newsletterForm = getForm();
     newsletterForm.classList.add('visible');
-    newsletterForm.classList.remove('d-none');
+    newsletterForm.classList.remove('invisible');
 }
 
 const closeForm = () => 
@@ -44,7 +44,7 @@ const hideForm = () =>
 {
     let newsletterForm = getForm();
     newsletterForm.classList.remove('visible');
-    newsletterForm.classList.add('d-none');
+    newsletterForm.classList.add('invisible');
 }
 
 const onFormSubmit = () =>
@@ -92,7 +92,7 @@ const GetResponseNewsletterForm = () =>
         }
     })
 
-    return <form id="getResponseNewsletterForm" className="d-none" action="https://app.getresponse.com/add_subscriber.html" acceptCharset="utf-8" method="post" target="_blank">
+    return <form id="getResponseNewsletterForm" action="https://app.getresponse.com/add_subscriber.html" acceptCharset="utf-8" method="post" target="_blank">
         {/* Close button */}
         <div className="bi bi-x-square align-self-end" onClick={closeForm}>
         </div>
