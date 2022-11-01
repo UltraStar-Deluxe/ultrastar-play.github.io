@@ -1,24 +1,38 @@
 button_getCompanionApp: Download Companion&nbsp;App
 button_getUltraStarPlay: Download UltraStar&nbsp;Play
+communityCreatedSongs_title: Singe deine Lieblingslieder!
+communityCreatedSongs_subtitle: Eine große Community hat schon tausende von Songs im UltraStar-Format erstellt.
+communityCreatedSongs_currentTopHits: Singe aktuelle Hits
+communityCreatedSongs_filmAndTV: Singe bekannte Lieder aus Film und TV
+communityCreatedSongs_games: Singe Soundtracks von Videospielen
+communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
+communityCreatedSongs_event: Singe bei einer Feier oder einem Event
+communityCreatedSongs_regional: Singe Dialekt aus deiner Region
+easyToUseSection_title: Du kannst <gradient>sofort Spaß haben</gradient>
+easyToUseSection_p_beforeList: Es gibt ein <gradient>kostenloses Songpaket</gradient>, das innerhalb von Sekunden im Spiel heruntergeladen werden kann.
+easyToUseSection_list_1: Man braucht kein talentierter Sänger zu sein
+easyToUseSection_list_2: Man braucht keine Mikrofone zu kaufen
+easyToUseSection_list_3: Man braucht keine neue Konsole zu kaufen
+easyToUseSection_p_afterList: Jeder kann eine spaßige Zeit beim Singen haben! Einfach UltraStar&nbsp;Play starten und <gradient>von der Tonhöhenerkennung leiten lassen</gradient>.
 featuresSection_featureCard_companionApp: Companion App
 featuresSection_featureCard_companionApp_detail: Benutze dein Smartphone als Mikrofon oder durchstöbere die Songs mittels UltraStar&nbsp;Play Companion&nbsp;App.
-featuresSection_featureCard_solosDuetsGroups: Solos, Duette, Guppen
+featuresSection_featureCard_solosDuetsGroups: Solos, Duette, Gruppen
 featuresSection_featureCard_solosDuetsGroups_detail: Singt ein Duett, wo beide Spieler eigenen Text und Noten haben. Oder singt in Gruppen bis zu 16 Spielern.
 featuresSection_featureCard_openSongFormat: Offenes Song-Format
 featuresSection_featureCard_openSongFormat_detail: UltraStar&nbsp;Play verwendet ein verbreitetes und offenes Song-Format. Erstelle und bearbeitet Songs nach deinem Geschmack.
 featuresSection_featureCard_songEditor: Song-Editor
 featuresSection_featureCard_songEditor_detail: Mit dem integrierten Song-Editor kannst du einfach Karaoke-Versionen deiner Lieblingslieder erstellen - unbegrenzte Möglichkeiten!
-featuresSection_featureCard_playlistsAndFavorites: Playlisten &amp; Favoriten
+featuresSection_featureCard_playlistsAndFavorites: Playlisten & Favoriten
 featuresSection_featureCard_playlistsAndFavorites_detail: Markiere Songs als Favoriten, erstelle Playlisten, und suche z.B. nach Sprache, Jahr, Interpret, Genre, usw.
 featuresSection_featureCard_audience: Unterhaltene Zuschauer
 featuresSection_featureCard_audience_detail: Ein Song kann zusätzlich ein Video oder Bild abspielen. Damit wird es zum Vergnügen für alle, Spieler und Zuschauer.
 featuresSection_featureCard_scoreMode: Punktemodus
 featuresSection_featureCard_scoreMode_detail: Ein kooperativer Punktemodus betont das GEMEINSAME singen. Die Wertung kann alternativ komplett abgeschaltet werden.
-featuresSection_featureCard_playerAndMicProfiles: Spieler- &amp; Mikrofonprofile
+featuresSection_featureCard_playerAndMicProfiles: Spieler- & Mikrofonprofile
 featuresSection_featureCard_playerAndMicProfiles_detail: Konfiguriere die Spieler und Mikrofone individuell. Wechsel Mikrofone schnell zwischen den Spielern.
 featuresSection_featureCard_controllerSupport: Controllerunterstützung
 featuresSection_featureCard_controllerSupport_detail: Steuere das Spiel mit einem kabellosen Controller, statt an Keyboard und Maus zu hängen.
-featuresSection_featureList_title: Mit UltraStar&nbsp;Play <span className="emphasize">BEKOMMST DU</span>&colon;
+featuresSection_featureList_title: "Mit UltraStar&nbsp;Play <emphasize>BEKOMMST DU</emphasize>:"
 featuresSection_featureList_1: Tonhöhenerkennung die dich leitet
 featuresSection_featureList_2: Eigene Songs und Song-Editor
 featuresSection_featureList_3: Kooperativer Punktemodus

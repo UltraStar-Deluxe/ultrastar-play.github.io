@@ -1,3 +1,4 @@
+import { useTranslation } from "next-i18next";
 import WaveBackground from "./WaveBackground"
 
 const SingIdeaEntry = (props: {title: string, image: string}) => 
@@ -12,39 +13,42 @@ const SingIdeaEntry = (props: {title: string, image: string}) =>
 )
 }
 
-const CommunityCreatedSongsSection = () => (
+const CommunityCreatedSongsSection = () => {
 
-<>
-    <div id="community-created-songs">
-    </div>
+    const { t } = useTranslation("common")
 
-    <WaveBackground colorFrom="#0f0163" colorTo="#0f0163" />
+    return <>
+        <div id="community-created-songs">
+        </div>
 
-    <section className="text-center py-0" style={{background: 'linear-gradient(0deg, #380a74, #0f0163)'}}>
-        <div className="container px-md-5">
-            <div className="row justify-content-center">
-                <div className="col-xl-8">
-                    <h1 className="display-3 text-white font-alt">Sing your favorite songs!</h1>
-                    <h3 className="text-white font-alt">There are thousands of community created songs in the UltraStar format on the internet.</h3>
+        <WaveBackground colorFrom="#0f0163" colorTo="#0f0163" />
+
+        <section className="text-center py-0" style={{background: 'linear-gradient(0deg, #380a74, #0f0163)'}}>
+            <div className="container px-md-5">
+                <div className="row justify-content-center">
+                    <div className="col-xl-8">
+                        <h1 className="display-3 text-white font-alt">{ t("communityCreatedSongs_title") }</h1>
+                        <h3 className="text-white font-alt">{ t("communityCreatedSongs_subtitle") }</h3>
+                    </div>
                 </div>
             </div>
-        </div>
 
-        <div className="container px-md-5">
-            <hr className="bg-light"/>
-            <div className="row">
-                <SingIdeaEntry title="Sing current top hits" image="img/vinyl-2202325.png"/>
-                <SingIdeaEntry title="Sing popular songs from film and TV" image="img/animals-44569.svg"/>
-                <SingIdeaEntry title="Sing amazing game soundtracks" image="img/controller-1784573.svg"/>
-                <SingIdeaEntry title="Sing your favorite Vocaloid and UTAU songs" image="img/sing-570519.png"/>
-                <SingIdeaEntry title="Sing at a convention or event" image="img/halloween-6784081.jpg"/>
-                <SingIdeaEntry title="Sing dialect from your region" image="img/chorus-5977187-cut.jpg"/>
+            <div className="container px-md-5">
+                <hr className="bg-light"/>
+                <div className="row">
+                    <SingIdeaEntry title={ t("communityCreatedSongs_currentTopHits") } image="img/vinyl-2202325.png"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_filmAndTV") } image="img/animals-44569.svg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_games") } image="img/controller-1784573.svg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_vocaloid") } image="img/sing-570519.png"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_event") } image="img/halloween-6784081.jpg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_regional") } image="img/chorus-5977187-cut.jpg"/>
+                </div>
             </div>
-        </div>
-    </section>
+        </section>
 
-    <WaveBackground flipY={true} colorFrom="#380a74" colorTo="#380a74" />
-</>
-)
+        <WaveBackground flipY={true} colorFrom="#380a74" colorTo="#380a74" />
+    </>
+
+}
 
 export default CommunityCreatedSongsSection

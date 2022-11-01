@@ -1,27 +1,30 @@
-const EasyToUseSection = () => (
+import { T } from "./T"
 
-<section>
-    <div className="container">
-        <div className="row justify-content-center">
-            <div className="col-auto">
-                <h1>You Can <span className="text-gradient bold">Have Fun in Minutes</span></h1>
+const EasyToUseSection = () =>
+{
+    return <>
+    <section>
+        <div className="container">
+            <div className="row justify-content-center">
+                <div className="col-auto">
+                    <h1><T i18nKey="easyToUseSection_title"/></h1>
+                </div>
+            </div>
+            <div className="row justify-content-center lead text-muted">
+                <div className="col-12 col-md-8">
+                    <p><T i18nKey="easyToUseSection_p_beforeList" /></p>
+                    <ul>
+                        <li><T i18nKey="easyToUseSection_list_1" /></li>
+                        <li><T i18nKey="easyToUseSection_list_2" /></li>
+                        <li><T i18nKey="easyToUseSection_list_3" /></li>
+                    </ul>
+                    <p><T i18nKey="easyToUseSection_p_afterList" /></p>
+                </div>
             </div>
         </div>
-        <div className="row justify-content-center lead text-muted">
-            <div className="col-12 col-md-8">
-                <p>There is a <span className="bold text-gradient">free song package</span> that can be downloaded in-game within seconds.</p>
-                <ul>
-                    <li>You don&apos;t need to be a talented singer.</li>
-                    <li>You don&apos;t need to buy a microphone.</li>
-                    <li>You don&apos;t need to buy a new console.</li>
-                </ul>
-                <p>Anyone can have a fun time singing!
-                Just start UltraStar&nbsp;Play and <span className="bold text-gradient">let&nbsp;the&nbsp;game guide&nbsp;your&nbsp;pitch</span> to the next highscore.</p>
-            </div>
-        </div>
-    </div>
-</section>
+    </section>
+</>
 
-)
+}
 
 export default EasyToUseSection

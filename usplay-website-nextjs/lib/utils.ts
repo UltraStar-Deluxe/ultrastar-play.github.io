@@ -1,6 +1,3 @@
-import { useTranslation } from "next-i18next"
-import { UseTranslationOptions } from "react-i18next"
-
 interface Mapping<Key, Value>
 {
     [index: string]: Value;
@@ -52,13 +49,4 @@ const setInnerHtml = (id: string, innerHtml: string) =>
     doWithElement(id, (element) => element.innerHTML = innerHtml)
 }
 
-const decodeHtml = (input: string): string =>
-{
-    return input
-        .replaceAll("&nbsp;", " ")
-        .replaceAll("&apos;", "'")
-        .replaceAll("&amp;", "&")
-        .replaceAll("&colon;", ":")
-}
-
-export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml, decodeHtml }
+export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml }

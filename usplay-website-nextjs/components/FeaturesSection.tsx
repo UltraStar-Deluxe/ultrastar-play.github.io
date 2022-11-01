@@ -1,6 +1,5 @@
 import { useTranslation } from "next-i18next"
-import { useEffect } from "react"
-import { decodeHtml, setInnerHtml } from "../lib/utils"
+import { T } from "./T"
 import WaveBackground from "./WaveBackground"
 
 const FeatureItem = (props: {icon: string, title: string, children?: React.ReactNode}) => (
@@ -15,13 +14,8 @@ const FeatureItem = (props: {icon: string, title: string, children?: React.React
 
 const FeaturesSection = () =>
 {
-
     const { t } = useTranslation("common")
-
-    useEffect(() =>
-    {
-        setInnerHtml("featuresSection_title", t("featuresSection_featureList_title"))
-    })
+    const tUnescaped = (i18nKey: string) => t(i18nKey, { escapeValue: false })
 
     return <>
     <section id="features" className="stage-and-audience-background text-white pt-5">
@@ -30,7 +24,7 @@ const FeaturesSection = () =>
                 {/* Feature overview */}
                 <div className="row justify-content-center">
                     <div className="col-auto">
-                        <h1 id="featuresSection_title" className="display-5 font-alt">{ /* content set in useEffect */ }</h1>
+                        <h1 className="display-5 font-alt"><T i18nKey="featuresSection_featureList_title"/></h1>
                     </div>
                 </div>
                 <div className="row md-justify-content-center lead">
@@ -93,40 +87,40 @@ const FeaturesSection = () =>
             <div className="row align-items-center">
                 <div className="container-fluid">
                     <div className="row">
-                    <FeatureItem icon="bi-phone" title={ decodeHtml(t("featuresSection_featureCard_companionApp")) }>
-                            { decodeHtml(t("featuresSection_featureCard_companionApp_detail")) }
+                        <FeatureItem icon="bi-phone" title={ tUnescaped("featuresSection_featureCard_companionApp") }>
+                            { tUnescaped("featuresSection_featureCard_companionApp_detail") }
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-people" title={ decodeHtml(t("featuresSection_featureCard_solosDuetsGroups")) }>
-                            { decodeHtml(t("featuresSection_featureCard_solosDuetsGroups_detail")) }
+                        <FeatureItem icon="bi-people" title={ tUnescaped("featuresSection_featureCard_solosDuetsGroups") }>
+                            { tUnescaped("featuresSection_featureCard_solosDuetsGroups_detail") }
                         </FeatureItem>
                         
-                        <FeatureItem icon="bi-collection-play" title={ decodeHtml(t("featuresSection_featureCard_openSongFormat")) }>
-                            { decodeHtml(t("featuresSection_featureCard_openSongFormat_detail")) }
+                        <FeatureItem icon="bi-collection-play" title={ tUnescaped("featuresSection_featureCard_openSongFormat") }>
+                            { tUnescaped("featuresSection_featureCard_openSongFormat_detail") }
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-tools" title={ decodeHtml(t("featuresSection_featureCard_songEditor")) }>
-                            { decodeHtml(t("featuresSection_featureCard_songEditor_detail")) }
+                        <FeatureItem icon="bi-tools" title={ tUnescaped("featuresSection_featureCard_songEditor") }>
+                            { tUnescaped("featuresSection_featureCard_songEditor_detail") }
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-music-note-list" title={ decodeHtml(t("featuresSection_featureCard_playlistsAndFavorites")) }>
-                            { decodeHtml(t("featuresSection_featureCard_playlistsAndFavorites_detail")) }
+                        <FeatureItem icon="bi-music-note-list" title={ tUnescaped("featuresSection_featureCard_playlistsAndFavorites") }>
+                            { tUnescaped("featuresSection_featureCard_playlistsAndFavorites_detail") }
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-person-hearts" title={ decodeHtml(t("featuresSection_featureCard_audience")) }>
-                            { decodeHtml(t("featuresSection_featureCard_audience_detail" )) } 
+                        <FeatureItem icon="bi-person-hearts" title={ tUnescaped("featuresSection_featureCard_audience") }>
+                            { tUnescaped("featuresSection_featureCard_audience_detail" ) } 
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-link-45deg" title={ decodeHtml(t("featuresSection_featureCard_scoreMode")) }>
-                            { decodeHtml(t("featuresSection_featureCard_scoreMode_detail")) }
+                        <FeatureItem icon="bi-link-45deg" title={ tUnescaped("featuresSection_featureCard_scoreMode") }>
+                            { tUnescaped("featuresSection_featureCard_scoreMode_detail") }
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-file-earmark-person" title={ decodeHtml(t("featuresSection_featureCard_playerAndMicProfiles")) }>
-                            { decodeHtml(t("featuresSection_featureCard_playerAndMicProfiles_detail")) }
+                        <FeatureItem icon="bi-file-earmark-person" title={ tUnescaped("featuresSection_featureCard_playerAndMicProfiles") }>
+                            { tUnescaped("featuresSection_featureCard_playerAndMicProfiles_detail") }
                         </FeatureItem>
     
-                        <FeatureItem icon="bi-controller" title={ decodeHtml(t("featuresSection_featureCard_controllerSupport")) }>
-                        { decodeHtml(t("featuresSection_featureCard_controllerSupport_detail")) }
+                        <FeatureItem icon="bi-controller" title={ tUnescaped("featuresSection_featureCard_controllerSupport") }>
+                        { tUnescaped("featuresSection_featureCard_controllerSupport_detail") }
                         </FeatureItem>
                     </div>
                 </div>
