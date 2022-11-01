@@ -34,15 +34,15 @@ const IntroSection = () =>
                 <div className="col-lg-6">
                     {/* Mashead text and app badges */}
                     <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 className="lh-1 mb-3 font-alt">{t("introSection_title")}</h1>
+                        <h1 className="lh-1 mb-3 font-alt"><T i18nKey="introSection_title" /></h1>
                         <div className="lead text-muted" style={{marginBottom: '1rem'}}>
-                            { t("introSection_typewriterText_prefix") } <span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
+                            <T i18nKey="introSection_typewriterText_prefix" /><span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
                         </div>
                         <p className="lead text-muted"><T i18nKey="introSection_p_1" /></p>
                         <p className="lead text-muted"><T i18nKey="introSection_p_2" /></p>
                         <p id="wikiAndDiscordLink" className="lead text-muted">{ /* content is set in useEffect */ }</p>
 
-                        <div className="lead text-muted mb-5">{ t("introSection_follow_prefix" ) } <SocialMediaLinks /></div>
+                        <div className="lead text-muted mb-5"><T i18nKey="introSection_follow_prefix" /><SocialMediaLinks /></div>
 
                         {/* Buttons */}
                         <div className="d-flex flex-column flex-lg-row align-items-center">

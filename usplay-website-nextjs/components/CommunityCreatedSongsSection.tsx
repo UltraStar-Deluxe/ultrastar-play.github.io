@@ -1,4 +1,5 @@
 import { useTranslation } from "next-i18next";
+import { T } from "./T";
 import WaveBackground from "./WaveBackground"
 
 const SingIdeaEntry = (props: {title: string, image: string}) => 
@@ -27,8 +28,8 @@ const CommunityCreatedSongsSection = () => {
             <div className="container px-md-5">
                 <div className="row justify-content-center">
                     <div className="col-xl-8">
-                        <h1 className="display-3 text-white font-alt">{ t("communityCreatedSongs_title") }</h1>
-                        <h3 className="text-white font-alt">{ t("communityCreatedSongs_subtitle") }</h3>
+                        <h1 className="display-3 text-white font-alt"><T i18nKey="communityCreatedSongs_title" /></h1>
+                        <h3 className="text-white font-alt"><T i18nKey="communityCreatedSongs_subtitle" /></h3>
                     </div>
                 </div>
             </div>

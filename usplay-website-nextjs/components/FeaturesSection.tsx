@@ -30,18 +30,18 @@ const FeaturesSection = () =>
                 <div className="row md-justify-content-center lead">
                     <div className="col-auto">
                         <ul className="item-symbol-mic">
-                            <li>{ t("featuresSection_featureList_1") }</li>
-                            <li>{ t("featuresSection_featureList_2") }</li>
-                            <li>{ t("featuresSection_featureList_3") }</li>
-                            <li>{ t("featuresSection_featureList_4") }</li>
+                            <li><T i18nKey="featuresSection_featureList_1" /></li>
+                            <li><T i18nKey="featuresSection_featureList_2" /></li>
+                            <li><T i18nKey="featuresSection_featureList_3" /></li>
+                            <li><T i18nKey="featuresSection_featureList_4" /></li>
                         </ul>
                     </div>
                     <div className="col-auto">
                         <ul className="item-symbol-mic">
-                            <li>{ t("featuresSection_featureList_5") }</li>
-                            <li>{ t("featuresSection_featureList_6") }</li>
-                            <li>{ t("featuresSection_featureList_7") }</li>
-                            <li>{ t("featuresSection_featureList_8") }</li>
+                            <li><T i18nKey="featuresSection_featureList_5" /></li>
+                            <li><T i18nKey="featuresSection_featureList_6" /></li>
+                            <li><T i18nKey="featuresSection_featureList_7" /></li>
+                            <li><T i18nKey="featuresSection_featureList_8" /></li>
                         </ul>
                     </div>
                 </div>
@@ -62,17 +62,17 @@ const FeaturesSection = () =>
                 {/* Imagine fun time */}
                 <div className="row justify-content-center">
                     <div className="col-auto">
-                        <h1>{ t("featuresSection_imagineList_title") }</h1>
+                        <h1><T i18nKey="featuresSection_imagineList_title" /></h1>
                     </div>
                 </div>
                 <div className="row justify-content-center lead">
                     <div className="col-auto">
                         <ul className="item-symbol-mic">
-                            <li>{ t("featuresSection_imagineList_1") }</li>
-                            <li>{ t("featuresSection_imagineList_2") }</li>
-                            <li>{ t("featuresSection_imagineList_3") }</li>
-                            <li>{ t("featuresSection_imagineList_4") }</li>
-                            <li>{ t("featuresSection_imagineList_5") }</li>
+                            <li><T i18nKey="featuresSection_imagineList_1" /></li>
+                            <li><T i18nKey="featuresSection_imagineList_2" /></li>
+                            <li><T i18nKey="featuresSection_imagineList_3" /></li>
+                            <li><T i18nKey="featuresSection_imagineList_4" /></li>
+                            <li><T i18nKey="featuresSection_imagineList_5" /></li>
                         </ul>
                     </div>
                 </div>

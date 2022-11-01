@@ -102,7 +102,7 @@ const GetResponseNewsletterForm = () =>
             Get the Newsletter!
         </h3>
         <h5 className="align-self-center mb-3">
-            Don&apos;t miss our Kickstarter campaign.
+            Don&apos;t miss our <span className="text-gradient bold">Kickstarter</span> campaign.
         </h5>
 
         {/* Email field (required) */}

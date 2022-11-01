@@ -1,22 +1,9 @@
-import { useTranslation } from 'next-i18next';
 import LanguageSwitcher from './LanguageSwitcher';
 import RedirectLink from './RedirectLink'
+import { T } from './T';
 
 const NavigationSection = () =>
 {
-    const { t } = useTranslation("common");
-
-    // navigationSection_home
-    // navigationSection_features
-    // navigationSection_features_overview
-    // navigationSection_features_community
-    // navigationSection_features_songEditor
-    // navigationSection_features_crossPlatform
-    // navigationSection_features_openSource
-    // navigationSection_features_plannedFeatures
-    // navigationSection_download
-    // navigationSection_privacyPolicy
-
     return <>
     <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav">
         <div className="container px-5">
@@ -27,20 +14,20 @@ const NavigationSection = () =>
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li className="nav-item"><a className="nav-link me-lg-3 active" href="#page-top">{ t("navigationSection_home") }</a></li>
+                    <li className="nav-item"><a className="nav-link me-lg-3 active" href="#page-top"><T i18nKey="navigationSection_home" /></a></li>
                     <li className="nav-item dropdown">
-                        <a className="nav-link  dropdown-toggle cursor-pointer" data-bs-toggle="dropdown">{ t("navigationSection_features") }</a>
+                        <a className="nav-link  dropdown-toggle cursor-pointer" data-bs-toggle="dropdown"><T i18nKey="navigationSection_features" /></a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#features">{ t("navigationSection_features_overview") }</a></li>
-                            <li><a className="dropdown-item" href="#community-created-songs">{ t("navigationSection_features_community") }</a></li>
-                            <li><a className="dropdown-item" href="#song-editor">{ t("navigationSection_features_songEditor") }</a></li>
-                            <li><a className="dropdown-item" href="#cross-platform">{ t("navigationSection_features_crossPlatform") }</a></li>
-                            <li><a className="dropdown-item" href="#open-source">{ t("navigationSection_features_openSource") }</a></li>
-                            <li><a className="dropdown-item" href="#planned-features">{ t("navigationSection_features_plannedFeatures") }</a></li>
+                            <li><a className="dropdown-item" href="#features"><T i18nKey="navigationSection_features_overview" /></a></li>
+                            <li><a className="dropdown-item" href="#community-created-songs"><T i18nKey="navigationSection_features_community" /></a></li>
+                            <li><a className="dropdown-item" href="#song-editor"><T i18nKey="navigationSection_features_songEditor" /></a></li>
+                            <li><a className="dropdown-item" href="#cross-platform"><T i18nKey="navigationSection_features_crossPlatform" /></a></li>
+                            <li><a className="dropdown-item" href="#open-source"><T i18nKey="navigationSection_features_openSource" /></a></li>
+                            <li><a className="dropdown-item" href="#planned-features"><T i18nKey="navigationSection_features_plannedFeatures" /></a></li>
                         </ul>
                     </li>
-                    <li className="nav-item"><a className="nav-link me-lg-3" href="#download">{ t("navigationSection_download") }</a></li>
-                    <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="PrivacyPolicy">{ t("navigationSection_privacyPolicy") }</RedirectLink></li>
+                    <li className="nav-item"><a className="nav-link me-lg-3" href="#download"><T i18nKey="navigationSection_download" /></a></li>
+                    <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="PrivacyPolicy"><T i18nKey="navigationSection_privacyPolicy" /></RedirectLink></li>
                     <li className="nav-item cursor-pointer"><LanguageSwitcher /></li>
                 </ul>
             </div>
