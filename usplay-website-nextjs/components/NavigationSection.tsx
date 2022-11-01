@@ -14,7 +14,6 @@ const NavigationSection = () =>
             </button>
             <div className="collapse navbar-collapse" id="navbarResponsive">
                 <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li className="nav-item"><a className="nav-link me-lg-3 active" href="#page-top"><T i18nKey="navigationSection_home" /></a></li>
                     <li className="nav-item dropdown">
                         <a className="nav-link  dropdown-toggle cursor-pointer" data-bs-toggle="dropdown"><T i18nKey="navigationSection_features" /></a>
                         <ul className="dropdown-menu">
@@ -26,7 +25,8 @@ const NavigationSection = () =>
                             <li><a className="dropdown-item" href="#planned-features"><T i18nKey="navigationSection_features_plannedFeatures" /></a></li>
                         </ul>
                     </li>
-                    <li className="nav-item"><a className="nav-link me-lg-3" href="#download"><T i18nKey="navigationSection_download" /></a></li>
+                    <li className="nav-item"><a className="nav-link" href="#download"><T i18nKey="navigationSection_download" /></a></li>
+                    <li className="nav-item"><a className="nav-link" href="https://github.com/UltraStar-Deluxe/Play/wiki/Frequently-Asked-Questions-(FAQ)"><T i18nKey="navigationSection_faq" /></a></li>
                     <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="PrivacyPolicy"><T i18nKey="navigationSection_privacyPolicy" /></RedirectLink></li>
                     <li className="nav-item cursor-pointer"><LanguageSwitcher /></li>
                 </ul>

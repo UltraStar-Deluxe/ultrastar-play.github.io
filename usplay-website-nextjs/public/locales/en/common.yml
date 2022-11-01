@@ -61,6 +61,7 @@ introSection_typewriterText_prefix: Want to
 introSection_wikiAndDiscord: Checkout the {{wikiLink}} to get started or {{discordLink}} for help.
 introSection_wikiName: wiki
 navigationSection_download: Download
+navigationSection_faq: FAQ
 navigationSection_features_community: Community
 navigationSection_features_crossPlatform: Cross Platform
 navigationSection_features_openSource: Open source
@@ -78,3 +79,21 @@ plannedFeaturesSection_plannedFeature_4: Smartphone Control
 plannedFeaturesSection_plannedFeature_5: Online multiplayer
 plannedFeaturesSection_plannedFeature_6: Downloadable themes
 plannedFeaturesSection_detail: UltraStar&nbsp;Play is already fun to play.<br /> Nonetheless, there are more features planned and more work to do. Join our social media channels to follow the journey of UltraStar&nbsp;Play becoming the next party hit everyone loves.
+songEditorSection_title: Have a weird taste in music? <gradient>No&nbsp;problem!</gradient>
+songEditorSection_subtitle: Create your own songs
+songEditorSection_p_1: The integrated <gradient>SONG&nbsp;EDITOR</gradient> allows to easily create a sing-along version of any song.
+songEditorSection_p_2: UltraStar&nbsp;Play&apos;s song editor combines features that previously required multiple tools.<br /> Plus, you can quickly <gradient>switch between editing and testing</gradient> your song.
+songEditorSection_afterFeatureList: With all these features, creating a sing-along version for an UltraStar game <gradient>has never been easier.</gradient>
+songEditorSection_featureList_1: Add notes by singing or button tapping
+songEditorSection_featureList_2: Edit notes via drag and drop
+songEditorSection_featureList_3: Change Lyrics
+songEditorSection_featureList_4: Change video offset
+songEditorSection_featureList_5: Edit song properties
+songEditorSection_featureList_6: Copy&amp;paste notes
+songEditorSection_featureList_7: Import MIDI files
+songEditorSection_featureList_8: Assign notes to different players
+songEditorSection_featureList_9: Quality analysis and warnings
+songEditorSection_featureList_10: "&hellip;and many more!"
+songEditorSection_furtherDocumentation: Checkout the {{videoLink}} or {{documentationLink}} for details.
+songEditorSection_furtherDocumentation_video: video
+songEditorSection_furtherDocumentation_documentation: documentation

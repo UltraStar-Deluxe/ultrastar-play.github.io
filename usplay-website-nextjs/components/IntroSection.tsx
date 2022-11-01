@@ -20,11 +20,10 @@ const IntroSection = () =>
     const discordName = t("introSection_discordName");
     useEffect(() => 
     {
-        const wikiAndDiscordLink = t("introSection_wikiAndDiscord", {
+        setInnerHtml('wikiAndDiscordLink', t("introSection_wikiAndDiscord", {
             "wikiLink": `<a href='https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps'>${wikiName}</a>`,
             "discordLink": `<a href='https://discord.gg/PAUJFKCGbb'>${discordName}</a>`,
-        });
-        setInnerHtml('wikiAndDiscordLink', wikiAndDiscordLink)
+        }))
     })
 
     return <>
