@@ -1,13 +1,57 @@
-button_getUltraStarPlay: Get UltraStar&nbsp;Play
 button_getCompanionApp: Get Companion&nbsp;App
+button_getUltraStarPlay: Get UltraStar&nbsp;Play
+featuresSection_featureCard_companionApp: Companion App
+featuresSection_featureCard_companionApp_detail: Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play Companion&nbsp;App.
+featuresSection_featureCard_solosDuetsGroups: Solos, Duets, Groups
+featuresSection_featureCard_solosDuetsGroups_detail: Sing a duet where each player has different lyrics and notes. Or make a party and sing with up to 16 players at the same time.
+featuresSection_featureCard_openSongFormat: Open Song Format
+featuresSection_featureCard_openSongFormat_detail: UltraStar&nbsp;Play supports a widespread and open song format. Create and change songs as you please.
+featuresSection_featureCard_songEditor: Song Editor
+featuresSection_featureCard_songEditor_detail: The integrated song editor lets you create a karaoke version of any song you like - unlimited possibilities!
+featuresSection_featureCard_playlistsAndFavorites: Playlists &amp; Favorites
+featuresSection_featureCard_playlistsAndFavorites_detail: Handle large song collections by marking songs as favorites, adding playlists, or searching for songs by language, year, artist, etc.
+featuresSection_featureCard_audience: Entertained Audience
+featuresSection_featureCard_audience_detail: Each song can have a background video or image. A delight for both, the audience and the singers.
+featuresSection_featureCard_scoreMode: Score Modes
+featuresSection_featureCard_scoreMode_detail: A cooperative score mode emphasizes SINGING TOGETHER with your loved ones. You can also turn off scores and ratings completely.
+featuresSection_featureCard_playerAndMicProfiles: Player &amp; Mic Profiles
+featuresSection_featureCard_playerAndMicProfiles_detail: Configure each player and device individually. Quickly switch microphones between players.
+featuresSection_featureCard_controllerSupport: Controller Support
+featuresSection_featureCard_controllerSupport_detail: No need to hang around your keyboard. Just use your gamepad to control UltraStar&nbsp;Play.
+featuresSection_featureList_title: With UltraStar&nbsp;Play, <span className="emphasize">YOU&apos;LL GET</span>&colon;
+featuresSection_featureList_1: Pitch detection to guide your voice
+featuresSection_featureList_2: Custom songs and song editor
+featuresSection_featureList_3: Cooperative score mode
+featuresSection_featureList_4: Duet songs
+featuresSection_featureList_5: Companion App as mic
+featuresSection_featureList_6: Favorites and playlists
+featuresSection_featureList_7: Up to 16 players
+featuresSection_featureList_8: Controller support
+featuresSection_imagineList_title: Imagine what it would be like to...
+featuresSection_imagineList_1: Throw a singing party with family and friends
+featuresSection_imagineList_2: Break the highscore or sing duets together
+featuresSection_imagineList_3: Create the songs you want, no matter your taste in music
+featuresSection_imagineList_4: Use your smartphone as mic, no need to buy additional equipment
+featuresSection_imagineList_5: Start the game anywhere, right from your smartphone
+featuresSection_: Start the game anywhere, right from your smartphone
+introSection_discordName: Discord
+introSection_follow_prefix: Follow the project on
+introSection_p_1: UltraStar&nbsp;Play is a singing game with boundless possibilities, without the need to buy additional hardware.
+introSection_p_2: Players sing along their favorite songs and try to hit notes for points. Feel like a superstar while you break the highscore! Invite your family and friends to rock the virtual stage together!
 introSection_title: Enjoy a Fun Singing Party!
-introSection_typewriterText_prefix: Want to 
 introSection_typewriterText_1: sing your favorite songs?
 introSection_typewriterText_2: challenge your friends?
 introSection_typewriterText_3: feel like a superstar?
-introSection_p_1: UltraStar&nbsp;Play is a singing game with boundless possibilities, without the need to buy additional hardware.
-introSection_p_2: Players sing along their favorite songs and try to hit notes for points. Feel like a superstar while you break the highscore! Invite your family and friends to rock the virtual stage together!
+introSection_typewriterText_prefix: Want to 
 introSection_wikiAndDiscord: Checkout the {{wikiLink}} to get started or {{discordLink}} for help.
 introSection_wikiName: wiki
-introSection_discordName: Discord
-introSection_follow_prefix: Follow the project on
+navigationSection_download: Download
+navigationSection_features_community: Community
+navigationSection_features_crossPlatform: Cross Platform
+navigationSection_features_openSource: Open source
+navigationSection_features_overview: Overview
+navigationSection_features_plannedFeatures: Planned Features
+navigationSection_features_songEditor: Song Editor
+navigationSection_features: Features
+navigationSection_home: Home
+navigationSection_privacyPolicy: Privacy Policy

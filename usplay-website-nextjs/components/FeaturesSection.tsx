@@ -1,3 +1,6 @@
+import { useTranslation } from "next-i18next"
+import { useEffect } from "react"
+import { decodeHtml, setInnerHtml } from "../lib/utils"
 import WaveBackground from "./WaveBackground"
 
 const FeatureItem = (props: {icon: string, title: string, children?: React.ReactNode}) => (
@@ -10,121 +13,128 @@ const FeatureItem = (props: {icon: string, title: string, children?: React.React
     </div>
 )
 
-const FeaturesSection = () => (
+const FeaturesSection = () =>
+{
 
-<>
-<section id="features" className="stage-and-audience-background text-white pt-5">
-    <div className="container">
-        <div className="row">
-            {/* Feature overview */}
-            <div className="row justify-content-center">
-                <div className="col-auto">
-                    <h1 className="display-5 font-alt">With UltraStar&nbsp;Play, <span className="emphasize">YOU&apos;LL GET</span>:</h1>
-                </div>
-            </div>
-            <div className="row md-justify-content-center lead">
-                <div className="col-auto">
-                    <ul className="item-symbol-mic">
-                        <li>Pitch detection to guide your voice</li>
-                        <li>Custom songs and song editor</li>
-                        <li>Cooperative score mode</li>
-                        <li>Duet songs</li>
-                    </ul>
-                </div>
-                <div className="col-auto">
-                    <ul className="item-symbol-mic">
-                        <li>Companion App as mic</li>
-                        <li>Favorites and playlists</li>
-                        <li>Up to 16 players</li>
-                        <li>Controller support</li>
-                    </ul>
-                </div>
-            </div>
+    const { t } = useTranslation("common")
 
-            {/* YouTube video (game teaser)  */}
-            <div className="row my-5 justify-content-center">
-                <div className="col-md-6">
-                    <div className="youtube-video-container">
-                        <iframe src="https://www.youtube.com/embed/4hXKOLafpDg"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
+    useEffect(() =>
+    {
+        setInnerHtml("featuresSection_title", t("featuresSection_featureList_title"))
+    })
+
+    return <>
+    <section id="features" className="stage-and-audience-background text-white pt-5">
+        <div className="container">
+            <div className="row">
+                {/* Feature overview */}
+                <div className="row justify-content-center">
+                    <div className="col-auto">
+                        <h1 id="featuresSection_title" className="display-5 font-alt">{ /* content set in useEffect */ }</h1>
+                    </div>
+                </div>
+                <div className="row md-justify-content-center lead">
+                    <div className="col-auto">
+                        <ul className="item-symbol-mic">
+                            <li>{ t("featuresSection_featureList_1") }</li>
+                            <li>{ t("featuresSection_featureList_2") }</li>
+                            <li>{ t("featuresSection_featureList_3") }</li>
+                            <li>{ t("featuresSection_featureList_4") }</li>
+                        </ul>
+                    </div>
+                    <div className="col-auto">
+                        <ul className="item-symbol-mic">
+                            <li>{ t("featuresSection_featureList_5") }</li>
+                            <li>{ t("featuresSection_featureList_6") }</li>
+                            <li>{ t("featuresSection_featureList_7") }</li>
+                            <li>{ t("featuresSection_featureList_8") }</li>
+                        </ul>
+                    </div>
+                </div>
+    
+                {/* YouTube video (game teaser)  */}
+                <div className="row my-5 justify-content-center">
+                    <div className="col-md-6">
+                        <div className="youtube-video-container">
+                            <iframe src="https://www.youtube.com/embed/4hXKOLafpDg"
+                                    title="YouTube video player"
+                                    frameBorder="0"
+                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                                    allowFullScreen></iframe>
+                        </div>
+                    </div>
+                </div>
+    
+                {/* Imagine fun time */}
+                <div className="row justify-content-center">
+                    <div className="col-auto">
+                        <h1>{ t("featuresSection_imagineList_title") }</h1>
+                    </div>
+                </div>
+                <div className="row justify-content-center lead">
+                    <div className="col-auto">
+                        <ul className="item-symbol-mic">
+                            <li>{ t("featuresSection_imagineList_1") }</li>
+                            <li>{ t("featuresSection_imagineList_2") }</li>
+                            <li>{ t("featuresSection_imagineList_3") }</li>
+                            <li>{ t("featuresSection_imagineList_4") }</li>
+                            <li>{ t("featuresSection_imagineList_5") }</li>
+                        </ul>
                     </div>
                 </div>
             </div>
-
-            {/* Imagine fun time */}
-            <div className="row justify-content-center">
-                <div className="col-auto">
-                    <h1>Imagine what it would be like to...</h1>
-                </div>
-            </div>
-            <div className="row justify-content-center lead">
-                <div className="col-auto">
-                    <ul className="item-symbol-mic">
-                        <li>Throw a singing party with family and friends</li>
-                        <li>Break the highscore or sing duets together</li>
-                        <li>Create the songs you want, no matter your taste in music</li>
-                        <li>Use your smartphone as mic, no need to buy additional equipment</li>
-                        <li>Start the game anywhere, right from your smartphone</li>
-                    </ul>
+        </div>
+    </section>
+    
+    <WaveBackground flipX={false} flipY={true} colorFrom="#151515" colorTo="#151515" />
+    
+    <section>
+        <div className="container">
+            <div className="row align-items-center">
+                <div className="container-fluid">
+                    <div className="row">
+                    <FeatureItem icon="bi-phone" title={ decodeHtml(t("featuresSection_featureCard_companionApp")) }>
+                            { decodeHtml(t("featuresSection_featureCard_companionApp_detail")) }
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-people" title={ decodeHtml(t("featuresSection_featureCard_solosDuetsGroups")) }>
+                            { decodeHtml(t("featuresSection_featureCard_solosDuetsGroups_detail")) }
+                        </FeatureItem>
+                        
+                        <FeatureItem icon="bi-collection-play" title={ decodeHtml(t("featuresSection_featureCard_openSongFormat")) }>
+                            { decodeHtml(t("featuresSection_featureCard_openSongFormat_detail")) }
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-tools" title={ decodeHtml(t("featuresSection_featureCard_songEditor")) }>
+                            { decodeHtml(t("featuresSection_featureCard_songEditor_detail")) }
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-music-note-list" title={ decodeHtml(t("featuresSection_featureCard_playlistsAndFavorites")) }>
+                            { decodeHtml(t("featuresSection_featureCard_playlistsAndFavorites_detail")) }
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-person-hearts" title={ decodeHtml(t("featuresSection_featureCard_audience")) }>
+                            { decodeHtml(t("featuresSection_featureCard_audience_detail" )) } 
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-link-45deg" title={ decodeHtml(t("featuresSection_featureCard_scoreMode")) }>
+                            { decodeHtml(t("featuresSection_featureCard_scoreMode_detail")) }
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-file-earmark-person" title={ decodeHtml(t("featuresSection_featureCard_playerAndMicProfiles")) }>
+                            { decodeHtml(t("featuresSection_featureCard_playerAndMicProfiles_detail")) }
+                        </FeatureItem>
+    
+                        <FeatureItem icon="bi-controller" title={ decodeHtml(t("featuresSection_featureCard_controllerSupport")) }>
+                        { decodeHtml(t("featuresSection_featureCard_controllerSupport_detail")) }
+                        </FeatureItem>
+                    </div>
                 </div>
             </div>
         </div>
-    </div>
-</section>
-
-<WaveBackground flipX={false} flipY={true} colorFrom="#151515" colorTo="#151515" />
-
-<section>
-    <div className="container">
-        <div className="row align-items-center">
-            <div className="container-fluid">
-                <div className="row">
-                    <FeatureItem icon="bi-phone" title="Companion App">
-                        Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play Companion&nbsp;App.
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-people" title="Solos, Duets, Groups">
-                        Sing a duet where each player has different lyrics and notes.
-                        Or make a party and sing with up to 16 players at the same time.
-                    </FeatureItem>
-                    
-                    <FeatureItem icon="bi-collection-play" title="Open Song Format">
-                        UltraStar&nbsp;Play supports a widespread and open song format. Create and change songs as you please.
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-tools" title="Song Editor">
-                        The integrated song editor lets you create a karaoke version of any song you like - unlimited possibilities!
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-music-note-list" title="Playlists & Favorites">
-                        Handle large song collections by marking songs as favorites, adding playlists, or searching for songs by <i>language</i>, <i>year</i>, <i>artist</i>, etc.
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-person-hearts" title="Entertained Audience">
-                        Each song can have a background video or image. A delight for both, the audience and the singers. 
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-link-45deg" title="Score Modes">
-                        A cooperative score mode emphasizes SINGING TOGETHER with your loved ones. You can also turn off scores and ratings completely.
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-file-earmark-person" title="Player & Mic Profiles">
-                        Configure each player and device individually. Quickly switch microphones between players.
-                    </FeatureItem>
-
-                    <FeatureItem icon="bi-controller" title="Controller Support">
-                        No need to hang around your keyboard. Just use your gamepad to control UltraStar&nbsp;Play.
-                    </FeatureItem>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-</>
-)
+    </section>
+    
+    </>
+}
 
 export default FeaturesSection

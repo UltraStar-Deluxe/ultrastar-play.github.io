@@ -40,6 +40,10 @@ const doWithElement = (id: string, action: (element: HTMLElement) => void) =>
         {
             action(element);
         }
+        else
+        {
+            console.error("doWithElement: No element found with id " + id)
+        }
     }
 }
 
@@ -50,7 +54,11 @@ const setInnerHtml = (id: string, innerHtml: string) =>
 
 const decodeHtml = (input: string): string =>
 {
-    return input.replace("&nbsp;", " ")
+    return input
+        .replaceAll("&nbsp;", " ")
+        .replaceAll("&apos;", "'")
+        .replaceAll("&amp;", "&")
+        .replaceAll("&colon;", ":")
 }
 
 export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml, decodeHtml }
