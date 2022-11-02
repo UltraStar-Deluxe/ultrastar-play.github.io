@@ -1,45 +1,44 @@
 button_getCompanionApp: Download Companion&nbsp;App
 button_getUltraStarPlay: Download UltraStar&nbsp;Play
-communityCreatedSongs_title: Singe deine Lieblingslieder!
-communityCreatedSongs_subtitle: Eine große Community hat schon tausende von Songs im UltraStar-Format erstellt.
 communityCreatedSongs_currentTopHits: Singe aktuelle Hits
+communityCreatedSongs_event: Singe bei einer Feier oder einem Event
 communityCreatedSongs_filmAndTV: Singe bekannte Lieder aus Film und TV
 communityCreatedSongs_games: Singe Soundtracks von Videospielen
-communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
-communityCreatedSongs_event: Singe bei einer Feier oder einem Event
 communityCreatedSongs_regional: Singe Dialekt aus deiner Region
-crossPlatformSection_title: Wähle deine Plattform
+communityCreatedSongs_subtitle: Eine große Community hat schon tausende von Songs im UltraStar-Format erstellt.
+communityCreatedSongs_title: Singe deine Lieblingslieder!
+communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
 crossPlatformSection_p_1: UltraStar&nbsp;Play ist eine cross-platform Anwendung. Das Spiel läuft auf den gängigen <emphasize>DESKTOP UND MOBILEN</emphasize> Plattformen.
 crossPlatformSection_p_2: Es gibt heutzutage viele verschiedene Geräte und Betriebssysteme. Die meisten Gesangsspiele konzentrieren sich auf nur eine dieser Plattformen.
 crossPlatformSection_p_3: Das bedeuted, wenn man die Plattform wechselt, dann verliert man meist auch seine Songsammlung. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
 crossPlatformSection_p_4: Zum Glück ist dies bei UltraStar&nbsp;Play <emphasize>KEIN&nbsp;PROBLEM</emphasize>, denn es kann sich mit deinem Musikgeschmack entwickeln und der Vielzahl heutiger Geräte.
 crossPlatformSection_p_5: Sogar noch besser - du kannst <emphasize>PLATTFORMEN MISCHEN</emphasize>. Zum Beispiel kannst du das Hauptspiel auf einem iOS Tablet starten und Android Smartphones als Mikrofon verbinden mittels der Companion&nbsp;App.
+crossPlatformSection_title: Wähle deine Plattform
 downloadCallToActionSection_title: Vorabversion Herunterladen
-easyToUseSection_title: Du kannst <gradient>sofort Spaß haben</gradient>
-easyToUseSection_p_beforeList: Es gibt ein <gradient>kostenloses Songpaket</gradient>, das innerhalb von Sekunden im Spiel heruntergeladen werden kann.
 easyToUseSection_list_1: Man braucht kein talentierter Sänger zu sein
 easyToUseSection_list_2: Man braucht keine Mikrofone zu kaufen
 easyToUseSection_list_3: Man braucht keine neue Konsole zu kaufen
 easyToUseSection_p_afterList: Jeder kann eine spaßige Zeit beim Singen haben! Einfach UltraStar&nbsp;Play starten und <gradient>von der Tonhöhenerkennung leiten lassen</gradient>.
-featuresSection_featureCard_companionApp: Companion App
-featuresSection_featureCard_companionApp_detail: Benutze dein Smartphone als Mikrofon oder durchstöbere die Songs mittels UltraStar&nbsp;Play Companion&nbsp;App.
-featuresSection_featureCard_solosDuetsGroups: Solos, Duette, Gruppen
-featuresSection_featureCard_solosDuetsGroups_detail: Singt ein Duett, wo beide Spieler eigenen Text und Noten haben. Oder singt in Gruppen bis zu 16 Spielern.
-featuresSection_featureCard_openSongFormat: Offenes Song-Format
-featuresSection_featureCard_openSongFormat_detail: UltraStar&nbsp;Play verwendet ein verbreitetes und offenes Song-Format. Erstelle und bearbeitet Songs nach deinem Geschmack.
-featuresSection_featureCard_songEditor: Song-Editor
-featuresSection_featureCard_songEditor_detail: Mit dem integrierten Song-Editor kannst du einfach Karaoke-Versionen deiner Lieblingslieder erstellen - unbegrenzte Möglichkeiten!
-featuresSection_featureCard_playlistsAndFavorites: Playlisten & Favoriten
-featuresSection_featureCard_playlistsAndFavorites_detail: Markiere Songs als Favoriten, erstelle Playlisten, und suche z.B. nach Sprache, Jahr, Interpret, Genre, usw.
-featuresSection_featureCard_audience: Unterhaltene Zuschauer
+easyToUseSection_p_beforeList: Es gibt ein <gradient>kostenloses Songpaket</gradient>, das innerhalb von Sekunden im Spiel heruntergeladen werden kann.
+easyToUseSection_title: Du kannst <gradient>sofort Spaß haben</gradient>
 featuresSection_featureCard_audience_detail: Ein Song kann zusätzlich ein Video oder Bild abspielen. Damit wird es zum Vergnügen für alle, Spieler und Zuschauer.
-featuresSection_featureCard_scoreMode: Punktemodus
-featuresSection_featureCard_scoreMode_detail: Ein kooperativer Punktemodus betont das GEMEINSAME singen. Die Wertung kann alternativ komplett abgeschaltet werden.
-featuresSection_featureCard_playerAndMicProfiles: Spieler- & Mikrofonprofile
-featuresSection_featureCard_playerAndMicProfiles_detail: Konfiguriere die Spieler und Mikrofone individuell. Wechsel Mikrofone schnell zwischen den Spielern.
-featuresSection_featureCard_controllerSupport: Controllerunterstützung
+featuresSection_featureCard_audience: Unterhaltene Zuschauer
+featuresSection_featureCard_companionApp_detail: Benutze dein Smartphone als Mikrofon oder durchstöbere die Songs mittels UltraStar&nbsp;Play Companion&nbsp;App.
+featuresSection_featureCard_companionApp: Companion App
 featuresSection_featureCard_controllerSupport_detail: Steuere das Spiel mit einem kabellosen Controller, statt an Keyboard und Maus zu hängen.
-featuresSection_featureList_title: "Mit UltraStar&nbsp;Play <emphasize>BEKOMMST DU</emphasize>:"
+featuresSection_featureCard_controllerSupport: Controllerunterstützung
+featuresSection_featureCard_openSongFormat_detail: UltraStar&nbsp;Play verwendet ein verbreitetes und offenes Song-Format. Erstelle und bearbeitet Songs nach deinem Geschmack.
+featuresSection_featureCard_openSongFormat: Offenes Song-Format
+featuresSection_featureCard_playerAndMicProfiles_detail: Konfiguriere die Spieler und Mikrofone individuell. Wechsel Mikrofone schnell zwischen den Spielern.
+featuresSection_featureCard_playerAndMicProfiles: Spieler- & Mikrofonprofile
+featuresSection_featureCard_playlistsAndFavorites_detail: Markiere Songs als Favoriten, erstelle Playlisten, und suche z.B. nach Sprache, Jahr, Interpret, Genre, usw.
+featuresSection_featureCard_playlistsAndFavorites: Playlisten & Favoriten
+featuresSection_featureCard_scoreMode_detail: Ein kooperativer Punktemodus betont das GEMEINSAME singen. Die Wertung kann alternativ komplett abgeschaltet werden.
+featuresSection_featureCard_scoreMode: Punktemodus
+featuresSection_featureCard_solosDuetsGroups_detail: Singt ein Duett, wo beide Spieler eigenen Text und Noten haben. Oder singt in Gruppen bis zu 16 Spielern.
+featuresSection_featureCard_solosDuetsGroups: Solos, Duette, Gruppen
+featuresSection_featureCard_songEditor_detail: Mit dem integrierten Song-Editor kannst du einfach Karaoke-Versionen deiner Lieblingslieder erstellen - unbegrenzte Möglichkeiten!
+featuresSection_featureCard_songEditor: Song-Editor
 featuresSection_featureList_1: Tonhöhenerkennung die dich leitet
 featuresSection_featureList_2: Eigene Songs und Song-Editor
 featuresSection_featureList_3: Kooperativer Punktemodus
@@ -48,13 +47,16 @@ featuresSection_featureList_5: Companion App als Mikrofon
 featuresSection_featureList_6: Favoriten und Playlisten
 featuresSection_featureList_7: Bis zu 16 Spieler gleichzeitig
 featuresSection_featureList_8: Controllerunterstützung
-featuresSection_imagineList_title: Stell dir vor, wie es wäre...
+featuresSection_featureList_title: "Mit UltraStar&nbsp;Play <emphasize>BEKOMMST DU</emphasize>:"
 featuresSection_imagineList_1: Bei deiner Party mit Familie und Freunden zu singen
 featuresSection_imagineList_2: Den Highscore zu knacken oder ein Duett zusammen zu singen
 featuresSection_imagineList_3: Die Songs zu erstellen, die DU möchtest
 featuresSection_imagineList_4: Dein Smartphone als Mikrofon zu benutzen
 featuresSection_imagineList_5: Überall loszulegen, direkt auf deinem Smartphone zu spielen
+featuresSection_imagineList_title: Stell dir vor, wie es wäre...
 introSection_discordName: Discord
+introSection_documentationAndHelpLinks: Schau ins {{wikiLink}} um loszulegen, in die {{faqLink}} für häufige Fragen, oder bei {{discordLink}} für Hilfe.
+introSection_faqName: FAQ
 introSection_follow_prefix: Folge uns auf 
 introSection_p_1: UltraStar&nbsp;Play ist ein Spiel zum Mitsingen mit unbegrenzten Möglichkeiten, ohne Notwendigkeit zusätzliche Hardware zu kaufen.
 introSection_p_2: Spieler singen zu ihren Lieblingsliedern und versuchen dabei, die richtige Tonhöhe zu treffen, um Punkte zu bekommen. Fühl dich wie ein Superstar während du den Highscore knackst! Lade deine Freunde und Familie ein, zusammen die virtuelle Bühne zu rocken!
@@ -63,9 +65,7 @@ introSection_typewriterText_1: deine Lieblingslieder singen?
 introSection_typewriterText_2: deine Freunde herausfordern?
 introSection_typewriterText_3: dich wie ein Superstar fühlen?
 introSection_typewriterText_prefix: Du willst
-introSection_documentationAndHelpLinks: Schau ins {{wikiLink}} um loszulegen, in die {{faqLink}} für häufige Fragen, oder bei {{discordLink}} für Hilfe.
 introSection_wikiName: Wiki
-introSection_faqName: FAQ
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community
@@ -77,33 +77,34 @@ navigationSection_features_songEditor: Song-Editor
 navigationSection_features: Features
 navigationSection_home: Home
 navigationSection_privacyPolicy: Datenschutzerklärung
-openSourceSection_title: Open-Source - Made with Unity
-openSourceSection_p_getInvolved: Mach dies auch zu <gradient>DEINEM SPIEL</gradient>!<br /> UltraStar&nbsp;Play ist ein open-source Projekt, das jedem gehört. <gradient>Mach mit</gradient>, erstelle Styles, bring dein Ideen ein, übersetze das Spiel in neue Sprachen, oder entwickle neue Features auf {{githubLink}}.
-openSourceSection_whyOpenSource_title: Warum Open-Source?
-openSourceSection_whyOpenSource_p_1: Stell dir vor du kaufst ein neues Gesangsspiel für deine Konsole, nur um festzustellen, dass der Hersteller die Onlinedienste beendet. Oder dass du deine Songsammlung verlierst, wenn du das Gerät wechselst.
-openSourceSection_whyOpenSource_p_2: Dies wird mit UltraStar&nbsp;Play nicht geschehen, denn es kann <gradient>mit der Zeit gehen</gradient>, solange es eine engagierte Community hinter sich hat.
-openSourceSection_madeWithUnity_title: Made with Unity
-openSourceSection_madeWithUnity_p_1: UltraStar&nbsp;Play baut auf eine <gradient>professionelle Game Engine</gradient> und moderne Tools, um <gradient>das Beste für Entwickler und Nutzer</gradient> zu bieten.
-openSourceSection_madeWithUnity_p_2: Mehr als 50% der weltweiten Videospiele werden {{madeWithUnityLink}}. Eine <gradient>solide Basis</gradient> für UltraStar&nbsp;Play, das so mit neuen Tools und Plattformen Schritthalten kann.
-openSourceSection_madeWithUnity_name: mit Unity gemacht
-openSourceSection_beyondThisGame_title: Jenseits von UltraStar&nbsp;Play
+newsletterSection_email_hint: E-Mail-Adresse
+newsletterSection_submit: JETZT ABONNIEREN
+newsletterSection_subtitle: Verpasse nicht die <gradient>Kickstarter</gradient> Kampagne.
+newsletterSection_title: Hole dir den Newsletter!
 openSourceSection_beyondThisGame_p_1: Open-source Software implementiert nicht nur ein einzelnes Spiel bzw. eine Lösung, sondern es kann auch der <gradient>Antrieb für andere Projekte</gradient> sein.
 openSourceSection_beyondThisGame_p_2: Entwickler können anhand von UltraStar&nbsp;Play <gradient>am Beispiel Lernen</gradient>. Und es hat bereits seine eigenen Tools hervorgebracht, die <gradient>mit der Community geteilt</gradient> werden, genauso wie zuvor andere open-source Projekte <gradient>UltraStar&nbsp;Play ermöglicht haben</gradient>.
 openSourceSection_beyondThisGame_p_3: Zum Beispiel wird UltraStar&nbsp;Play erwähnt in einem kleinen Paper namens {{paperLink}}. So etwas ist möglich <gradient>#OnlyWithOpenSource</gradient>.
-plannedFeaturesSection_title: Mehr in Kürze
+openSourceSection_beyondThisGame_title: Jenseits von UltraStar&nbsp;Play
+openSourceSection_madeWithUnity_name: mit Unity gemacht
+openSourceSection_madeWithUnity_p_1: UltraStar&nbsp;Play baut auf eine <gradient>professionelle Game Engine</gradient> und moderne Tools, um <gradient>das Beste für Entwickler und Nutzer</gradient> zu bieten.
+openSourceSection_madeWithUnity_p_2: Mehr als 50% der weltweiten Videospiele werden {{madeWithUnityLink}}. Eine <gradient>solide Basis</gradient> für UltraStar&nbsp;Play, das so mit neuen Tools und Plattformen Schritthalten kann.
+openSourceSection_madeWithUnity_title: Made with Unity
+openSourceSection_p_getInvolved: Mach dies auch zu <gradient>DEINEM SPIEL</gradient>!<br /> UltraStar&nbsp;Play ist ein open-source Projekt, das jedem gehört. <gradient>Mach mit</gradient>, erstelle Styles, bring dein Ideen ein, übersetze das Spiel in neue Sprachen, oder entwickle neue Features auf {{githubLink}}.
+openSourceSection_title: Open-Source - Made with Unity
+openSourceSection_whyOpenSource_p_1: Stell dir vor du kaufst ein neues Gesangsspiel für deine Konsole, nur um festzustellen, dass der Hersteller die Onlinedienste beendet. Oder dass du deine Songsammlung verlierst, wenn du das Gerät wechselst.
+openSourceSection_whyOpenSource_p_2: Dies wird mit UltraStar&nbsp;Play nicht geschehen, denn es kann <gradient>mit der Zeit gehen</gradient>, solange es eine engagierte Community hinter sich hat.
+openSourceSection_whyOpenSource_title: Warum Open-Source?
+plannedFeaturesSection_detail: "UltraStar&nbsp;Play macht schon jetzt Spaß.<br /> Trotzdem: Es gibt noch viele weitere geplante Features und TODOs. Folge uns bei Social Media, um die Reise von UltraStar&nbsp;Play zum nächsten Partykracher zu begleiten."
 plannedFeaturesSection_plannedFeature_1: Verschiedene Partymodi
 plannedFeaturesSection_plannedFeature_2: Medleys
 plannedFeaturesSection_plannedFeature_3: Songwarteschlange
 plannedFeaturesSection_plannedFeature_4: Smartphone-Steuerung
 plannedFeaturesSection_plannedFeature_5: Online Multiplayer
 plannedFeaturesSection_plannedFeature_6: Benutzerdefinierte Themes
-plannedFeaturesSection_detail: "UltraStar&nbsp;Play macht schon jetzt Spaß.<br /> Trotzdem: Es gibt noch viele weitere geplante Features und TODOs. Folge uns bei Social Media, um die Reise von UltraStar&nbsp;Play zum nächsten Partykracher zu begleiten."
-songEditorSection_title: Schräger Musikgeschmack?<br /><gradient>Kein&nbsp;Problem!</gradient>
-songEditorSection_subtitle: Erstelle deine eigenen Songs
-songEditorSection_p_1: Der integrierte <gradient>SONG-EDITOR</gradient> macht es einfach eine Version zum Mitsingen zu erstellen von jedem beliebigen Song.
-songEditorSection_p_2: "Was bisher verschiedene Werkzeuge benötigt hat, geht nun mit UltraStar&nbsp;Play alleine.<br /> Außerdem: Du kannst schnell <gradient>zwischen editieren und testen wechseln</gradient>."
+plannedFeaturesSection_title: Mehr in Kürze
 songEditorSection_afterFeatureList: Mit all diesen Funktionen ist das Erstellen eines neuen UltraStar Songs <gradient>so leicht wie nie</gradient>.
 songEditorSection_featureList_1: Noten hinzufügen durch singen oder Button-Tapping
+songEditorSection_featureList_10: "&hellip;und vieles mehr!"
 songEditorSection_featureList_2: Noten verändern mittels Drag-and-drop
 songEditorSection_featureList_3: Lyrics bearbeiten
 songEditorSection_featureList_4: Videoversatz einstellen
@@ -112,11 +113,10 @@ songEditorSection_featureList_6: Kopieren&amp;Einfügen von Noten
 songEditorSection_featureList_7: MIDI-Dateien importieren
 songEditorSection_featureList_8: Noten den Spielern zuweisen
 songEditorSection_featureList_9: Qualitätshinweise und Warnungen
-songEditorSection_featureList_10: "&hellip;und vieles mehr!"
-songEditorSection_furtherDocumentation: Schau dir das {{videoLink}} an oder in die {{documentationLink}} für weitere Infos.
-songEditorSection_furtherDocumentation_video: Video
 songEditorSection_furtherDocumentation_documentation: Dokumentation
-newsletterSection_title: Hole dir den Newsletter!
-newsletterSection_subtitle: Verpasse nicht die <gradient>Kickstarter</gradient> Kampagne.
-newsletterSection_email_hint: E-Mail-Adresse
-newsletterSection_submit: JETZT ABONNIEREN
+songEditorSection_furtherDocumentation_video: Video
+songEditorSection_furtherDocumentation: Schau dir das {{videoLink}} an oder in die {{documentationLink}} für weitere Infos.
+songEditorSection_p_1: Der integrierte <gradient>SONG-EDITOR</gradient> macht es einfach eine Version zum Mitsingen zu erstellen von jedem beliebigen Song.
+songEditorSection_p_2: "Was bisher verschiedene Werkzeuge benötigt hat, geht nun mit UltraStar&nbsp;Play alleine.<br /> Außerdem: Du kannst schnell <gradient>zwischen editieren und testen wechseln</gradient>."
+songEditorSection_subtitle: Erstelle deine eigenen Songs
+songEditorSection_title: Schräger Musikgeschmack?<br /><gradient>Kein&nbsp;Problem!</gradient>
