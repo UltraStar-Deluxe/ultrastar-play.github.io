@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg
+   xmlns:dc="http://purl.org/dc/elements/1.1/"
+   xmlns:cc="http://creativecommons.org/ns#"
+   xmlns:rdf="http://www.w3.org/1999/02/22-rdf-syntax-ns#"
+   xmlns:svg="http://www.w3.org/2000/svg"
+   xmlns="http://www.w3.org/2000/svg"
+   xmlns:xlink="http://www.w3.org/1999/xlink"
+   xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
+   xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
+   id="svg2"
+   viewBox="0 0 54.999998 95.000005"
+   version="1.1"
+   sodipodi:docname="phone.svg"
+   width="55"
+   height="95"
+   inkscape:version="1.0.1 (3bc2e813f5, 2020-09-07)">
+  <sodipodi:namedview
+     pagecolor="#ffffff"
+     bordercolor="#666666"
+     borderopacity="1"
+     objecttolerance="10"
+     gridtolerance="10"
+     guidetolerance="10"
+     inkscape:pageopacity="0"
+     inkscape:pageshadow="2"
+     inkscape:window-width="2560"
+     inkscape:window-height="1411"
+     id="namedview50"
+     showgrid="false"
+     fit-margin-top="0"
+     fit-margin-left="0"
+     fit-margin-right="0"
+     fit-margin-bottom="0"
+     inkscape:zoom="3.1169228"
+     inkscape:cx="-3.9425457"
+     inkscape:cy="1.1722781"
+     inkscape:window-x="1911"
+     inkscape:window-y="-9"
+     inkscape:window-maximized="1"
+     inkscape:current-layer="svg2" />
+  <defs
+     id="defs4">
+    <linearGradient
+       id="linearGradient3900">
+      <stop
+         id="stop3902"
+         stop-color="#fff"
+         offset="0" />
+      <stop
+         id="stop3904"
+         stop-color="#fff"
+         stop-opacity="0"
+         offset="1" />
+    </linearGradient>
+    <linearGradient
+       id="linearGradient3368"
+       y2="379.14999"
+       xlink:href="#linearGradient3900"
+       gradientUnits="userSpaceOnUse"
+       x2="222.86"
+       gradientTransform="matrix(1.3355,0,0,1.3355,-167.777,-367.55)"
+       y1="236.28999"
+       x1="84.642998" />
+    <linearGradient
+       id="linearGradient3382"
+       y2="475.39999"
+       gradientUnits="userSpaceOnUse"
+       x2="221.61"
+       gradientTransform="matrix(1.3355,0,0,1.3355,-158.476,-366.36)"
+       y1="413.97"
+       x1="222.32001">
+      <stop
+         id="stop3849"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop3859"
+         stop-color="#ccc"
+         offset=".18602" />
+      <stop
+         id="stop3853"
+         stop-color="#fff"
+         offset=".37208" />
+      <stop
+         id="stop3857"
+         stop-color="#f9f9f9"
+         offset=".45049" />
+      <stop
+         id="stop3855"
+         stop-color="#ccc"
+         offset=".62208" />
+      <stop
+         id="stop3851"
+         stop-color="#ccc"
+         offset="1" />
+    </linearGradient>
+    <radialGradient
+       id="radialGradient3385"
+       gradientUnits="userSpaceOnUse"
+       cy="-34.25"
+       cx="749.09998"
+       gradientTransform="matrix(0.59849,-0.66094,0.91769,0.83098,-267.97,749.19)"
+       r="105.93">
+      <stop
+         id="stop3827"
+         stop-color="#e6e6e6"
+         offset="0" />
+      <stop
+         id="stop3829"
+         stop-color="#ccc"
+         offset="1" />
+    </radialGradient>
+    <linearGradient
+       id="linearGradient3398"
+       y2="439.45001"
+       xlink:href="#linearGradient3900"
+       gradientUnits="userSpaceOnUse"
+       x2="439.67001"
+       gradientTransform="matrix(1.3355,0,0,1.3355,-304.07,-399.25)"
+       y1="351.32001"
+       x1="353.29999" />
+    <linearGradient
+       id="linearGradient3406"
+       y2="598.21997"
+       xlink:href="#linearGradient3900"
+       gradientUnits="userSpaceOnUse"
+       x2="134.89"
+       gradientTransform="matrix(1.3355,0,0,1.3355,-155.49755,-725.58406)"
+       y1="498.34"
+       x1="127.57" />
+  </defs>
+  <path
+     id="path3993"
+     fill="#666666"
+     d="m 27.00245,0.01594371 v 0.0835 c -7.0546,-0.0107 -14.467,-0.0301 -19.991,0 -5.1658,0.0282 -6.1844,7.37569999 -6.3854,9.68239999 H 0.54255 V 10.783444 L 0,83.527444 v 0.70949 h 0.0835 c 0.15609,1.7586 1.1132,9.2774 6.5106,9.3068 5.6397,0.0307 13.22,0.0107 20.408,0 0.30872,-4.7e-4 0.56916,4.4e-4 0.87643,0 7.1887,0.0107 14.769,0.0307 20.408,0 6.0757,-0.0331 6.0098,-10.183 6.0098,-10.183 h -0.0417 l 0.16693,-73.244 c 0,0 10e-4,-0.2813303 0,-0.3338803 -0.0215,-0.9488 -0.37824,-9.73449999 -6.135,-9.76589999 -5.8819,-0.0321 -13.822,-0.0107 -21.285,0 z" />
+  <path
+     id="path3937"
+     d="m 27.00245,1.3559437 v 0.0835 c -7.0546,-0.0107 -14.467,-0.0301 -19.991,0 -5.1658,0.0282 -6.1844,7.3757 -6.3854,9.6824003 h -0.0835 v 1.0016 L 0,84.867444 v 0.70949 h 0.0835 c 0.15609,1.7586 1.1132,9.2774 6.5106,9.3068 5.6397,0.0307 13.22,0.0107 20.408,0 0.30872,-4.7e-4 0.56916,4.4e-4 0.87643,0 7.1887,0.0107 14.769,0.0307 20.408,0 6.0757,-0.0331 6.0098,-10.183 6.0098,-10.183 h -0.0417 l 0.16693,-73.244 c 0,0 10e-4,-0.28133 0,-0.33388 -0.0215,-0.9488 -0.37824,-9.7345003 -6.135,-9.7659003 -5.8819,-0.0321 -13.822,-0.0107 -21.285,0 z" />
+  <path
+     id="path3967"
+     fill="#666666"
+     d="m 18.86245,11.105944 2.7966,-2.0508003 11.326,0.13983 3.3093,1.9110003 z" />
+  <path
+     id="path3969"
+     d="m 19.28245,11.105944 2.5169,-1.5704003 11.326,0.13982 2.983,1.4306003 z" />
+  <rect
+     id="rect4009"
+     height="75.511002"
+     width="49.766998"
+     stroke="#808080"
+     y="11.105942"
+     x="2.7424366"
+     stroke-width="0.2664"
+     fill="#ffffff" />
+  <path
+     id="rect3979"
+     d="m 26.52245,89.665944 -2.0261,1.9171 h 0.59015 v 1.4234 h 2.872 v -1.3912 l 0.80655,0.0159 z"
+     stroke="#808080"
+     stroke-width="0.64772"
+     fill="none" />
+  <path
+     id="path4011"
+     fill="url(#linearGradient3406)"
+     d="m 27.00245,1.3559437 v 0.0835 c -7.0546,-0.0107 -14.467,-0.0301 -19.991,0 -5.1658,0.0282 -6.1844,7.3757 -6.3854,9.6824003 h -0.0835 v 1.0016 L 0,84.867444 v 0.70949 h 0.0835 c 0.15269,1.7203 1.0849,8.9229 6.1767,9.2651 L 49.6642,1.6070337 c -0.42824,-0.12835 -0.86799,-0.24763 -1.3772,-0.25041 -5.8819,-0.0321 -13.822,-0.0107 -21.285,0 z"
+     style="fill:url(#linearGradient3406)" />
+  <metadata
+     id="metadata47">
+    <rdf:RDF>
+      <cc:Work>
+        <dc:format>image/svg+xml</dc:format>
+        <dc:type
+           rdf:resource="http://purl.org/dc/dcmitype/StillImage" />
+        <cc:license
+           rdf:resource="http://creativecommons.org/publicdomain/zero/1.0/" />
+        <dc:publisher>
+          <cc:Agent
+             rdf:about="http://openclipart.org/">
+            <dc:title>Openclipart</dc:title>
+          </cc:Agent>
+        </dc:publisher>
+        <dc:title></dc:title>
+        <dc:date>2013-11-13T17:12:26</dc:date>
+        <dc:description>A clipart to be used on things (sites, apps) that are avaliable in multiple plataforms(desktop, tablet and mobile). To personalize, only use the &quot;Clip&quot; tool to apply your own image. Sorry for bad English.</dc:description>
+        <dc:source>https://openclipart.org/detail/188723/devices-by-lonelyeagle-188723</dc:source>
+        <dc:creator>
+          <cc:Agent>
+            <dc:title>LonelyEagle</dc:title>
+          </cc:Agent>
+        </dc:creator>
+        <dc:subject>
+          <rdf:Bag>
+            <rdf:li>android</rdf:li>
+            <rdf:li>apps</rdf:li>
+            <rdf:li>desktop</rdf:li>
+            <rdf:li>device</rdf:li>
+            <rdf:li>devices</rdf:li>
+            <rdf:li>ios</rdf:li>
+            <rdf:li>linux</rdf:li>
+            <rdf:li>macos</rdf:li>
+            <rdf:li>plataforms</rdf:li>
+            <rdf:li>smartphone</rdf:li>
+            <rdf:li>tablet</rdf:li>
+            <rdf:li>windows</rdf:li>
+          </rdf:Bag>
+        </dc:subject>
+      </cc:Work>
+      <cc:License
+         rdf:about="http://creativecommons.org/publicdomain/zero/1.0/">
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Reproduction" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#Distribution" />
+        <cc:permits
+           rdf:resource="http://creativecommons.org/ns#DerivativeWorks" />
+      </cc:License>
+    </rdf:RDF>
+  </metadata>
+</svg>

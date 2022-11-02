@@ -1,0 +1,61 @@
+- Images from publicdomainvectors.org, License: Public domain 
+    - devices_only
+        - https://publicdomainvectors.org/en/free-clipart/Smart-hub-devices-vector-image/14616.html
+
+- Images from pixabay.com, License: Pixabay License 
+    - female-1299085
+        - https://pixabay.com/vectors/female-girl-head-musical-notes-1299085/
+
+    - stage-and-audience
+        - https://pixabay.com/photos/band-music-performance-stage-4823341/
+        - https://pixabay.com/vectors/party-cheers-people-pleasure-1458869/
+
+    - vinyl-2202325
+        - https://pixabay.com/photos/vinyl-lp-record-angle-2202325/
+
+    - animals-44569
+        - https://pixabay.com/vectors/animals-mouse-singing-beaver-fox-44569/
+
+    - controller-1784573
+        - https://pixabay.com/vectors/controller-gamepad-video-games-1784573/
+
+    - sing-570519
+        - https://pixabay.com/illustrations/sing-moe-woman-girl-suit-anime-570519/
+
+    - halloween-6784081
+        - https://pixabay.com/photos/halloween-woman-scary-horror-6784081/
+
+    - chorus-5977187
+        - https://pixabay.com/photos/chorus-scene-grandmothers-concert-5977187/
+
+    - musician-664432
+        - https://pixabay.com/photos/musician-rockstar-band-music-rock-664432/
+    
+    - prairie-679014
+        - https://pixabay.com/photos/prairie-river-stream-curved-sunset-679014/
+
+- Images from commons.wikimedia.org
+    - Tux_classic_flat_look.svg
+        - https://commons.wikimedia.org/wiki/File:Tux_classic_flat_look.svg
+        - The copyright holder of this file allows anyone to use it for any purpose, provided that the copyright holder is properly attributed. Redistribution, derivative work, commercial use, and all other use is permitted.
+        - Attribution: lewing@isc.tamu.edu Larry Ewing and The GIMP
+    
+    - Windows_10_Logo.svg
+        - https://commons.wikimedia.org/wiki/File:Windows_10_Logo.svg
+        - This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed for copyright protection, and is therefore in the public domain. Although it is free of copyright restrictions, this image may still be subject to other restrictions. See WP:PD#Fonts and typefaces or Template talk:PD-textlogo for more information.
+        - This work includes material that may be protected as a trademark in some jurisdictions. If you want to use it, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. See our general disclaimer.
+        
+    - Apple_logo_white.svg
+        - https://commons.wikimedia.org/wiki/File:Apple_logo_white.svg
+        - This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed for copyright protection, and is therefore in the public domain. Although it is free of copyright restrictions, this image may still be subject to other restrictions. See WP:PD#Fonts and typefaces or Template talk:PD-textlogo for more information.
+        - This work is in the public domain in the United States because it was published in the United States between 1927 and 1977, inclusive, without a copyright notice. For further explanation, see Commons:Hirtle chart as well as a detailed definition of "publication" for public art. Note that it may still be copyrighted in jurisdictions that do not apply the rule of the shorter term for US works (depending on the date of the author's death), such as Canada (50 p.m.a.), Mainland China (50 p.m.a., not Hong Kong or Macao), Germany (70 p.m.a.), Mexico (100 p.m.a.), Switzerland (70 p.m.a.), and other countries with individual treaties.
+        - This work includes material that may be protected as a trademark in some jurisdictions. If you want to use it, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. See our general disclaimer.
+        
+    - IOS_wordmark_(2017).svg
+        - https://commons.wikimedia.org/wiki/File:IOS_wordmark_(2017).svg
+        - This logo image consists only of simple geometric shapes or text. It does not meet the threshold of originality needed for copyright protection, and is therefore in the public domain. Although it is free of copyright restrictions, this image may still be subject to other restrictions. See WP:PD#Fonts and typefaces or Template talk:PD-textlogo for more information.
+        - This work includes material that may be protected as a trademark in some jurisdictions. If you want to use it, you have to ensure that you have the legal right to do so and that you do not infringe any trademark rights. See our general disclaimer.
+        
+    - Android_Robot_Cleaner_(2014-2019).svg
+        - https://commons.wikimedia.org/wiki/File:Android_Robot_Cleaner_(2014-2019).svg
+        - License: CC BY-SA 4.0
