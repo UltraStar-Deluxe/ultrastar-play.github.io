@@ -1,3 +1,5 @@
+import { useTranslation } from "next-i18next";
+
 interface Mapping<Key, Value>
 {
     [index: string]: Value;
@@ -49,4 +51,20 @@ const setInnerHtml = (id: string, innerHtml: string) =>
     doWithElement(id, (element) => element.innerHTML = innerHtml)
 }
 
-export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml }
+const useTranslationUnescaped = (ns: string = "common"): { t: GetTranslationFunction } =>
+{
+    const { t } = useTranslation(ns)
+    const getTranslationFunction = (i18nKey: string, options: any = {}) =>
+    {
+        options.escapeValue = false;
+        return t(i18nKey, options);
+    }
+    return { t: getTranslationFunction };
+}
+
+interface GetTranslationFunction
+{
+    (i18nKey: string, options?: any): string
+}
+
+export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml, useTranslationUnescaped }

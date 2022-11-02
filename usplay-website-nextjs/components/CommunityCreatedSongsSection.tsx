@@ -1,4 +1,4 @@
-import { useTranslation } from "next-i18next";
+import { useTranslationUnescaped } from "../lib/utils";
 import { T } from "./T";
 import WaveBackground from "./WaveBackground"
 
@@ -16,7 +16,7 @@ const SingIdeaEntry = (props: {title: string, image: string}) =>
 
 const CommunityCreatedSongsSection = () => {
 
-    const { t } = useTranslation("common")
+    const { t } = useTranslationUnescaped("common")
 
     return <>
         <div id="community-created-songs">

@@ -1,14 +1,13 @@
 import ImageCarousel from "./ImageCarousel"
 import Typewriter from "typewriter-effect"
 import SocialMediaLinks from "./SocialMediaLinks"
-import { useTranslation } from "next-i18next"
 import { useEffect } from "react"
-import { setInnerHtml } from "../lib/utils"
+import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
 
 const IntroSection = () =>
 {
-    const { t } = useTranslation("common")
+    const { t } = useTranslationUnescaped("common")
 
     const typewriterTexts = [
         t("introSection_typewriterText_1"),
@@ -18,11 +17,13 @@ const IntroSection = () =>
     
     const wikiName = t("introSection_wikiName");
     const discordName = t("introSection_discordName");
+    const faqName = t("introSection_faqName");
     useEffect(() => 
     {
-        setInnerHtml('wikiAndDiscordLink', t("introSection_wikiAndDiscord", {
+        setInnerHtml('introSection_documentationAndHelpLinks', t("introSection_documentationAndHelpLinks", {
             "wikiLink": `<a href='https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps'>${wikiName}</a>`,
             "discordLink": `<a href='https://discord.gg/PAUJFKCGbb'>${discordName}</a>`,
+            "faqLink": `<a href='https://github.com/UltraStar-Deluxe/Play/wiki/Frequently-Asked-Questions-(FAQ)'>${faqName}</a>`,
         }))
     })
 
@@ -35,11 +36,11 @@ const IntroSection = () =>
                     <div className="mb-5 mb-lg-0 text-center text-lg-start">
                         <h1 className="lh-1 mb-3 font-alt"><T i18nKey="introSection_title" /></h1>
                         <div className="lead text-muted" style={{marginBottom: '1rem'}}>
-                            <T i18nKey="introSection_typewriterText_prefix" /><span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
+                            <T i18nKey="introSection_typewriterText_prefix" />&nbsp;<span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
                         </div>
                         <p className="lead text-muted"><T i18nKey="introSection_p_1" /></p>
                         <p className="lead text-muted"><T i18nKey="introSection_p_2" /></p>
-                        <p id="wikiAndDiscordLink" className="lead text-muted">{ /* content is set in useEffect */ }</p>
+                        <p id="introSection_documentationAndHelpLinks" className="lead text-muted">{ /* content is set in useEffect */ }</p>
 
                         <div className="lead text-muted mb-5"><T i18nKey="introSection_follow_prefix" /><SocialMediaLinks /></div>
 

@@ -57,8 +57,9 @@ introSection_typewriterText_1: deine Lieblingslieder singen?
 introSection_typewriterText_2: deine Freunde herausfordern?
 introSection_typewriterText_3: dich wie ein Superstar fühlen?
 introSection_typewriterText_prefix: Du willst
-introSection_wikiAndDiscord: Schau ins {{wikiLink}} um loszulegen oder bei {{discordLink}} für Hilfe.
+introSection_documentationAndHelpLinks: Schau ins {{wikiLink}} um loszulegen, in die {{faqLink}} für häufige Fragen, oder bei {{discordLink}} für Hilfe.
 introSection_wikiName: Wiki
+introSection_faqName: FAQ
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community

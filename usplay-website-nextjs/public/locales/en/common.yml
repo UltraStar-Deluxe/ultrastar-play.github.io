@@ -57,9 +57,10 @@ introSection_title: Enjoy a Fun Singing Party!
 introSection_typewriterText_1: sing your favorite songs?
 introSection_typewriterText_2: challenge your friends?
 introSection_typewriterText_3: feel like a superstar?
-introSection_typewriterText_prefix: Want to 
-introSection_wikiAndDiscord: Checkout the {{wikiLink}} to get started or {{discordLink}} for help.
+introSection_typewriterText_prefix: Want to
+introSection_documentationAndHelpLinks: Checkout the {{wikiLink}} to get started, our {{faqLink}} for frequent question, or {{discordLink}} for help.
 introSection_wikiName: wiki
+introSection_faqName: FAQ
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community

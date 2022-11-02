@@ -1,12 +1,11 @@
-import { useTranslation } from "next-i18next"
 import { useEffect } from "react"
-import { setInnerHtml } from "../lib/utils"
+import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
 import WaveBackground from "./WaveBackground"
 
 const SongEditorSection = () =>
 {
-    const { t } = useTranslation("common")
+    const { t } = useTranslationUnescaped("common")
 
     const videoName = t("songEditorSection_furtherDocumentation_video");
     const documentationName = t("songEditorSection_furtherDocumentation_documentation");
