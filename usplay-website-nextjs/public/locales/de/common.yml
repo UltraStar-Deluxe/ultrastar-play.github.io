@@ -116,3 +116,7 @@ songEditorSection_featureList_10: "&hellip;und vieles mehr!"
 songEditorSection_furtherDocumentation: Schau dir das {{videoLink}} an oder in die {{documentationLink}} für weitere Infos.
 songEditorSection_furtherDocumentation_video: Video
 songEditorSection_furtherDocumentation_documentation: Dokumentation
+newsletterSection_title: Hole dir den Newsletter!
+newsletterSection_subtitle: Verpasse nicht die <gradient>Kickstarter</gradient> Kampagne.
+newsletterSection_email_hint: E-Mail-Adresse
+newsletterSection_submit: JETZT ABONNIEREN

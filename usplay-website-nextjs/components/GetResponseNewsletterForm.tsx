@@ -1,6 +1,7 @@
 import { useEffect } from "react";
-import { getVerticalScrollPercentage, tryParseInt } from "../lib/utils";
+import { getVerticalScrollPercentage, tryParseInt, useTranslationUnescaped } from "../lib/utils";
 import { getCookie, setCookie } from "../lib/cookieUtils";
+import { T } from "./T";
 
 let doNotShowFormAgain = false;
 
@@ -55,6 +56,8 @@ const onFormSubmit = () =>
 
 const GetResponseNewsletterForm = () =>
 {
+    const { t } = useTranslationUnescaped()
+
     useEffect(() => 
     {
         if (typeof window !== "undefined"
@@ -98,18 +101,14 @@ const GetResponseNewsletterForm = () =>
         </div>
 
         {/* Title and subtitle */}
-        <h3 className="bold font-alt align-self-center">
-            Get the Newsletter!
-        </h3>
-        <h5 className="align-self-center mb-3">
-            Don&apos;t miss our <span className="text-gradient bold">Kickstarter</span> campaign.
-        </h5>
+        <h3 className="bold font-alt align-self-center"><T i18nKey="newsletterSection_title" /></h3>
+        <h5 className="align-self-center mb-3"><T i18nKey="newsletterSection_subtitle" /></h5>
 
         {/* Email field (required) */}
-        <input className="mb-3" type="text" name="email" placeholder="Email address" />
+        <input className="mb-3" type="text" name="email" placeholder={ t("newsletterSection_email_hint") } />
 
         {/* Subscriber button */}
-        <input className="btn btn-primary" type="submit" value="SUBSCRIBE NOW"/>
+        <input className="btn btn-primary" type="submit" value={ t("newsletterSection_submit") }/>
 
         {/* Hidden fields */}
         {/* List token (get the token at: https://app.getresponse.com/campaign_list.html) */}
