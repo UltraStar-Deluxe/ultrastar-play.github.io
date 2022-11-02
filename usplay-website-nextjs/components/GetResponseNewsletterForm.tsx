@@ -94,7 +94,7 @@ const GetResponseNewsletterForm = () =>
 
     return <form id="getResponseNewsletterForm" action="https://app.getresponse.com/add_subscriber.html" acceptCharset="utf-8" method="post" target="_blank">
         {/* Close button */}
-        <div className="bi bi-x-square align-self-end" onClick={closeForm}>
+        <div className="closeButton bi bi-x-square align-self-end" onClick={closeForm}>
         </div>
 
         {/* Title and subtitle */}

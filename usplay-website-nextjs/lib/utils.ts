@@ -57,7 +57,13 @@ const useTranslationUnescaped = (ns: string = "common"): { t: GetTranslationFunc
     const getTranslationFunction = (i18nKey: string, options: any = {}) =>
     {
         options.escapeValue = false;
-        return t(i18nKey, options);
+        const rawTranslation = t(i18nKey, options)
+        // Apply same replacements of T.tsx "components" attribute
+        return rawTranslation
+            .replaceAll("<gradient>", `<span class="text-gradient bold" />`)
+            .replaceAll("</gradient>", `</span>`)
+            .replaceAll("<emphasize>", `<span class="emphasize" />`)
+            .replaceAll("</emphasize>", `</span>`)
     }
     return { t: getTranslationFunction };
 }

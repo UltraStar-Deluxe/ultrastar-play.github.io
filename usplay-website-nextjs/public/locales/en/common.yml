@@ -78,6 +78,19 @@ navigationSection_features_songEditor: Song Editor
 navigationSection_features: Features
 navigationSection_home: Home
 navigationSection_privacyPolicy: Privacy Policy
+openSourceSection_title: Open Source - Made with Unity
+openSourceSection_p_getInvolved: Make this <gradient>YOUR GAME</gradient> as well!<br /> UltraStar&nbsp;Play is a free and open source project that belongs to everyone. <gradient>Get involved</gradient>, add styles, ideas, translations, or features on {{githubLink}}.
+openSourceSection_whyOpenSource_title: Why Open Source?
+openSourceSection_whyOpenSource_p_1: Imagine that you would buy another singing game for your current console, only to find that the vendor shuts down the online features, or you loose your song collection when changing the device.
+openSourceSection_whyOpenSource_p_2: This won&apos;t happen with UltraStar&nbsp;Play because it can <gradient>evolve with the future</gradient> as long as it has a contributing community behind it.
+openSourceSection_madeWithUnity_title: Made with Unity
+openSourceSection_madeWithUnity_p_1: UltraStar&nbsp;Play is built on a <gradient>professional game engine</gradient> and modern tools to provide the <gradient>best experience for developers and players</gradient>.
+openSourceSection_madeWithUnity_p_2: More than 50% of the world&apos;s video games are {{madeWithUnityLink}}. A <gradient>strong foundation</gradient> for UltraStar&nbsp;Play that can grow with new tools and platforms.
+openSourceSection_madeWithUnity_name: made with Unity
+openSourceSection_beyondThisGame_title: Beyond UltraStar&nbsp;Play
+openSourceSection_beyondThisGame_p_1: Open source software does not only implement a single game or solution, it can also be the <gradient>fuel for other projects</gradient>.
+openSourceSection_beyondThisGame_p_2: People can use UltraStar&nbsp;Play to <gradient>learn on an example</gradient>. And it has grown its own set of libraries, which are <gradient>shared with the community</gradient>, just like previous open source projects are <gradient>empowering UltraStar&nbsp;Play</gradient>.
+openSourceSection_beyondThisGame_p_3: For instance, UltraStar&nbsp;Play is mentioned in a small paper called {{paperLink}}. That&apos;s possible <gradient>#OnlyWithOpenSource</gradient>.
 plannedFeaturesSection_title: More to Come
 plannedFeaturesSection_plannedFeature_1: Party modes
 plannedFeaturesSection_plannedFeature_2: Medleys

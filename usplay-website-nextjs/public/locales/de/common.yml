@@ -11,7 +11,7 @@ communityCreatedSongs_regional: Singe Dialekt aus deiner Region
 crossPlatformSection_title: Wähle deine Plattform
 crossPlatformSection_p_1: UltraStar&nbsp;Play ist eine cross-platform Anwendung. Das Spiel läuft auf den gängigen <emphasize>DESKTOP UND MOBILEN</emphasize> Plattformen.
 crossPlatformSection_p_2: Es gibt heutzutage viele verschiedene Geräte und Betriebssysteme. Die meisten Gesangsspiele konzentrieren sich auf nur eine dieser Plattformen.
-crossPlatformSection_p_3: Das bedeuted, wenn man die Plattform wechselt, dann verliert man meist auch seine Songs. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
+crossPlatformSection_p_3: Das bedeuted, wenn man die Plattform wechselt, dann verliert man meist auch seine Songsammlung. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
 crossPlatformSection_p_4: Zum Glück ist dies bei UltraStar&nbsp;Play <emphasize>KEIN&nbsp;PROBLEM</emphasize>, denn es kann sich mit deinem Musikgeschmack entwickeln und der Vielzahl heutiger Geräte.
 crossPlatformSection_p_5: Sogar noch besser - du kannst <emphasize>PLATTFORMEN MISCHEN</emphasize>. Zum Beispiel kannst du das Hauptspiel auf einem iOS Tablet starten und Android Smartphones als Mikrofon verbinden mittels der Companion&nbsp;App.
 downloadCallToActionSection_title: Vorabversion Herunterladen
@@ -77,14 +77,27 @@ navigationSection_features_songEditor: Song-Editor
 navigationSection_features: Features
 navigationSection_home: Home
 navigationSection_privacyPolicy: Datenschutzerklärung
+openSourceSection_title: Open-Source - Made with Unity
+openSourceSection_p_getInvolved: Mach dies auch zu <gradient>DEINEM SPIEL</gradient>!<br /> UltraStar&nbsp;Play ist ein open-source Projekt, das jedem gehört. <gradient>Mach mit</gradient>, erstelle Styles, bring dein Ideen ein, übersetze das Spiel in neue Sprachen, oder entwickle neue Features auf {{githubLink}}.
+openSourceSection_whyOpenSource_title: Warum Open-Source?
+openSourceSection_whyOpenSource_p_1: Stell dir vor du kaufst ein neues Gesangsspiel für deine Konsole, nur um festzustellen, dass der Hersteller die Onlinedienste beendet. Oder dass du deine Songsammlung verlierst, wenn du das Gerät wechselst.
+openSourceSection_whyOpenSource_p_2: Dies wird mit UltraStar&nbsp;Play nicht geschehen, denn es kann <gradient>mit der Zeit gehen</gradient>, solange es eine engagierte Community hinter sich hat.
+openSourceSection_madeWithUnity_title: Made with Unity
+openSourceSection_madeWithUnity_p_1: UltraStar&nbsp;Play baut auf eine <gradient>professionelle Game Engine</gradient> und moderne Tools, um <gradient>das Beste für Entwickler und Nutzer</gradient> zu bieten.
+openSourceSection_madeWithUnity_p_2: Mehr als 50% der weltweiten Videospiele werden {{madeWithUnityLink}}. Eine <gradient>solide Basis</gradient> für UltraStar&nbsp;Play, das so mit neuen Tools und Plattformen Schritthalten kann.
+openSourceSection_madeWithUnity_name: mit Unity gemacht
+openSourceSection_beyondThisGame_title: Jenseits von UltraStar&nbsp;Play
+openSourceSection_beyondThisGame_p_1: Open-source Software implementiert nicht nur ein einzelnes Spiel bzw. eine Lösung, sondern es kann auch der <gradient>Antrieb für andere Projekte</gradient> sein.
+openSourceSection_beyondThisGame_p_2: Entwickler können anhand von UltraStar&nbsp;Play <gradient>am Beispiel Lernen</gradient>. Und es hat bereits seine eigenen Tools hervorgebracht, die <gradient>mit der Community geteilt</gradient> werden, genauso wie zuvor andere open-source Projekte <gradient>UltraStar&nbsp;Play ermöglicht haben</gradient>.
+openSourceSection_beyondThisGame_p_3: Zum Beispiel wird UltraStar&nbsp;Play erwähnt in einem kleinen Paper namens {{paperLink}}. So etwas ist möglich <gradient>#OnlyWithOpenSource</gradient>.
 plannedFeaturesSection_title: Mehr in Kürze
 plannedFeaturesSection_plannedFeature_1: Verschiedene Partymodi
 plannedFeaturesSection_plannedFeature_2: Medleys
-plannedFeaturesSection_plannedFeature_3: Warteschlange für Songs
+plannedFeaturesSection_plannedFeature_3: Songwarteschlange
 plannedFeaturesSection_plannedFeature_4: Smartphone-Steuerung
 plannedFeaturesSection_plannedFeature_5: Online Multiplayer
 plannedFeaturesSection_plannedFeature_6: Benutzerdefinierte Themes
-plannedFeaturesSection_detail: UltraStar&nbsp;Play macht schon jetzt Spaß.<br /> Trotzdem, es gibt noch viele weitere geplante Features und TODOs. Folge uns bei Social Media, um die Reise von UltraStar&nbsp;Play zum nächsten Partykracher zu begleiten.
+plannedFeaturesSection_detail: "UltraStar&nbsp;Play macht schon jetzt Spaß.<br /> Trotzdem: Es gibt noch viele weitere geplante Features und TODOs. Folge uns bei Social Media, um die Reise von UltraStar&nbsp;Play zum nächsten Partykracher zu begleiten."
 songEditorSection_title: Schräger Musikgeschmack?<br /><gradient>Kein&nbsp;Problem!</gradient>
 songEditorSection_subtitle: Erstelle deine eigenen Songs
 songEditorSection_p_1: Der integrierte <gradient>SONG-EDITOR</gradient> macht es einfach eine Version zum Mitsingen zu erstellen von jedem beliebigen Song.
