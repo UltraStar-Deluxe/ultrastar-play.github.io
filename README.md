@@ -1,8 +1,7 @@
 # UltraStar Play GitHub Pages
 This website is created using [nextjs](https://nextjs.org/).
 
-The source are in `usplay-website-nextjs`.
-After installing [nodejs](https://nodejs.org/), you use the following commands inside the nextjs project folder:
+After installing [nodejs](https://nodejs.org/), you use the following commands:
 
 - npm install
     - Install all required packages
@@ -12,5 +11,5 @@ After installing [nodejs](https://nodejs.org/), you use the following commands i
     - Run code style checks and compile the website for deployment.
 - npm export
     - Create a static website from the last created build.
-    - The output of this command can be found in the `out` folder. The content of the `out` folder is the website that has been deployed to GitHub Pages.
+    - The output of this command can be found in the `out` folder. The content of the `out` folder is the website that will be deployed to GitHub Pages.
     - You can test the generated static website by deploying it locally using `npx http-server ./out`
