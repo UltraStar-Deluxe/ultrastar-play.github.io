@@ -64,6 +64,12 @@ const useTranslationUnescaped = (ns: string = "common"): { t: GetTranslationFunc
             .replaceAll("</gradient>", `</span>`)
             .replaceAll("<emphasize>", `<span class="emphasize" />`)
             .replaceAll("</emphasize>", `</span>`)
+            .replaceAll("&nbsp;", " ")
+            .replaceAll("&amp;", "&")
+            .replaceAll("&lt;", "<")
+            .replaceAll("&gt;", ">")
+            .replaceAll("&quot;", "\"")
+            .replaceAll("&apos;", "'")
     }
     return { t: getTranslationFunction };
 }
