@@ -4,7 +4,7 @@ const SocialMediaLinks = () => (
     <a href="https://discord.gg/PAUJFKCGbb" className="mx-2">
         <i className="bi bi-discord" aria-hidden="true"></i>
     </a>
-    <a href="https://youtube.com/@ultrastar-play" className="mx-2">
+    <a href="https://youtube.com/@ultrastar_play" className="mx-2">
         <i className="bi bi-youtube" aria-hidden="true"></i>
     </a>
     <a href="https://twitter.com/UltraStar_Play" className="mx-2">
