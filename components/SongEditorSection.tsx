@@ -1,3 +1,4 @@
+import Image from "next/image"
 import { useEffect } from "react"
 import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
@@ -24,8 +25,10 @@ const SongEditorSection = () =>
         <div className="container px-5" style={{marginTop: '-80px'}}>
             <div className="row align-items-center justify-content-center justify-content-lg-between">
                 <div className="col-lg-1"></div>
-                <div className="col-12 col-lg-3">
-                    <img src="/img/musician-664432.jpg" style={{maxWidth: '400px', maxHeight: '100%', width: '100%', borderRadius: '200px', overflow: 'hidden'}}/>
+                <div className="col-12 col-lg-3 align-self-stretch">
+                    <div className="image-container" style={{width: "100%", height: "100%", borderRadius: "200px", overflow: "hidden"}}>
+                        <Image src="/img/musician-664432.jpg" alt="musician" layout="fill" objectFit="cover" />
+                    </div>
                 </div>
                 <div className="col col-lg-8">
                     <div className="display-3 font-alt"><T i18nKey="songEditorSection_title" /></div>
@@ -67,7 +70,9 @@ const SongEditorSection = () =>
                     </div>
                 </div>
                 <div className="col-4 d-none d-lg-block">
-                    <img src="img/female-1299085.svg" style={{maxWidth: "100%", maxHeight: "100%", width: "100%", height: "100%"}}/>
+                    <div className="image-container align-self-stretch" style={{maxWidth: "100%", maxHeight: "100%", width: "100%", height: "100%", display: 'table'}}>
+                        <Image src="img/female-1299085.svg" alt="woman singing" layout="fill" />
+                    </div>
                 </div>
             </div>
 

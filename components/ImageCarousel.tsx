@@ -1,3 +1,5 @@
+import Image from "next/image";
+
 const slides = [
     "img/carousel/DevicesWithLogo-resized.png",
     "img/carousel/singing-resized.jpg?version=2",
@@ -14,11 +16,11 @@ const SlideIndicator = (props: {index: number}) =>
 
 const SlideImage = (props: {index: number, path: string}) =>
 {
-    let width = 600;
-    let height = width * 0.77;
     return <div className={`carousel-item ${props.index === 0 ? 'active' : ''}`} style={{textAlign: 'center'}}>
-               <img src={props.path} style={{display: 'inline-block'}} />
-           </div>
+                <div className="image-container">
+                    <Image src={props.path} alt="" layout="fill" objectFit="contain" />
+                </div>
+            </div>
 }
 
 const ImageCarousel = () => (

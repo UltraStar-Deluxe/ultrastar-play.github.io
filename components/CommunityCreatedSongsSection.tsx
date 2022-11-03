@@ -1,3 +1,4 @@
+import Image from "next/image";
 import { useTranslationUnescaped } from "../lib/utils";
 import { T } from "./T";
 import WaveBackground from "./WaveBackground"
@@ -9,7 +10,9 @@ const SingIdeaEntry = (props: {title: string, image: string}) =>
     return (
 <div className="col col-md-4 d-flex flex-column justify-content-between align-items-center pb-5">
     <div className="fs-3 text-white font-alt">{props.title}</div>
-    <img className="circle-image-cropped" style={{height: size, width: size}} src={props.image} />
+    <div className="image-container circle-image-cropped" style={{position: "relative"}}>
+        <Image src={props.image} alt="" layout="fill" />
+    </div>
 </div>
 )
 }
