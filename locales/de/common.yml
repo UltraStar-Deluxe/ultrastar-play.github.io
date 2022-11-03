@@ -10,8 +10,8 @@ communityCreatedSongs_title: Singe deine Lieblingslieder!
 communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
 crossPlatformSection_p_1: UltraStar&nbsp;Play ist eine cross-platform Anwendung. Das Spiel läuft auf den gängigen <emphasize>DESKTOP UND MOBILEN</emphasize> Plattformen.
 crossPlatformSection_p_2: Es gibt heutzutage viele verschiedene Geräte und Betriebssysteme. Die meisten Gesangsspiele konzentrieren sich auf nur eine dieser Plattformen.
-crossPlatformSection_p_3: Das bedeuted, wenn man die Plattform wechselt, dann verliert man meist auch seine Songsammlung. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
-crossPlatformSection_p_4: Zum Glück ist dies bei UltraStar&nbsp;Play <emphasize>KEIN&nbsp;PROBLEM</emphasize>, denn es kann sich mit deinem Musikgeschmack entwickeln und der Vielzahl heutiger Geräte.
+crossPlatformSection_p_3: Wenn man die Plattform wechselt, dann verliert man meist auch seine Songsammlung. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
+crossPlatformSection_p_4: Zum Glück ist dies bei UltraStar&nbsp;Play <emphasize>KEIN&nbsp;PROBLEM</emphasize>, denn es kann sich mit deinem Musikgeschmack entwickeln und mit der Vielzahl heutiger Geräte Schritt halten.
 crossPlatformSection_p_5: Sogar noch besser - du kannst <emphasize>PLATTFORMEN MISCHEN</emphasize>. Zum Beispiel kannst du das Hauptspiel auf einem iOS Tablet starten und Android Smartphones als Mikrofon verbinden mittels der Companion&nbsp;App.
 crossPlatformSection_title: Wähle deine Plattform
 downloadCallToActionSection_title: Vorabversion Herunterladen
@@ -89,7 +89,7 @@ openSourceSection_madeWithUnity_name: mit Unity gemacht
 openSourceSection_madeWithUnity_p_1: UltraStar&nbsp;Play baut auf eine <gradient>professionelle Game Engine</gradient> und moderne Tools, um <gradient>das Beste für Entwickler und Nutzer</gradient> zu bieten.
 openSourceSection_madeWithUnity_p_2: Mehr als 50% der weltweiten Videospiele werden {{madeWithUnityLink}}. Eine <gradient>solide Basis</gradient> für UltraStar&nbsp;Play, das so mit neuen Tools und Plattformen Schritthalten kann.
 openSourceSection_madeWithUnity_title: Made with Unity
-openSourceSection_p_getInvolved: Mach dies auch zu <gradient>DEINEM SPIEL</gradient>!<br /> UltraStar&nbsp;Play ist ein open-source Projekt, das jedem gehört. <gradient>Mach mit</gradient>, erstelle Styles, bring dein Ideen ein, übersetze das Spiel in neue Sprachen, oder entwickle neue Features auf {{githubLink}}.
+openSourceSection_p_getInvolved: Mach dies auch zu <gradient>DEINEM SPIEL</gradient>!<br /> UltraStar&nbsp;Play ist ein open-source Projekt, das jedem gehört. <gradient>Mach mit</gradient>, erstelle Styles, bring deine Ideen ein, übersetze das Spiel in neue Sprachen, oder entwickle neue Features auf {{githubLink}}.
 openSourceSection_title: Open-Source - Made with Unity
 openSourceSection_whyOpenSource_p_1: Stell dir vor du kaufst ein neues Gesangsspiel für deine Konsole, nur um festzustellen, dass der Hersteller die Onlinedienste beendet. Oder dass du deine Songsammlung verlierst, wenn du das Gerät wechselst.
 openSourceSection_whyOpenSource_p_2: Dies wird mit UltraStar&nbsp;Play nicht geschehen, denn es kann <gradient>mit der Zeit gehen</gradient>, solange es eine engagierte Community hinter sich hat.
@@ -109,7 +109,7 @@ songEditorSection_featureList_2: Noten verändern mittels Drag-and-drop
 songEditorSection_featureList_3: Lyrics bearbeiten
 songEditorSection_featureList_4: Videoversatz einstellen
 songEditorSection_featureList_5: Songeigenschaften ändern
-songEditorSection_featureList_6: Kopieren&amp;Einfügen von Noten
+songEditorSection_featureList_6: Kopieren&Einfügen von Noten
 songEditorSection_featureList_7: MIDI-Dateien importieren
 songEditorSection_featureList_8: Noten den Spielern zuweisen
 songEditorSection_featureList_9: Qualitätshinweise und Warnungen
