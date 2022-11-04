@@ -28,8 +28,11 @@ const showForm = () =>
     doNotShowFormAgain = true;
 
     let newsletterForm = getForm();
-    newsletterForm.classList.add('visible');
-    newsletterForm.classList.remove('invisible');
+    if (newsletterForm)
+    {
+        newsletterForm.classList.add('visible');
+        newsletterForm.classList.remove('invisible');
+    }
 }
 
 const closeForm = () => 
@@ -44,8 +47,11 @@ const closeForm = () =>
 const hideForm = () =>
 {
     let newsletterForm = getForm();
-    newsletterForm.classList.remove('visible');
-    newsletterForm.classList.add('invisible');
+    if (newsletterForm)
+    {
+        newsletterForm.classList.remove('visible');
+        newsletterForm.classList.add('invisible');
+    }
 }
 
 const onFormSubmit = () =>
@@ -91,7 +97,10 @@ const GetResponseNewsletterForm = () =>
             }
 
             let newsletterForm = getForm();
-            newsletterForm.onsubmit = onFormSubmit;
+            if (newsletterForm)
+            {
+                newsletterForm.onsubmit = onFormSubmit;
+            }
         }
     })
 
