@@ -1,2 +1,2 @@
-import { Redirect } from '../lib/redirect'
-export default Redirect
+import { DefaultRedirect } from '../lib/redirect'
+export default DefaultRedirect
