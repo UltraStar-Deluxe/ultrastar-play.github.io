@@ -13,6 +13,7 @@ import OpenSourceSection from '../../components/OpenSourceSection'
 import { makeStaticProps } from '../../lib/getStatic'
 import { getStaticPaths } from '../../lib/getStatic'
 import GetResponseNewsletterForm from '../../components/GetResponseNewsletterForm'
+import KickstarterSection from '../../components/KickstarterSection'
 
 // Load translations (see https://github.com/i18next/next-language-detector/tree/main/examples/basic)
 const getStaticProps = makeStaticProps(['common'])
@@ -25,6 +26,7 @@ const Home: NextPage = () =>
 
         <>
             <NavigationSection />
+            <KickstarterSection />
             <IntroSection />
             <FeaturesSection />
             <CommunityCreatedSongsSection />

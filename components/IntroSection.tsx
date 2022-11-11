@@ -28,7 +28,7 @@ const IntroSection = () =>
     })
 
     return <>
-    <section className="masthead">
+    <section className="">
         <div className="container">
             <div className="row align-items-center">
                 <div className="col-lg-6">

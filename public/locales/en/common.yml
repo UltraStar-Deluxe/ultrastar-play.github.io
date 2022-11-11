@@ -67,6 +67,7 @@ introSection_typewriterText_2: challenge your friends?
 introSection_typewriterText_3: feel like a superstar?
 introSection_typewriterText_prefix: Want to
 introSection_wikiName: wiki
+kickstarterSection_title: Now on {{kickstarterLink}}!
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community
@@ -80,7 +81,7 @@ navigationSection_home: Home
 navigationSection_privacyPolicy: Privacy Policy
 newsletterSection_email_hint: Email address
 newsletterSection_submit: SUBSCRIBE NOW
-newsletterSection_subtitle: Don&apos;t miss our <gradient>Kickstarter</gradient> campaign.
+newsletterSection_subtitle: Don&apos;t miss any more updates.
 newsletterSection_title: Get the Newsletter!
 openSourceSection_beyondThisGame_p_1: Open source software does not only implement a single game or solution, it can also be the <gradient>fuel for other projects</gradient>.
 openSourceSection_beyondThisGame_p_2: People can use UltraStar&nbsp;Play to <gradient>learn by example</gradient>. And it has grown its own set of libraries, which are <gradient>shared with the community</gradient>, just like previous open source projects are <gradient>empowering UltraStar&nbsp;Play</gradient>.
@@ -95,14 +96,14 @@ openSourceSection_title: Open Source - Made with Unity
 openSourceSection_whyOpenSource_p_1: Imagine that you would buy another singing game for your current console, only to find that the vendor shuts down the online features, or you lose your song collection when changing the device.
 openSourceSection_whyOpenSource_p_2: This won&apos;t happen with UltraStar&nbsp;Play because it can <gradient>evolve with the future</gradient> as long as it has a contributing community behind it.
 openSourceSection_whyOpenSource_title: Why Open Source?
-plannedFeaturesSection_detail: UltraStar&nbsp;Play is already fun to play.<br /> Nonetheless, there are more features planned and more work to do. Join our social media channels to follow the journey of UltraStar&nbsp;Play becoming the next party hit everyone loves.
+plannedFeaturesSection_detail: Support now the Kickstarter campaign so that we can get the best out of the project for you. It can only succeed with your help! Go to {{kickstarterLink}}.
 plannedFeaturesSection_plannedFeature_1: Party modes
 plannedFeaturesSection_plannedFeature_2: Medleys
 plannedFeaturesSection_plannedFeature_3: Song queue
 plannedFeaturesSection_plannedFeature_4: Smartphone Control
 plannedFeaturesSection_plannedFeature_5: Online multiplayer
-plannedFeaturesSection_plannedFeature_6: Downloadable themes
-plannedFeaturesSection_title: More to Come
+plannedFeaturesSection_plannedFeature_6: New themes
+plannedFeaturesSection_title: With Your Support on Kickstarter
 songEditorSection_afterFeatureList: With all these features, creating a sing-along version for an UltraStar game <gradient>has never been easier.</gradient>
 songEditorSection_featureList_1: Add notes by singing or button tapping
 songEditorSection_featureList_10: "&hellip;and much more!"

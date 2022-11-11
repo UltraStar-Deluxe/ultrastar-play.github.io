@@ -1,7 +1,17 @@
+import { useEffect } from "react"
+import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
 
 const PlannedFeaturesSection = () =>
 {
+    const { t } = useTranslationUnescaped()
+    const kickstarterName = "Kickstarter"
+    useEffect(() => 
+    {
+        setInnerHtml('plannedFeaturesSection_detail', t("plannedFeaturesSection_detail", {
+            "kickstarterLink": `<a href='https://www.kickstarter.com/projects/anst/ultrastar-play'>${kickstarterName}</a>`,
+        }))
+    })
 
     return <>
     <section id="planned-features" className="planned-features-background py-5">
@@ -18,8 +28,7 @@ const PlannedFeaturesSection = () =>
                     <li>&hellip;</li>
                 </ul>
 
-                <p className="text-white fs-4 font-alt" style={{background: 'linear-gradient(90deg, #00000000, #00000099, #00000000)'}}>
-                    <T i18nKey="plannedFeaturesSection_detail" /></p>
+                <p id="plannedFeaturesSection_detail" className="text-white fs-4 font-alt" style={{background: 'linear-gradient(90deg, #00000000, #00000099, #00000000)'}}></p>
             </div>
         </div>
     </section>

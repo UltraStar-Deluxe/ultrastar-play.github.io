@@ -22,9 +22,9 @@ const CrossPlatformSection = () => (
             <hr className="bg-light mx-5"/>
 
             <div className="col-12 col-md-4">
-                <div className="image-container" style={{width: '600px%', height: '100%', position: 'relative'}}>
+                <div className="image-container" style={{height: '100%', position: 'relative'}}>
                     <Image src="img/platforms/svg/platforms-circle-mic-icon-center.svg" alt="platforms" layout="fill" />
-                </div>                
+                </div>
             </div>
             <div className="col-12 col-md-6 text-white lead">
                 <p><T i18nKey="crossPlatformSection_p_1" /></p>

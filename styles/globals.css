@@ -94,6 +94,17 @@
     background-repeat: no-repeat;
 }
 
+.blue-to-darkblue-background {
+    background: url('/img/blue-to-darkblue.jpg');
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.kickstarter-link {
+    text-decoration: none;
+}
+
 .Typewriter {
     display: inline;
 }
