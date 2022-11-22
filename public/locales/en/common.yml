@@ -55,6 +55,7 @@ featuresSection_imagineList_3: Create the songs you want, no matter your taste i
 featuresSection_imagineList_4: Use your smartphone as mic, no need to buy additional equipment
 featuresSection_imagineList_5: Start the game anywhere, right from your smartphone
 featuresSection_imagineList_title: Imagine what it would be like to...
+footerSection_privacyPolicy: Privacy Policy
 introSection_discordName: Discord
 introSection_documentationAndHelpLinks: Check out the {{wikiLink}} to get started, our {{faqLink}} for frequent question, or {{discordLink}} for help.
 introSection_faqName: FAQ
@@ -78,7 +79,7 @@ navigationSection_features_plannedFeatures: Planned Features
 navigationSection_features_songEditor: Song Editor
 navigationSection_features: Features
 navigationSection_home: Home
-navigationSection_privacyPolicy: Privacy Policy
+navigationSection_pressKit: Press Kit
 newsletterSection_email_hint: Email address
 newsletterSection_submit: SUBSCRIBE NOW
 newsletterSection_subtitle: Don&apos;t miss any more updates.

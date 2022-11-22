@@ -1,43 +1,5 @@
 @import "bootstrap-new-age-v6-0-0.css";
 
-#getResponseNewsletterForm {
-    position: fixed;
-    bottom: 0;
-    right: 0;
-    width: 100%;
-    max-width: 400px;
-    padding: 15px;
-    background-color: #fff;
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    box-shadow: 0px 0px 20px grey;
-    z-index: 10;
-
-    /* Show by scale-in animation */
-    scale: 0;
-    transition-property: scale;
-    transition-duration: 0.5s;
-}
-
-#getResponseNewsletterForm.visible {
-    scale: 1;
-}
-
-.closeButton:hover {
-    color: red;
-}
-
-@keyframes example {
-    from {scale: 0;}
-    to {scale: 1;}
-}
-
-#getResponseNewsletterForm input {
-    width: 100%;
-}
-
 .image-container {
     /* nextjs/image requires the image to be placed in a container with "position: relative",
        to define a dynamic image size */
