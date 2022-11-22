@@ -54,6 +54,7 @@ featuresSection_imagineList_3: Die Songs zu erstellen, die DU möchtest
 featuresSection_imagineList_4: Dein Smartphone als Mikrofon zu benutzen
 featuresSection_imagineList_5: Überall loszulegen, direkt auf deinem Smartphone zu spielen
 featuresSection_imagineList_title: Stell dir vor, wie es wäre...
+footerSection_privacyPolicy: Datenschutzerklärung
 introSection_discordName: Discord
 introSection_documentationAndHelpLinks: Schau ins {{wikiLink}} um loszulegen, in die {{faqLink}} für häufige Fragen, oder bei {{discordLink}} für Hilfe.
 introSection_faqName: FAQ
@@ -77,7 +78,7 @@ navigationSection_features_plannedFeatures: Geplante Features
 navigationSection_features_songEditor: Song-Editor
 navigationSection_features: Features
 navigationSection_home: Home
-navigationSection_privacyPolicy: Datenschutzerklärung
+navigationSection_pressKit: Press Kit
 newsletterSection_email_hint: E-Mail-Adresse
 newsletterSection_submit: JETZT ABONNIEREN
 newsletterSection_subtitle: Verpasse keine Neuerungen mehr.
