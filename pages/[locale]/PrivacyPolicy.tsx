@@ -30,7 +30,7 @@ const PrivacyPolicy: NextPage = () => {
                     {/*---------------------------------------------------------- */}
                     <h1>Privacy Policy for UltraStar&nbsp;Play Project Developers</h1>
 
-                    <p>At UltraStar&nbsp;Play, accessible from usplay.net, one of our main priorities is the privacy of our
+                    <p>At UltraStar&nbsp;Play, accessible from ultrastar-play.com and from official app stores, one of our main priorities is the privacy of our
                         visitors. This Privacy Policy document contains types of information that is collected and
                         recorded by UltraStar&nbsp;Play and how we use it.</p>
 
