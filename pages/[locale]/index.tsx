@@ -10,12 +10,13 @@ import EasyToUseSection from '../../components/EasyToUseSection'
 import FooterSection from '../../components/FooterSection'
 import CrossPlatformSection from '../../components/CrossPlatformSection'
 import OpenSourceSection from '../../components/OpenSourceSection'
-import { makeStaticProps } from '../../lib/getStatic'
-import { getStaticPaths } from '../../lib/getStatic'
 import KickstarterSection from '../../components/KickstarterSection'
 import NewsletterSection from '../../components/NewsletterSection'
+import CookieBanner from '../../components/CookieBanner'
 
 // Load translations (see https://github.com/i18next/next-language-detector/tree/main/examples/basic)
+import { makeStaticProps } from '../../lib/getStatic'
+import { getStaticPaths } from '../../lib/getStatic'
 const getStaticProps = makeStaticProps(['common'])
 export { getStaticPaths, getStaticProps }
 
@@ -38,6 +39,7 @@ const Home: NextPage = () =>
             <DownloadCallToActionSection />
             <NewsletterSection />
             <FooterSection />
+            <CookieBanner />
         </>
 
     )

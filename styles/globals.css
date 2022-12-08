@@ -1,5 +1,14 @@
 @import "bootstrap-new-age-v6-0-0.css";
 
+.cookie-notice-container {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: #000000;
+    z-index: 5;
+}
+
 .image-container {
     /* nextjs/image requires the image to be placed in a container with "position: relative",
        to define a dynamic image size */

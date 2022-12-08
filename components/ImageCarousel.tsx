@@ -28,10 +28,10 @@ const ImageCarousel = () => (
     <div className="col-lg-6">
         <div id="image-carousel" className="carousel carousel-dark slide" data-bs-ride="carousel">
             <div className="carousel-inner">
-                { slides.map(slide => <SlideImage index={slides.indexOf(slide)} path={slide} />) }
+                { slides.map(slide => <SlideImage key={slides.indexOf(slide)} index={slides.indexOf(slide)} path={slide} />) }
             </div>
             <div className="carousel-indicators">
-                { slides.map(slide => <SlideIndicator index={slides.indexOf(slide)} />) }
+                { slides.map(slide => <SlideIndicator key={slides.indexOf(slide)} index={slides.indexOf(slide)} />) }
             </div>
             <button className="carousel-control-prev" type="button" data-bs-target="#image-carousel" data-bs-slide="prev">
                 <span className="carousel-control-prev-icon"></span>

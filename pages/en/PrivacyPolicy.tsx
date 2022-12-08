@@ -1,34 +1,27 @@
 import type { NextPage } from 'next'
-import RedirectLink from '../../components/RedirectLink'
+import BackToHomeNavigationSection from '../../components/BackToHomeNavigationSection';
+import FooterSection from '../../components/FooterSection';
+import { useTranslationUnescaped } from '../../lib/utils';
+
+// Load translations (see https://github.com/i18next/next-language-detector/tree/main/examples/basic)
+import { makeStaticProps } from '../../lib/getStatic'
+const getStaticProps = makeStaticProps(['common'], 'en')
+export { getStaticProps }
 
 const PrivacyPolicy: NextPage = () => {
+    const { t } = useTranslationUnescaped()
+
   return (
 
 <>
-    {/* Navigation */}
-    <nav className="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav"
-        style={{paddingTop: "0.5rem", paddingBottom: "0.5rem"}}>
-        <div className="container px-5">
-            <a className="navbar-brand fw-bold" href="#page-top">UltraStar&nbsp;Play - Privacy Policy</a>
-            <button className="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive"
-                aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">
-                Menu
-                <i className="bi-list"></i>
-            </button>
-            <div className="collapse navbar-collapse" id="navbarResponsive">
-                <ul className="navbar-nav ms-auto me-4 my-3 my-lg-0">
-                    <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="/">Home</RedirectLink></li>
-                </ul>
-            </div>
-        </div>
-    </nav>
-    {/* Basic features section */}
+    <BackToHomeNavigationSection title={ `UltraStar Play - ${t("page_privacyPolicy")}` }/>
+    
     <section className="bg-light">
         <div className="container px-5">
             <div className="row align-items-center justify-content-center justify-content-lg-between">
                 <div className="col-12">
                     {/*---------------------------------------------------------- */}
-                    <h1>Privacy Policy for UltraStar&nbsp;Play Project Developers</h1>
+                    <h1>Privacy Policy for UltraStar&nbsp;Play</h1>
 
                     <p>At UltraStar&nbsp;Play, accessible from ultrastar-play.com and from official app stores, one of our main priorities is the privacy of our
                         visitors. This Privacy Policy document contains types of information that is collected and
@@ -140,6 +133,8 @@ const PrivacyPolicy: NextPage = () => {
             </div>
         </div>
     </section>
+
+    <FooterSection />
 </>
 
   )

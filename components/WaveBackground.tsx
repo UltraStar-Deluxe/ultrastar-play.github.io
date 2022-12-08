@@ -1,7 +1,8 @@
-var waveBackgroundCount = 0;
+import { useId } from "react";
+
 const WaveBackground = (props: { colorFrom: string, colorTo: string, flipX?: boolean, flipY?: boolean }) => 
 {
-    const gradientId = `waveBackground_gradient_${waveBackgroundCount++}`;
+    const gradientId = `waveBackground_gradient_${useId()}`;
 
 return (
 

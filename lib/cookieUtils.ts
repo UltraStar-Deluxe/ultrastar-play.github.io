@@ -1,6 +1,11 @@
 // See https://www.w3schools.com/js/js_cookies.asp
 function setCookie(cookieName: string, cookieValue: string, expiresDays: number)
 {
+    if (typeof document === "undefined" || !document)
+    {
+        return null;
+    }
+    
     const d = new Date();
     d.setTime(d.getTime() + (expiresDays * 24 * 60 * 60 * 1000));
     let expires = "expires=" + d.toUTCString();
@@ -9,6 +14,11 @@ function setCookie(cookieName: string, cookieValue: string, expiresDays: number)
 
 function getCookie(cookieName: string)
 {
+    if (typeof document === "undefined" || !document)
+    {
+        return null;
+    }
+
     let name = cookieName + "=";
     let decodedCookie = decodeURIComponent(document.cookie);
     let ca = decodedCookie.split(';');

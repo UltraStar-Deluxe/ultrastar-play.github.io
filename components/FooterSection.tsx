@@ -7,10 +7,11 @@ const FooterSection = () => (
 <footer className="bg-black text-center py-4">
     <div className="row mx-5 fw-bold text-muted fs-4">
         <div className="col font-alt">
-            UltraStar&nbsp;Play
+            <RedirectLink className="mx-3" href="/">UltraStar&nbsp;Play</RedirectLink>
         </div>
         <div className="col">
-            <RedirectLink href="/PrivacyPolicy"><T i18nKey="footerSection_privacyPolicy" /></RedirectLink>
+            <RedirectLink className="mx-3" href="/PrivacyPolicy"><T i18nKey="page_privacyPolicy" /></RedirectLink>
+            <RedirectLink className="mx-3" href="/LegalNotice"><T i18nKey="page_legalNotice" /></RedirectLink>
         </div>
         <div className="col">
             <SocialMediaLinks />
