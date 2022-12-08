@@ -1,5 +1,6 @@
 button_getCompanionApp: Download Companion&nbsp;App
 button_getUltraStarPlay: Download UltraStar&nbsp;Play
+button_ok: OK
 communityCreatedSongs_currentTopHits: Singe aktuelle Hits
 communityCreatedSongs_event: Singe bei einer Feier oder einem Event
 communityCreatedSongs_filmAndTV: Singe bekannte Lieder aus Film und TV
@@ -8,6 +9,7 @@ communityCreatedSongs_regional: Singe Dialekt aus deiner Region
 communityCreatedSongs_subtitle: Eine große Community hat schon tausende von Songs im UltraStar-Format erstellt.
 communityCreatedSongs_title: Singe deine Lieblingslieder!
 communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
+cookieBanner: Diese Webseite benutzt Cookies. Durch die Nutzung dieser Webseite gehen wir von Ihrem Einverständnis dazu aus.
 crossPlatformSection_p_1: UltraStar&nbsp;Play ist eine cross-platform Anwendung. Das Spiel läuft auf den gängigen <emphasize>DESKTOP- UND MOBILEN</emphasize> Plattformen.
 crossPlatformSection_p_2: Es gibt heutzutage viele verschiedene Geräte und Betriebssysteme. Die meisten Gesangsspiele konzentrieren sich auf nur eine dieser Plattformen.
 crossPlatformSection_p_3: Wenn man die Plattform wechselt, kann man seine Songsammlung meist nicht mitnehmen. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
@@ -54,7 +56,6 @@ featuresSection_imagineList_3: Die Songs zu erstellen, die DU möchtest
 featuresSection_imagineList_4: Dein Smartphone als Mikrofon zu benutzen
 featuresSection_imagineList_5: Überall loszulegen, direkt auf deinem Smartphone zu spielen
 featuresSection_imagineList_title: Stell dir vor, wie es wäre...
-footerSection_privacyPolicy: Datenschutzerklärung
 introSection_discordName: Discord
 introSection_documentationAndHelpLinks: Schau ins {{wikiLink}} um loszulegen, in die {{faqLink}} für häufige Fragen, oder bei {{discordLink}} für Hilfe.
 introSection_faqName: FAQ
@@ -96,6 +97,8 @@ openSourceSection_title: Open-Source - Made with Unity
 openSourceSection_whyOpenSource_p_1: Stell dir vor du kaufst ein neues Gesangsspiel für deine Konsole, nur um festzustellen, dass der Hersteller die Onlinedienste beendet. Oder dass du deine Songsammlung verlierst, wenn du das Gerät wechselst.
 openSourceSection_whyOpenSource_p_2: Dies wird mit UltraStar&nbsp;Play nicht geschehen, denn es kann <gradient>mit der Zeit gehen</gradient>, solange es eine engagierte Community hinter sich hat.
 openSourceSection_whyOpenSource_title: Warum Open-Source?
+page_legalNotice: Impressum
+page_privacyPolicy: Datenschutzerklärung
 plannedFeaturesSection_detail: "Unterstütze jetzt die Kickstarter-Kampagne, damit wir das beste aus dem Projekt für dich rausholen können. Nur mit deiner Hilfe kann es gelingen! Jetzt zu {{kickstarterLink}}."
 plannedFeaturesSection_plannedFeature_1: Verschiedene Partymodi
 plannedFeaturesSection_plannedFeature_2: Medleys

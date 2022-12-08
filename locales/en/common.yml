@@ -1,5 +1,6 @@
 button_getCompanionApp: Get Companion&nbsp;App
 button_getUltraStarPlay: Get UltraStar&nbsp;Play
+button_ok: OK
 communityCreatedSongs_currentTopHits: Sing current top hits
 communityCreatedSongs_event: Sing at a convention or event
 communityCreatedSongs_filmAndTV: Sing popular songs from film and TV
@@ -8,6 +9,7 @@ communityCreatedSongs_regional: Sing dialect from your region
 communityCreatedSongs_subtitle: A big community already created thousands of songs in the UltraStar format.
 communityCreatedSongs_title: Sing your favorite songs!
 communityCreatedSongs_vocaloid: Sing your favorite Vocaloid and UTAU songs
+cookieBanner: This website uses cookies. By using this website, we assume your consent to this.
 crossPlatformSection_p_1: UltraStar&nbsp;Play is a cross-platform application. You can run it on all major <emphasize>DESKTOP AND MOBILE</emphasize> platforms.
 crossPlatformSection_p_2: There are so many different platforms today for gaming, most singing games only focus on one.
 crossPlatformSection_p_3: Thus, changing platforms often means losing a song collection. Sometimes you even have to buy extra microphones for a particular platform or game.
@@ -21,7 +23,6 @@ easyToUseSection_list_3: You don&apos;t need to buy a new console.
 easyToUseSection_p_afterList: Anyone can have a fun time singing! Just start UltraStar&nbsp;Play and <gradient>let&nbsp;the&nbsp;game guide&nbsp;your&nbsp;pitch</gradient> to the next highscore.
 easyToUseSection_p_beforeList: There is a <gradient>free song package</gradient> that can be downloaded in-game within seconds.
 easyToUseSection_title: You Can <gradient>Have Fun in Minutes</gradient>
-featuresSection_: Start the game anywhere, right from your smartphone
 featuresSection_featureCard_audience_detail: Each song can have a background video or image. A delight for both, the audience and the singers.
 featuresSection_featureCard_audience: Entertained Audience
 featuresSection_featureCard_companionApp_detail: Use your smartphone as mic or browse the song list with the UltraStar&nbsp;Play Companion&nbsp;App.
@@ -55,7 +56,6 @@ featuresSection_imagineList_3: Create the songs you want, no matter your taste i
 featuresSection_imagineList_4: Use your smartphone as mic, no need to buy additional equipment
 featuresSection_imagineList_5: Start the game anywhere, right from your smartphone
 featuresSection_imagineList_title: Imagine what it would be like to...
-footerSection_privacyPolicy: Privacy Policy
 introSection_discordName: Discord
 introSection_documentationAndHelpLinks: Check out the {{wikiLink}} to get started, our {{faqLink}} for frequent question, or {{discordLink}} for help.
 introSection_faqName: FAQ
@@ -97,6 +97,8 @@ openSourceSection_title: Open Source - Made with Unity
 openSourceSection_whyOpenSource_p_1: Imagine that you would buy another singing game for your current console, only to find that the vendor shuts down the online features, or you lose your song collection when changing the device.
 openSourceSection_whyOpenSource_p_2: This won&apos;t happen with UltraStar&nbsp;Play because it can <gradient>evolve with the future</gradient> as long as it has a contributing community behind it.
 openSourceSection_whyOpenSource_title: Why Open Source?
+page_legalNotice: Legal Notice
+page_privacyPolicy: Privacy Policy
 plannedFeaturesSection_detail: Support now the Kickstarter campaign so that we can get the best out of the project for you. It can only succeed with your help! Go to {{kickstarterLink}}.
 plannedFeaturesSection_plannedFeature_1: Party modes
 plannedFeaturesSection_plannedFeature_2: Medleys
