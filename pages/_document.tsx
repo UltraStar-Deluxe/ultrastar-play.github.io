@@ -9,7 +9,7 @@ class MyDocument extends Document
             || i18nextConfig.i18n.defaultLocale) as string
         return (
             <Html lang={currentLocale}>
-                <Head title='UltraStar&nbsp;Play - Fun Singing and Party Game for Desktop and Mobile'>
+                <Head title='UltraStar&nbsp;Play - Fun Singing and Party Game for Desktop, Mobile, and Smart TV'>
                     <meta charSet="utf-8" />
                     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
                     <meta name="description" content="" />
