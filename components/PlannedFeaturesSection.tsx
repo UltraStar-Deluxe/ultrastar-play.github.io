@@ -5,12 +5,9 @@ import { T } from "./T"
 const PlannedFeaturesSection = () =>
 {
     const { t } = useTranslationUnescaped()
-    const kickstarterName = "Kickstarter"
     useEffect(() => 
     {
-        setInnerHtml('plannedFeaturesSection_detail', t("plannedFeaturesSection_detail", {
-            "kickstarterLink": `<a href='https://www.kickstarter.com/projects/anst/ultrastar-play'>${kickstarterName}</a>`,
-        }))
+        setInnerHtml('plannedFeaturesSection_detail', t("plannedFeaturesSection_detail"))
     })
 
     return <>

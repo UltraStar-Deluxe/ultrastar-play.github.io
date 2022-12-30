@@ -10,7 +10,6 @@ import EasyToUseSection from '../../components/EasyToUseSection'
 import FooterSection from '../../components/FooterSection'
 import CrossPlatformSection from '../../components/CrossPlatformSection'
 import OpenSourceSection from '../../components/OpenSourceSection'
-import KickstarterSection from '../../components/KickstarterSection'
 import NewsletterSection from '../../components/NewsletterSection'
 import CookieBanner from '../../components/CookieBanner'
 
