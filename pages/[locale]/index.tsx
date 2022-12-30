@@ -27,7 +27,6 @@ const Home: NextPage = () =>
 
         <>
             <NavigationSection />
-            <KickstarterSection />
             <IntroSection />
             <FeaturesSection />
             <CommunityCreatedSongsSection />
