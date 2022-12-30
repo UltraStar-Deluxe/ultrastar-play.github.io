@@ -68,7 +68,6 @@ introSection_typewriterText_2: deine Freunde herausfordern?
 introSection_typewriterText_3: dich wie ein Superstar fühlen?
 introSection_typewriterText_prefix: Du willst
 introSection_wikiName: Wiki
-kickstarterSection_title: Jetzt auf {{kickstarterLink}}!
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community
@@ -99,14 +98,14 @@ openSourceSection_whyOpenSource_p_2: Dies wird mit UltraStar&nbsp;Play nicht ges
 openSourceSection_whyOpenSource_title: Warum Open-Source?
 page_legalNotice: Impressum
 page_privacyPolicy: Datenschutzerklärung
-plannedFeaturesSection_detail: "Unterstütze jetzt die Kickstarter-Kampagne, damit wir das beste aus dem Projekt für dich rausholen können. Nur mit deiner Hilfe kann es gelingen! Jetzt zu {{kickstarterLink}}."
+plannedFeaturesSection_detail: "UltraStar&nbsp;Play macht schon jetzt Spaß.<br /> Trotzdem: Es gibt noch viele weitere geplante Features und TODOs. Folge uns bei Social Media, um die Reise von UltraStar&nbsp;Play zum nächsten Partykracher zu begleiten."
 plannedFeaturesSection_plannedFeature_1: Verschiedene Partymodi
 plannedFeaturesSection_plannedFeature_2: Medleys
 plannedFeaturesSection_plannedFeature_3: Songwarteschlange
 plannedFeaturesSection_plannedFeature_4: Smartphone-Steuerung
 plannedFeaturesSection_plannedFeature_5: Online Multiplayer
 plannedFeaturesSection_plannedFeature_6: Neue Themes
-plannedFeaturesSection_title: Mit deiner Unterstützung auf Kickstarter
+plannedFeaturesSection_title: Mehr in Kürze
 songEditorSection_afterFeatureList: Mit all diesen Funktionen ist das Erstellen eines neuen UltraStar Songs <gradient>so leicht wie nie</gradient>.
 songEditorSection_featureList_1: Noten hinzufügen durch singen oder Button-Tapping
 songEditorSection_featureList_10: "&hellip;und vieles mehr!"
