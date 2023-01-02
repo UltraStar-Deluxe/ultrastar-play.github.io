@@ -11,6 +11,8 @@ const FooterSection = () => (
         </div>
         <div className="col">
             <RedirectLink className="mx-3" href="/PrivacyPolicy"><T i18nKey="page_privacyPolicy" /></RedirectLink>
+        </div>
+        <div className="col">
             <RedirectLink className="mx-3" href="/LegalNotice"><T i18nKey="page_legalNotice" /></RedirectLink>
         </div>
         <div className="col">

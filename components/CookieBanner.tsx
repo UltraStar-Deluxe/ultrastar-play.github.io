@@ -56,8 +56,8 @@ const CookieBanner = () =>
     })
 
 return (
-    <div id={cookieBannerId} style={{ display: "none" }} className="cookie-notice-container shadow-lg rounded bg-light text-muted">
-        <div className="row justify-content-center mx-2 my-2">
+    <div id={cookieBannerId} style={{ display: "none" }} className="cookie-notice-container text-muted">
+        <div className="row justify-content-center shadow-lg rounded bg-light pt-2 pb-2 m-3">
             <div className="col col-auto">
                 <div className="mx-1 fs-5 mb-1">
                     <T i18nKey="cookieBanner_title" />
