@@ -18,8 +18,8 @@ const RedirectLink: any = ({ children, skipLocaleHandling, ...rest }) => {
 
   return (
     <>
-      <Link href={href}>
-        <a {...rest}>{children}</a>
+      <Link {...rest} href={href}>
+        {children}
       </Link>
     </>
   )

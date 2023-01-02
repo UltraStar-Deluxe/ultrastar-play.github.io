@@ -1,10 +1,18 @@
 import '../styles/globals.css'
-import '../styles/google-font-Kanit.css'
-import '../styles/google-font-Mulish.css'
-import '../styles/google-font-Newsreader.css'
 import 'bootstrap-icons/font/bootstrap-icons.css'
 import type { AppProps } from 'next/app'
 import { appWithTranslation } from 'next-i18next'
+import { Mulish, Kanit } from '@next/font/google'
+
+// Load fonts
+const mulish = Mulish({
+    weight: '400',
+    display: 'fallback',
+})
+const kanit = Kanit({
+    weight: '400',
+    display: 'fallback',
+})
 
 // The bootstrap import has issues when document is not defined (server side rendering maybe?)
 if (typeof document !== "undefined")
@@ -14,7 +22,17 @@ if (typeof document !== "undefined")
 
 function MyApp({ Component, pageProps }: AppProps)
 {
-    return <Component {...pageProps} />
+    return <>
+        {/* Make loaded font families available in CSS as global variables */}
+        <style jsx global>{`
+            :root {
+                --mulish-font: ${mulish.style.fontFamily};
+                --kanit-font: ${kanit.style.fontFamily};
+            }
+        `}</style>
+
+        <Component {...pageProps} />
+    </>
 }
 
 export default appWithTranslation(MyApp)

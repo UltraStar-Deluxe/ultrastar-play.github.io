@@ -1,4 +1,4 @@
-import Image from "next/image"
+import Image from "next/legacy/image"
 import { useEffect } from "react"
 import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"

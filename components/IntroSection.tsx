@@ -4,7 +4,7 @@ import SocialMediaLinks from "./SocialMediaLinks"
 import { useEffect } from "react"
 import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 const IntroSection = () =>
 {
@@ -35,7 +35,7 @@ const IntroSection = () =>
                 <div className="col-lg-6">
                     {/* Mashead text and app badges */}
                     <div className="mb-5 mb-lg-0 text-center text-lg-start">
-                        <h1 className="lh-1 mb-3 font-alt"><T i18nKey="introSection_title" /></h1>
+                        <h1 className="lh-1 my-3 font-alt"><T i18nKey="introSection_title" /></h1>
                         <div className="lead text-muted" style={{marginBottom: '1rem'}}>
                             <T i18nKey="introSection_typewriterText_prefix" />&nbsp;<span className="emphasize"><Typewriter options={{autoStart: true, loop: true, strings: typewriterTexts, delay: 50}} /></span>
                         </div>

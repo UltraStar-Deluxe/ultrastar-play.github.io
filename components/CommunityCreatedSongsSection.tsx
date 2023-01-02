@@ -1,4 +1,4 @@
-import Image from "next/image";
+import Image from "next/legacy/image";
 import { useTranslationUnescaped } from "../lib/utils";
 import { T } from "./T";
 import WaveBackground from "./WaveBackground"
@@ -40,12 +40,12 @@ const CommunityCreatedSongsSection = () => {
             <div className="container px-md-5">
                 <hr className="bg-light"/>
                 <div className="row">
-                    <SingIdeaEntry title={ t("communityCreatedSongs_currentTopHits") } image="img/vinyl-2202325.png"/>
-                    <SingIdeaEntry title={ t("communityCreatedSongs_filmAndTV") } image="img/animals-44569.svg"/>
-                    <SingIdeaEntry title={ t("communityCreatedSongs_games") } image="img/controller-1784573.svg"/>
-                    <SingIdeaEntry title={ t("communityCreatedSongs_vocaloid") } image="img/sing-570519.png"/>
-                    <SingIdeaEntry title={ t("communityCreatedSongs_event") } image="img/halloween-6784081.jpg"/>
-                    <SingIdeaEntry title={ t("communityCreatedSongs_regional") } image="img/chorus-5977187-cut.jpg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_currentTopHits") } image="/img/vinyl-2202325.png"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_filmAndTV") } image="/img/animals-44569.svg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_games") } image="/img/controller-1784573.svg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_vocaloid") } image="/img/sing-570519.png"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_event") } image="/img/halloween-6784081.jpg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_regional") } image="/img/chorus-5977187-cut.jpg"/>
                 </div>
             </div>
         </section>
