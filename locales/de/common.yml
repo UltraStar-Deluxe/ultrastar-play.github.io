@@ -1,6 +1,8 @@
 button_getCompanionApp: Download Companion&nbsp;App
 button_getUltraStarPlay: Download UltraStar&nbsp;Play
 button_ok: OK
+button_acceptAllCookies: Alle akzeptieren
+button_declineNotNeededCookies: Nicht notwendige Cookies ablehnen
 communityCreatedSongs_currentTopHits: Singe aktuelle Hits
 communityCreatedSongs_event: Singe bei einer Feier oder einem Event
 communityCreatedSongs_filmAndTV: Singe bekannte Lieder aus Film und TV
@@ -9,7 +11,8 @@ communityCreatedSongs_regional: Singe Dialekt aus deiner Region
 communityCreatedSongs_subtitle: Eine große Community hat schon tausende von Songs im UltraStar-Format erstellt.
 communityCreatedSongs_title: Singe deine Lieblingslieder!
 communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
-cookieBanner: Diese Webseite benutzt Cookies. Durch die Nutzung dieser Webseite gehen wir von Ihrem Einverständnis dazu aus.
+cookieBanner_title: Wir schätzen Ihre Privatsphäre
+cookieBanner_description: Diese Website verwendet Cookies, um Ihr Surferlebnis zu verbessern und den Datenverkehr zu analysieren. Wenn Sie auf „Alle akzeptieren" klicken, stimmen Sie der Anwendung von Cookies zu.
 crossPlatformSection_p_1: UltraStar&nbsp;Play ist eine cross-platform Anwendung. Das Spiel läuft auf den gängigen <emphasize>DESKTOP- UND MOBILEN</emphasize> Plattformen. Zudem könnten Android TV und tvOS zukünftig unterstützt werden.
 crossPlatformSection_p_2: Es gibt heutzutage viele verschiedene Geräte und Betriebssysteme. Die meisten Gesangsspiele konzentrieren sich auf nur eine dieser Plattformen.
 crossPlatformSection_p_3: Wenn man die Plattform wechselt, kann man seine Songsammlung meist nicht mitnehmen. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
@@ -124,3 +127,4 @@ songEditorSection_p_1: Mit dem integrierten <gradient>SONG-EDITOR</gradient> kan
 songEditorSection_p_2: "Was bisher verschiedene Werkzeuge benötigt hat, geht nun mit UltraStar&nbsp;Play alleine.<br /> Außerdem: Du kannst schnell <gradient>zwischen editieren und testen wechseln</gradient>."
 songEditorSection_subtitle: Erstelle deine eigenen Songs
 songEditorSection_title: Schräger Musikgeschmack?<br /><gradient>Kein&nbsp;Problem!</gradient>
+youTubeVideo_mustAcceptCookieHint: Alle Cookies akzeptieren, um Video von YouTube zu sehen.
