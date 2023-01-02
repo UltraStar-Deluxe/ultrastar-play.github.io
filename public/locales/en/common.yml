@@ -1,6 +1,8 @@
 button_getCompanionApp: Get Companion&nbsp;App
 button_getUltraStarPlay: Get UltraStar&nbsp;Play
 button_ok: OK
+button_acceptAllCookies: Accept all
+button_declineNotNeededCookies: Decline not strictly necessary cookies
 communityCreatedSongs_currentTopHits: Sing current top hits
 communityCreatedSongs_event: Sing at a convention or event
 communityCreatedSongs_filmAndTV: Sing popular songs from film and TV
@@ -9,7 +11,8 @@ communityCreatedSongs_regional: Sing dialect from your region
 communityCreatedSongs_subtitle: A big community already created thousands of songs in the UltraStar format.
 communityCreatedSongs_title: Sing your favorite songs!
 communityCreatedSongs_vocaloid: Sing your favorite Vocaloid and UTAU songs
-cookieBanner: This website uses cookies. By using this website, we assume your consent to this.
+cookieBanner_title: We value your privacy
+cookieBanner_description: We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
 crossPlatformSection_p_1: UltraStar&nbsp;Play is a cross-platform application. You can run it on all major <emphasize>DESKTOP AND MOBILE</emphasize> platforms. Android TV and tvOS could be supported in the future as well.
 crossPlatformSection_p_2: There are so many different platforms today for gaming, most singing games only focus on one.
 crossPlatformSection_p_3: Thus, changing platforms often means losing a song collection. Sometimes you even have to buy extra microphones for a particular platform or game.
@@ -124,3 +127,4 @@ songEditorSection_p_1: The integrated <gradient>SONG&nbsp;EDITOR</gradient> allo
 songEditorSection_p_2: UltraStar&nbsp;Play&apos;s song editor combines features that previously required multiple tools.<br /> Plus, you can quickly <gradient>switch between editing and testing</gradient> your song.
 songEditorSection_subtitle: Create your own songs
 songEditorSection_title: Have a weird taste in music? <gradient>No&nbsp;problem!</gradient>
+youTubeVideo_mustAcceptCookieHint: Accept all cookies to watch YouTube video.

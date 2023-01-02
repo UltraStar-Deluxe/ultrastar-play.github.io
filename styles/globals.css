@@ -2,10 +2,10 @@
 
 .cookie-notice-container {
     position: fixed;
-    bottom: 0;
-    left: 0;
-    width: 100%;
-    background-color: #000000;
+    bottom: 20px;
+    right: 10px;
+    width: 500px;
+    max-width: 100%;
     z-index: 5;
 }
 
@@ -99,7 +99,7 @@
     max-height: 50vh;
 }
 
-.youtube-video-container {
+.youtube-video-inner-container {
     position: relative;
     width: 100%;
     max-width: 560px;
@@ -108,11 +108,30 @@
     margin-right: auto;
 }
 
-.youtube-video-container iframe {
+.youtube-video-inner-container iframe {
     position: absolute;
     top: 0;
     left: 0;
     width: 100%;
     height: 100%;
     border: 0;
+}
+
+.youtube-video-placeholder {
+    width: 560px;
+    height: 338px;
+    background: url('/img/camera-2008489.svg');
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    cursor: pointer;
+    border-style: solid;
+    border-color: #000;
+    border-width: 2px;
+    border-radius: 5px;
+    padding-bottom: 0;
+}
+
+.youtube-video-placeholder-cookie-hint {
+    height: fit-content;
 }

@@ -1,10 +1,11 @@
 import { useEffect } from "react"
-import { getCookie, setCookie } from "../lib/cookieUtils"
+import { deleteCookie, getCookie, setCookie } from "../lib/cookieUtils"
 import RedirectLink from "./RedirectLink"
 import { T } from "./T"
 
 const cookieBannerId = "cookie-notice"
 const cookieBannerAcceptedCookieName = "cookieBannerAccepted"
+const cookieBannerDeclineNotNeededCookieName = "cookieBannerDeclineNotNeeded"
 
 const showCookieBanner = () =>
 {
@@ -26,7 +27,18 @@ const hideCookieBanner = () =>
 
 const acceptAndHideCookieBanner = () =>
 {
+    deleteCookie(cookieBannerDeclineNotNeededCookieName);
     setCookie(cookieBannerAcceptedCookieName, JSON.stringify(new Date()), 365)
+    hideCookieBanner()
+
+    // Reload page. This will also load YouTube videos etc.
+    location.reload();
+}
+
+const declineAndHideCookieBanner = () =>
+{
+    deleteCookie(cookieBannerAcceptedCookieName);
+    setCookie(cookieBannerDeclineNotNeededCookieName, JSON.stringify(new Date()), 365)
     hideCookieBanner()
 }
 
@@ -36,23 +48,27 @@ const CookieBanner = () =>
     {
         hideCookieBanner()
         const cookieBannerAcceptedDate = getCookie(cookieBannerAcceptedCookieName)
-        if (!cookieBannerAcceptedDate)
+        const cookieBannerDeclineNotNeededDate = getCookie(cookieBannerDeclineNotNeededCookieName)
+        if (!cookieBannerAcceptedDate && !cookieBannerDeclineNotNeededDate)
         {
             showCookieBanner()
         }
     })
 
 return (
-    <div id={cookieBannerId} style={{ display: "none" }} className="cookie-notice-container text-muted">
-        <div className="row justify-content-center mx-2 my-3 fw-bold fs-4">
+    <div id={cookieBannerId} style={{ display: "none" }} className="cookie-notice-container shadow-lg rounded bg-light text-muted">
+        <div className="row justify-content-center mx-2 my-2">
             <div className="col col-auto">
-                <span className="mx-1 fs-6">
-                <T i18nKey="cookieBanner" />
-                </span>
+                <div className="mx-1 fs-5 mb-1">
+                    <T i18nKey="cookieBanner_title" />
+                </div>
+                <div className="mx-1 fs-6 lh-sm mb-3">
+                    <T i18nKey="cookieBanner_description" />
+                </div>
 
-                <div onClick={acceptAndHideCookieBanner} className="btn btn-secondary mx-1"><T i18nKey="button_ok" /></div>
-                <RedirectLink href="/PrivacyPolicy" target="_blank" className="btn btn-secondary mx-1"><T i18nKey="page_privacyPolicy" /></RedirectLink>
-                <div onClick={hideCookieBanner} className="btn btn-link bi-x fs-4 text-muted"></div>
+                <div onClick={acceptAndHideCookieBanner} className="btn btn-primary bg-gradient mx-1 my-1"><T i18nKey="button_acceptAllCookies" /></div>
+                <div onClick={declineAndHideCookieBanner} className="btn btn-primary bg-gradient mx-1 my-1"><T i18nKey="button_declineNotNeededCookies" /></div>
+                <RedirectLink href="/PrivacyPolicy" target="_blank" className="btn btn-primary mx-1 my-1"><T i18nKey="page_privacyPolicy" /></RedirectLink>
             </div>
         </div>
     </div>
@@ -60,4 +76,5 @@ return (
 
 }
 
+export { cookieBannerAcceptedCookieName, cookieBannerDeclineNotNeededCookieName, acceptAndHideCookieBanner };
 export default CookieBanner

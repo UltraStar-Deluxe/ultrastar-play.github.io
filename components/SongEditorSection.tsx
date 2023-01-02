@@ -3,6 +3,7 @@ import { useEffect } from "react"
 import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
 import WaveBackground from "./WaveBackground"
+import YouTubeVideo from "./YouTubeVideo"
 
 const SongEditorSection = () =>
 {
@@ -79,13 +80,7 @@ const SongEditorSection = () =>
             {/* YouTube video (song editor)  */}
             <div className="row my-5 justify-content-center">
                 <div className="col-lg-6">
-                    <div className="youtube-video-container">
-                        <iframe src="https://www.youtube.com/embed/osKizOyXYFQ"
-                                title="YouTube video player"
-                                frameBorder="0"
-                                allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                allowFullScreen></iframe>
-                    </div>
+                    <YouTubeVideo src="https://www.youtube.com/embed/osKizOyXYFQ" />
                 </div>
             </div>
         </div>

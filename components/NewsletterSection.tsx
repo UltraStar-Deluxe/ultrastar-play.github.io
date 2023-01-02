@@ -20,7 +20,7 @@ const NewsletterSection = () =>
                     <br/>
                     
                     {/* Subscriber button */}
-                    <input className="btn btn-primary blue-bg bg-gradient mb-2" type="submit" value={ t("newsletterSection_submit") }/>
+                    <input className="btn btn-primary bg-gradient mb-2" type="submit" value={ t("newsletterSection_submit") }/>
 
                     {/* Hidden fields */}
                     {/* List token (get the token at: https://app.getresponse.com/campaign_list.html) */}

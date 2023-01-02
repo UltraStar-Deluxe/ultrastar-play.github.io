@@ -1,6 +1,7 @@
 import { useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
 import WaveBackground from "./WaveBackground"
+import YouTubeVideo from "./YouTubeVideo"
 
 const FeatureItem = (props: {icon: string, title: string, children?: React.ReactNode}) => (
     <div className="col-md-6 col-lg-4">
@@ -48,13 +49,7 @@ const FeaturesSection = () =>
                 {/* YouTube video (game teaser)  */}
                 <div className="row my-5 justify-content-center">
                     <div className="col-md-6">
-                        <div className="youtube-video-container">
-                            <iframe src="https://www.youtube.com/embed/4hXKOLafpDg"
-                                    title="YouTube video player"
-                                    frameBorder="0"
-                                    allow="accelerometer; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                                    allowFullScreen></iframe>
-                        </div>
+                        <YouTubeVideo src="https://www.youtube.com/embed/4hXKOLafpDg"/>
                     </div>
                 </div>
     

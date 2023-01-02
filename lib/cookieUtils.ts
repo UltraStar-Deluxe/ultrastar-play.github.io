@@ -37,4 +37,10 @@ function getCookie(cookieName: string)
     return "";
 }
 
-export { setCookie, getCookie };
+function deleteCookie(cookieName: string)
+{
+    // Delete cookie by setting a past date as expiry date.
+    setCookie(cookieName, '', -365);
+}
+
+export { setCookie, getCookie, deleteCookie };
