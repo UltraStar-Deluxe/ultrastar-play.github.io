@@ -1,7 +1,6 @@
 
 import { useEffect } from 'react';
 import * as ReactDOM from 'react-dom';
-import { v4 as uuidv4 } from 'uuid';
 import { getCookie } from '../lib/cookieUtils';
 import { useTranslationUnescaped } from "../lib/utils"
 import { acceptAndHideCookieBanner, cookieBannerAcceptedCookieName } from './CookieBanner';
@@ -32,16 +31,14 @@ const replaceVideoPlaceholderWithResolvedVideo = (containerId: string, src: stri
     }
 }
 
-const YouTubeVideo = (props: { src: string }) =>
+const YouTubeVideo = (props: { src: string, containerId: string }) =>
 {
-    const containerId = uuidv4()
-
     useEffect(() =>
     {
         const cookieBannerAcceptedDate = getCookie(cookieBannerAcceptedCookieName)
         if (cookieBannerAcceptedDate)
         {
-            replaceVideoPlaceholderWithResolvedVideo(containerId, props.src)
+            replaceVideoPlaceholderWithResolvedVideo(props.containerId, props.src)
         }
         else
         {
@@ -50,7 +47,7 @@ const YouTubeVideo = (props: { src: string }) =>
     })
 
     return  (
-        <div id={containerId} className="youtube-video-outer-container">
+        <div id={props.containerId} className="youtube-video-outer-container">
             <div className='youtube-video-placeholder bg-light p-3 d-flex justify-content-center' onClick={acceptAndHideCookieBanner}>
                 <span className='youtube-video-placeholder-cookie-hint fs-4 text-muted bg-light'><T i18nKey='youTubeVideo_mustAcceptCookieHint' /></span>
             </div>

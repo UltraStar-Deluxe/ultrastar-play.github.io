@@ -80,7 +80,7 @@ const SongEditorSection = () =>
             {/* YouTube video (song editor)  */}
             <div className="row my-5 justify-content-center">
                 <div className="col-lg-6">
-                    <YouTubeVideo src="https://www.youtube.com/embed/osKizOyXYFQ" />
+                    <YouTubeVideo src="https://www.youtube.com/embed/osKizOyXYFQ" containerId="song-editor-video" />
                 </div>
             </div>
         </div>

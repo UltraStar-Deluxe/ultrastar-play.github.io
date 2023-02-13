@@ -49,7 +49,7 @@ const FeaturesSection = () =>
                 {/* YouTube video (game teaser)  */}
                 <div className="row my-5 justify-content-center">
                     <div className="col-md-6">
-                        <YouTubeVideo src="https://www.youtube.com/embed/4hXKOLafpDg"/>
+                        <YouTubeVideo src="https://www.youtube.com/embed/4hXKOLafpDg" containerId="ultrastar-play-video" />
                     </div>
                 </div>
     
