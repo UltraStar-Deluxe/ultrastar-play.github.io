@@ -26,6 +26,10 @@ const replaceVideoPlaceholderWithResolvedVideo = (containerId: string, src: stri
         const youTubeVideoElement =<YouTubeVideoResolved src={src} />;
         ReactDOM.render(youTubeVideoElement, containerElement)
     }
+    else
+    {
+        console.log("Cannot replace video placeholder because container element does not exist.")
+    }
 }
 
 const YouTubeVideo = (props: { src: string }) =>
@@ -38,6 +42,10 @@ const YouTubeVideo = (props: { src: string }) =>
         if (cookieBannerAcceptedDate)
         {
             replaceVideoPlaceholderWithResolvedVideo(containerId, props.src)
+        }
+        else
+        {
+            console.log("Cookies not accepted. Not replacing video placeholder.")
         }
     })
 
