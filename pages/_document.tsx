@@ -17,7 +17,7 @@ class MyDocument extends Document
                     <link rel="icon" type="image/x-icon" href="favicon.ico" />
 
                     {/* Visitor Statistics by Clicky.com  */}
-                    <script async src="//static.getclicky.com/101385162.js"></script>
+                    <script async src="//static.getclicky.com/101402941.js"></script>
                 </Head>
                 <body id="page-top">
                     <Main />
