@@ -65,6 +65,13 @@
     background-repeat: no-repeat;
 }
 
+.melody-mania-background {
+    background: url('/img/prairie-679014-dark.jpg');
+    background-position: top;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
 .blue-to-darkblue-background {
     background: url('/img/blue-to-darkblue.jpg');
     background-position: center;

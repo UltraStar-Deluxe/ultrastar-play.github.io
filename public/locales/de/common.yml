@@ -1,8 +1,8 @@
+button_acceptAllCookies: Alle akzeptieren
+button_declineNotNeededCookies: Nicht notwendige Cookies ablehnen
 button_getCompanionApp: Download Companion&nbsp;App
 button_getUltraStarPlay: Download UltraStar&nbsp;Play
 button_ok: OK
-button_acceptAllCookies: Alle akzeptieren
-button_declineNotNeededCookies: Nicht notwendige Cookies ablehnen
 communityCreatedSongs_currentTopHits: Singe aktuelle Hits
 communityCreatedSongs_event: Singe bei einer Feier oder einem Event
 communityCreatedSongs_filmAndTV: Singe bekannte Lieder aus Film und TV
@@ -11,8 +11,8 @@ communityCreatedSongs_regional: Singe Dialekt aus deiner Region
 communityCreatedSongs_subtitle: Eine große Community hat schon tausende von Songs im UltraStar-Format erstellt.
 communityCreatedSongs_title: Singe deine Lieblingslieder!
 communityCreatedSongs_vocaloid: Singe deine liebsten Vocaloid und UTAU Songs
-cookieBanner_title: Wir schätzen Ihre Privatsphäre
 cookieBanner_description: Diese Website verwendet Cookies, um Ihr Surferlebnis zu verbessern und den Datenverkehr zu analysieren. Wenn Sie auf „Alle akzeptieren" klicken, stimmen Sie der Anwendung von Cookies zu.
+cookieBanner_title: Wir schätzen Ihre Privatsphäre
 crossPlatformSection_p_1: UltraStar&nbsp;Play ist eine cross-platform Anwendung. Das Spiel läuft auf den gängigen <emphasize>DESKTOP- UND MOBILEN</emphasize> Plattformen. Zudem könnten Android TV und tvOS zukünftig unterstützt werden.
 crossPlatformSection_p_2: Es gibt heutzutage viele verschiedene Geräte und Betriebssysteme. Die meisten Gesangsspiele konzentrieren sich auf nur eine dieser Plattformen.
 crossPlatformSection_p_3: Wenn man die Plattform wechselt, kann man seine Songsammlung meist nicht mitnehmen. Manchmal muss man sogar zusätzlich neue Mikrofone für ein neues Spiel kaufen.
@@ -71,10 +71,19 @@ introSection_typewriterText_2: deine Freunde herausfordern?
 introSection_typewriterText_3: dich wie ein Superstar fühlen?
 introSection_typewriterText_prefix: Du willst
 introSection_wikiName: Wiki
+melodyManiaSection_detail: "{{melodyManiaLink}} ist die kommerzielle Weiterentwicklung von UltraStar&nbsp;Play, welche das Spiel aufs nächste Level hebt, erstellt vom selben Entwickler.<br />Kaufe Melody Mania jetzt auf Steam."
+melodyManiaSection_feature_1: Neue Spielmodi
+melodyManiaSection_feature_2: Medleys
+melodyManiaSection_feature_3: Song-Warteschlange
+melodyManiaSection_feature_4: Smartphone-Steuerung
+melodyManiaSection_feature_5: Integration von Videos im Internet
+melodyManiaSection_feature_6: KI-unterstützter Song-Editor
+melodyManiaSection_title: Du willst mehr?
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community
 navigationSection_features_crossPlatform: Cross-Platform
+navigationSection_features_melodyMania: Melody Mania
 navigationSection_features_openSource: Open-source
 navigationSection_features_overview: Übersicht
 navigationSection_features_plannedFeatures: Geplante Features

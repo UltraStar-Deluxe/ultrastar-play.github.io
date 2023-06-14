@@ -16,6 +16,7 @@ import CookieBanner from '../../components/CookieBanner'
 // Load translations (see https://github.com/i18next/next-language-detector/tree/main/examples/basic)
 import { makeStaticProps } from '../../lib/getStatic'
 import { getStaticPaths } from '../../lib/getStatic'
+import MelodyManiaSection from '../../components/MelodyManiaSection'
 const getStaticProps = makeStaticProps(['common'])
 export { getStaticPaths, getStaticProps }
 
@@ -33,7 +34,7 @@ const Home: NextPage = () =>
             <SongEditorSection />
             <CrossPlatformSection />
             <OpenSourceSection />
-            <PlannedFeaturesSection />
+            <MelodyManiaSection />
             <DownloadCallToActionSection />
             <NewsletterSection />
             <FooterSection />
