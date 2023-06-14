@@ -1,8 +1,8 @@
+button_acceptAllCookies: Accept all
+button_declineNotNeededCookies: Decline not strictly necessary cookies
 button_getCompanionApp: Get Companion&nbsp;App
 button_getUltraStarPlay: Get UltraStar&nbsp;Play
 button_ok: OK
-button_acceptAllCookies: Accept all
-button_declineNotNeededCookies: Decline not strictly necessary cookies
 communityCreatedSongs_currentTopHits: Sing current top hits
 communityCreatedSongs_event: Sing at a convention or event
 communityCreatedSongs_filmAndTV: Sing popular songs from film and TV
@@ -11,8 +11,8 @@ communityCreatedSongs_regional: Sing dialect from your region
 communityCreatedSongs_subtitle: A big community already created thousands of songs in the UltraStar format.
 communityCreatedSongs_title: Sing your favorite songs!
 communityCreatedSongs_vocaloid: Sing your favorite Vocaloid and UTAU songs
-cookieBanner_title: We value your privacy
 cookieBanner_description: We use cookies to enhance your browsing experience and analyze our traffic. By clicking "Accept All", you consent to our use of cookies.
+cookieBanner_title: We value your privacy
 crossPlatformSection_p_1: UltraStar&nbsp;Play is a cross-platform application. You can run it on all major <emphasize>DESKTOP AND MOBILE</emphasize> platforms. Android TV and tvOS could be supported in the future as well.
 crossPlatformSection_p_2: There are so many different platforms today for gaming, most singing games only focus on one.
 crossPlatformSection_p_3: Thus, changing platforms often means losing a song collection. Sometimes you even have to buy extra microphones for a particular platform or game.
@@ -71,10 +71,19 @@ introSection_typewriterText_2: challenge your friends?
 introSection_typewriterText_3: feel like a superstar?
 introSection_typewriterText_prefix: Want to
 introSection_wikiName: wiki
+melodyManiaSection_detail: "{{melodyManiaLink}} is a commercial continuation of UltraStar&nbsp;Play that takes the game to the next level, created by the same developer.<br />Buy Melody Mania now on Steam."
+melodyManiaSection_feature_1: New game modes
+melodyManiaSection_feature_2: Medleys
+melodyManiaSection_feature_3: Song queue
+melodyManiaSection_feature_4: Smartphone Control
+melodyManiaSection_feature_5: Integration of videos on the internet
+melodyManiaSection_feature_6: AI powered song editor
+melodyManiaSection_title: Want More?
 navigationSection_download: Download
 navigationSection_faq: FAQ
 navigationSection_features_community: Community
 navigationSection_features_crossPlatform: Cross Platform
+navigationSection_features_melodyMania: Melody Mania
 navigationSection_features_openSource: Open source
 navigationSection_features_overview: Overview
 navigationSection_features_plannedFeatures: Planned Features
