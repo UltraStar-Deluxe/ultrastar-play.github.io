@@ -1,7 +1,7 @@
 import { useEffect } from "react"
 import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
-import Image from "next/image"
+import Image from "next/legacy/image"
 
 const MelodyManiaSection = () =>
 {
@@ -32,7 +32,7 @@ const MelodyManiaSection = () =>
                 <p id="melodyManiaSection_detail" className="text-white fs-4 font-alt" style={{background: 'linear-gradient(90deg, #00000000, #00000099, #00000000)'}}></p>
 
                 <div className="d-flex flex-column flex-lg-row align-items-center justify-content-center">
-                    <a className="btn btn-lg mb-2" href="https://store.steampowered.com/app/2394070/Melody_Mania/" rel="noreferrer" style={{position: 'relative', width: "300px", height: '100px', marginLeft: "5px", marginRight: "5px"}}><Image src="img/buttons/Steam-BuyButton.svg" layout="fill" objectFit="contain"/></a>
+                    <a className="btn btn-lg mb-2" href="https://store.steampowered.com/app/2394070/Melody_Mania/" rel="noreferrer" style={{position: 'relative', width: "300px", height: '100px', marginLeft: "5px", marginRight: "5px"}}><Image src="img/buttons/Steam-BuyButton.svg" layout="fill" objectFit="contain" alt="Buy on Steam button"/></a>
                     {/* <iframe src="https://store.steampowered.com/widget/2394070/" width="646" height="190"></iframe> */}
                 </div>
             </div>
