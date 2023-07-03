@@ -8,7 +8,7 @@ const MelodyManiaSection = () =>
     const { t } = useTranslationUnescaped()
     useEffect(() => 
     {
-        const melodyManiaLink = `<a href="https://melodymania.org">Melody Mania</a>`;
+        const melodyManiaLink = `<a href="https://melodymania.org/melody-mania-vs-ultrastar-play">Melody Mania</a>`;
         setInnerHtml('melodyManiaSection_detail', t("melodyManiaSection_detail", {
             melodyManiaLink: melodyManiaLink
         }))
