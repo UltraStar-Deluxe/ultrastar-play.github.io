@@ -4,7 +4,7 @@ import IntroSection from '../../components/IntroSection'
 import CommunityCreatedSongsSection from '../../components/CommunityCreatedSongsSection'
 import FeatureOverviewSection from '../../components/FeatureOverviewSection'
 import SongEditorSection from '../../components/SongEditorSection'
-import PlannedFeaturesSection from '../../components/PlannedFeaturesSection'
+import BeyondSection from '../../components/BeyondSection'
 import DownloadCallToActionSection from '../../components/DownloadCallToActionSection'
 import EasyToUseSection from '../../components/EasyToUseSection'
 import FooterSection from '../../components/FooterSection'
@@ -48,7 +48,7 @@ const Home: NextPage = () =>
       <SongEditorSection />
       {/* <CrossPlatformSection /> */}
       <OpenSourceSection />
-      {/* <PlannedFeaturesSection /> */}
+      <BeyondSection />
       {/* <TestimonialSection /> */}
       {/* <NewsletterSection /> */}
       {/* <DownloadCallToActionSection /> */}

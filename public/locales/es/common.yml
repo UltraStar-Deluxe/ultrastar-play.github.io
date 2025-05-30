@@ -135,11 +135,10 @@ openSourceSection_whyOpenSource_p_2: Esto no ocurrirá con UltraStar Play porque
 openSourceSection_whyOpenSource_title: ¿Por qué un formato de canción abierta?
 page_legalNotice: Aviso legal
 page_privacyPolicy: Política de privacidad
-plannedFeaturesSection_detail: UltraStar Play ya es divertido de jugar.<br /> Sin embargo, hay más funciones previstas y más trabajo por hacer. Únete a nuestros canales en las redes sociales para seguir el viaje de UltraStar Play hasta convertirse en el próximo éxito de fiesta que todos adoran.
-plannedFeaturesSection_plannedFeature_1: Multijugador online y puntuaciones altas
-plannedFeaturesSection_plannedFeature_2: Steam Workshop
-plannedFeaturesSection_plannedFeature_3: Localización
-plannedFeaturesSection_title: Más por venir
+beyondSection_plannedFeature_1: Multijugador online y puntuaciones altas
+beyondSection_plannedFeature_2: Steam Workshop
+beyondSection_plannedFeature_3: Localización
+beyondSection_title: Más por venir
 songEditorSection_afterFeatureList: Con todas estas funciones, crear una versión para cantar de un juego <gradient>nunca ha sido tan fácil.</gradient>
 songEditorSection_featureList_1: Aísla las voces de las canciones para detectar el tono y reconocer el habla
 songEditorSection_featureList_2: Importar archivos MIDI

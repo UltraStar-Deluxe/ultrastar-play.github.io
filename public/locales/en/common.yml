@@ -1,3 +1,12 @@
+beyondSection_callToAction: Get Melody Mania on <a href="https://store.steampowered.com/app/2394070/Melody_Mania/">Steam</a> now and turn every night into a karaoke party!
+beyondSection_detail: Melody&nbsp;Mania is the commercial continuation of UltraStar Play that takes the game to the next level.
+beyondSection_feature_1: Steam Workshop
+beyondSection_feature_2: Steam Multiplayer
+beyondSection_feature_3: iOS Companion App
+beyondSection_feature_4: AI Tools & Vocals Isolation
+beyondSection_feature_5: Use Videos on YouTube and others
+beyondSection_feature_6: Visual goodies
+beyondSection_title: Beyond UltraStar&nbsp;Play
 button_acceptAllCookies: Accept all
 button_declineNotNeededCookies: Decline not strictly necessary cookies
 button_getCompanionApp: Get Companion&nbsp;App
@@ -78,8 +87,6 @@ featuresSection_featureCard_vocalsSeparation_detail: Split your mp3 or ogg files
 featuresSection_featureCard_vocalsSeparation: Vocals Isolation
 featuresSection_featureCard_webcam_detail: Singing is even more fun when you can see yourself! Use your camera as background or take a snapshot for your profile image
 featuresSection_featureCard_webcam: Webcam
-# featuresSection_featureCard_asio: ASIO Compatible
-# featuresSection_featureCard_asio_detail: Use professional grade audio input on Windows with lower latency. ASIO is a registered trademark of Steinberg Media Technologies GmbH.
 featuresSection_featureList_companionApp: Companion App as mic
 featuresSection_featureList_customSongs: Custom songs and song editor
 featuresSection_featureList_deviceSupport: Controller and webcam support
@@ -139,11 +146,6 @@ openSourceSection_whyOpenSource_p_2: This won&apos;t happen with UltraStar&nbsp;
 openSourceSection_whyOpenSource_title: Why an open song format?
 page_legalNotice: Legal Notice
 page_privacyPolicy: Privacy Policy
-plannedFeaturesSection_detail: UltraStar&nbsp;Play is already fun to play.<br /> Nonetheless, there are more features planned and more work to do. Join our social media channels to follow the journey of UltraStar&nbsp;Play becoming the next party hit everyone loves.
-plannedFeaturesSection_plannedFeature_1: Online multiplayer & high scores
-plannedFeaturesSection_plannedFeature_2: Steam Workshop
-plannedFeaturesSection_plannedFeature_3: Localization
-plannedFeaturesSection_title: More to Come
 songEditorSection_afterFeatureList: With all these features, creating a sing-along version for a game <gradient>has never been easier.</gradient>
 songEditorSection_featureList_1: Isolate vocals of songs for pitch detection and speech recognition
 songEditorSection_featureList_2: Import MIDI files
