@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[234],{9985:function(n,s,u){(window.__NEXT_P=window.__NEXT_P||[]).push(["/sponsors",function(){return u(6698)}])},6698:function(n,s,u){"use strict";u.r(s);var t=u(7137);s.default=(0,t.pm)("https://github.com/sponsors/achimmihca")}},function(n){n.O(0,[137,888,774,179],function(){return n(n.s=9985)}),_N_E=n.O()}]);

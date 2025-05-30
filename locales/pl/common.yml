@@ -1,0 +1,153 @@
+button_acceptAllCookies: Zaakceptuj wszystko
+button_declineNotNeededCookies: Odrzuć niepotrzebne pliki cookie
+button_getCompanionApp: Pobierz aplikację towarzyszącą
+button_getMainGame: Pobierz UltraStar Play
+button_ok: OK
+communityCreatedSongs_currentTopHits: Śpiewaj aktualne hity
+communityCreatedSongs_event: Zaśpiewaj na konwencie lub wydarzeniu
+communityCreatedSongs_filmAndTV: Śpiewaj popularne piosenki z filmów i telewizji
+communityCreatedSongs_footer: Celebruj muzykę, którą kochasz, niezależnie od tego, czy chcesz zagrać epickie ballady, czy zaszaleć z najgorętszymi imprezowymi hymnami.
+communityCreatedSongs_games: Śpiewaj niesamowite ścieżki dźwiękowe z gier
+communityCreatedSongs_regional: Śpiewaj dialekt ze swojego regionu
+communityCreatedSongs_searchHint: Wyszukaj w Google tytuł piosenki lub wykonawcę
+communityCreatedSongs_subtitle: Duża społeczność stworzyła już tysiące piosenek w formacie UltraStar.
+communityCreatedSongs_title: Zaśpiewaj swoje ulubione piosenki!
+communityCreatedSongs_vocaloid: Zaśpiewaj swoje ulubione piosenki Vocaloid i UTAU
+companionAppSection_feature_easySetup: "<strong>Łatwa konfiguracja</strong>: Łączy się bez wysiłku, ponieważ aplikacja automatycznie wyszukuje grę z tego samego Wi-Fi."
+companionAppSection_feature_microphone: "<strong>Mikrofon</strong>: Użyj swojego smartfona jako wysokiej jakości mikrofonu w grze."
+companionAppSection_feature_remoteControl: "<strong>Zdalne sterowanie</strong>: Poruszaj się swobodnie, zachowując kontrolę nad odtwarzaniem i głośnością."
+companionAppSection_feature_sonqQueue: "<strong>Kolejka utworów</strong>: Przeglądaj i zapisuj piosenki, gdy inni wciąż śpiewają."
+companionAppSection_p: Bezpłatna aplikacja towarzysząca na Androida i iOS sprawia, że śpiewanie jest proste dla każdego.
+companionAppSection_title: Aplikacja towarzysząca
+cookieBanner_description: Używamy plików cookie, aby poprawić komfort przeglądania i analizować nasz ruch. Klikając "Akceptuj wszystko", wyrażasz zgodę na używanie przez nas plików cookie.
+cookieBanner_title: Cenimy Twoją prywatność
+crossPlatformSection_p_1: UltraStar Play jest aplikacją wieloplatformową. Jej początkowa wersja będzie przeznaczona dla systemu Windows, a następnie MacOS, Linux, Android i iOS.<br /> Android TV i tvOS mogą być również obsługiwane w przyszłości.
+crossPlatformSection_p_2: Obecnie istnieje tak wiele różnych platform do gier, ale większość gier śpiewających koncentruje się tylko na konsolach.
+crossPlatformSection_p_3: Zmiana konsoli często oznacza utratę kolekcji piosenek. Czasami musisz nawet kupić dodatkowe mikrofony dla konkretnej platformy lub gry.
+crossPlatformSection_p_4: Na szczęście UltraStar Play <emphasize>ROZWIĄZUJE TĘ</emphasize> PROBLEMATYKĘ, ponieważ może ewoluować wraz z Twoim gustem muzycznym i dzisiejszą mnogością urządzeń.
+crossPlatformSection_p_5: Co więcej - możesz <emphasize>MIESZAĆ PLATFORMY</emphasize>. Na przykład, uruchom główną grę na tablecie z systemem iOS i podłącz urządzenie z systemem Android za pomocą aplikacji towarzyszącej.
+crossPlatformSection_title: Wybierz swoją platformę
+downloadCallToActionSection_title: Pobierz
+easyToUseSection_list_1: Nie musisz być utalentowanym piosenkarzem.
+easyToUseSection_list_2: Nie musisz kupować mikrofonu.
+easyToUseSection_list_3: Nie musisz kupować nowej konsoli.
+easyToUseSection_p_afterList: Każdy może dobrze się bawić śpiewając! Po prostu uruchom UltraStar Play i <gradient>pozwól, aby gra poprowadziła Cię</gradient> do kolejnego najwyższego wyniku.
+easyToUseSection_p_beforeList: UltraStar Play jest łatwa w użyciu.
+easyToUseSection_title: Możesz się <gradient>dobrze</gradient> bawić <gradient>w kilka minut</gradient>
+featuresSection_featureCard_audience_detail: Każda piosenka może mieć tło wideo lub obraz. Rozkosz zarówno dla publiczności, jak i śpiewaków.
+featuresSection_featureCard_audience: Rozrywkowa publiczność
+featuresSection_featureCard_companionApp_detail: Wyszukuj i zapisuj piosenki, gdy inni wciąż śpiewają. Użyj swojego smartfona jako mikrofonu lub do zdalnego sterowania grą.
+featuresSection_featureCard_companionApp: Aplikacja towarzysząca
+featuresSection_featureCard_controllerSupport_detail: Nie musisz trzymać się klawiatury. Po prostu użyj gamepada do sterowania UltraStar Play.
+featuresSection_featureCard_controllerSupport: Obsługa kontrolerów
+featuresSection_featureCard_embeddedBrowser_detail: Używaj filmów z YouTube lub innych stron internetowych. Jest to możliwe dzięki przeglądarce wbudowanej w grę.
+featuresSection_featureCard_embeddedBrowser: Filmy wideo w Internecie
+featuresSection_featureCard_gameModifiers_detail: Wystaw swoje umiejętności na próbę, wprowadzając zmiany do zwykłej gry, na przykład ukrywając teksty i nuty dla wiodącego gracza.
+featuresSection_featureCard_gameModifiers: Urozmaić grę
+featuresSection_featureCard_micPlayback_detail: Usłysz swój własny głos z głośników podczas śpiewania.
+featuresSection_featureCard_micPlayback: Odtwarzanie przez mikrofon
+featuresSection_featureCard_mics_detail: Podłącz swój smartfon jako mikrofon. Użyj zestawów słuchawkowych lub mikrofonów karaoke z innych gier.
+featuresSection_featureCard_mics: Użyj istniejących mikrofonów
+featuresSection_featureCard_modding_detail: Napisz własny kod, aby zmienić i rozszerzyć grę. Użyj modów społeczności, aby uzyskać zupełnie nowe wrażenia z gry. Aby uzyskać szczegółowe informacje, kliknij <a href="/learn/mods">tutaj</a>.
+featuresSection_featureCard_modding: Wsparcie dla modowania
+featuresSection_featureCard_onlineMultiplayer_detail: Połącz się ze znajomymi online, przeglądajcie razem piosenki i oglądajcie swoje występy podczas śpiewania.
+featuresSection_featureCard_onlineMultiplayer: Multiplayer online
+featuresSection_featureCard_openSongFormat_detail: UltraStar Play obsługuje szeroko rozpowszechniony i otwarty format UltraStar.
+featuresSection_featureCard_openSongFormat: Otwórz formaty piosenek
+featuresSection_featureCard_playerAndMicProfiles_detail: Skonfiguruj każdego gracza i urządzenie indywidualnie. Szybko przypisuj mikrofony do graczy.
+featuresSection_featureCard_playerAndMicProfiles: Profile graczy i mikrofonów
+featuresSection_featureCard_playlistsAndFavorites_detail: Oznaczaj utwory jako ulubione i organizuj swoją bibliotekę utworów za pomocą list odtwarzania w formacie M3U lub UltraStar.
+featuresSection_featureCard_playlistsAndFavorites: Listy odtwarzania i ulubione
+featuresSection_featureCard_scoreMode_detail: Kooperacyjny tryb punktacji kładzie nacisk na ŚPIEWANIE RAZEM z twoimi bliskimi. Lub ciesz się klasycznym karaoke bez żadnych wyników.
+featuresSection_featureCard_scoreMode: Tryby punktacji
+featuresSection_featureCard_searchAndFind_detail: Z łatwością radź sobie z dużymi kolekcjami piosenek. Szybko przeskakuj do utworów lub stosuj filtry, aby znaleźć na przykład duety, hity z lat 90. lub utwory rockowe.
+featuresSection_featureCard_searchAndFind: Wyszukiwanie zaawansowane
+featuresSection_featureCard_solosDuetsGroups_detail: Zaśpiewaj w duecie, w którym każdy gracz ma inny tekst i nuty. Możesz też zorganizować imprezę i śpiewać z wieloma graczami jednocześnie.
+featuresSection_featureCard_solosDuetsGroups: Solówki, duety, grupy
+featuresSection_featureCard_songEditor_detail: Zintegrowany edytor pozwala stworzyć wersję śpiewaną dowolnej piosenki - nieograniczone możliwości!
+featuresSection_featureCard_songEditor: Edytor piosenek
+featuresSection_featureCard_songQueueAndMedleys_detail: Odtwarzaj wiele utworów z kolejki bez przerwy. Połącz utwory w kolejce, aby utworzyć medley.
+featuresSection_featureCard_songQueueAndMedleys: Kolejka piosenek i medleye
+featuresSection_featureCard_speechRecognition_detail: Użyj funkcji rozpoznawania mowy, aby dyktować teksty w edytorze piosenek.
+featuresSection_featureCard_speechRecognition: Dyktuj teksty
+featuresSection_featureCard_teamAndTournament_detail: Graj w wiele rund, w stylu round robin lub w turnieju pucharowym. Zabawa dla grup każdej wielkości!
+featuresSection_featureCard_teamAndTournament: Drużyna i turniej
+featuresSection_featureCard_themes_detail: Zmień wygląd i styl gry, aby dopasować ją do swojego stylu. Twórz własne motywy.
+featuresSection_featureCard_themes: Motywy
+featuresSection_featureCard_vocalsSeparation_detail: Podziel swoje pliki mp3 lub ogg na wokal i ścieżkę instrumentalną. Przydatne do wyciszania wokalu w klasycznym karaoke lub podczas edycji utworów.
+featuresSection_featureCard_vocalsSeparation: Izolacja wokalu
+featuresSection_featureCard_webcam_detail: Śpiewanie jest jeszcze przyjemniejsze, gdy możesz zobaczyć siebie! Użyj aparatu jako tła lub zrób zdjęcie profilowe.
+featuresSection_featureCard_webcam: Kamera internetowa
+featuresSection_featureList_companionApp: Aplikacja towarzysząca jako mikrofon
+featuresSection_featureList_customSongs: Własne piosenki i edytor piosenek
+featuresSection_featureList_deviceSupport: Obsługa kontrolera i kamery internetowej
+featuresSection_featureList_duetSongs: Piosenki w duecie
+featuresSection_featureList_embeddedBrowser: Integracja stron internetowych (np. YouTube)
+featuresSection_featureList_pitchDetection: Wykrywanie wysokości dźwięku, aby kierować Twoim głosem
+featuresSection_featureList_playlists: Ulubione i listy odtwarzania
+featuresSection_featureList_scoreMode: Kooperacyjny tryb punktacji
+featuresSection_featureList_songQueueAndMedleys: Kolejka piosenek i medleye
+featuresSection_featureList_teamAndTournament: Tryby gry zespołowej i turniejowej
+featuresSection_featureList_title: "Dzięki UltraStar Play <emphasize>otrzymasz</emphasize>:"
+featuresSection_featureList_vocalsSeparation: Izolacja wokalu oparta na sztucznej inteligencji
+featuresSection_imagineList_1: Zmień każdą noc w epicką rozgrywkę karaoke
+featuresSection_imagineList_2: Zorganizuj śpiewającą imprezę z przyjaciółmi i rodziną
+featuresSection_imagineList_3: Pobij rekord lub śpiewaj razem w duecie
+featuresSection_imagineList_4: Użyj swojego smartfona jako mikrofonu, nie musisz kupować nowego sprzętu
+featuresSection_imagineList_5: Twórz piosenki, które chcesz, bez względu na gust muzyczny
+featuresSection_imagineList_embeddedBrowser: Korzystaj z platform wideo, takich jak YouTube, bezpośrednio w grze
+featuresSection_imagineList_title: Wyobraź sobie, jak by to było...
+introSection_discordName: Discord
+introSection_documentationAndHelpLinks: Dołącz do rosnącej społeczności na {{discordLink}}.
+introSection_faqName: FAQ
+introSection_follow_prefix: Śledź projekt na
+introSection_p_1: Poczuj się jak supergwiazda, celebruj muzykę i ciesz się niezapomnianymi wspomnieniami z rodziną i przyjaciółmi, gdy razem dacie czadu na wirtualnej scenie i pobijcie rekord!
+introSection_p_2: UltraStar Play to zabawna gra karaoke, która nigdy się nie starzeje. Baw się dobrze śpiewając swoje ulubione piosenki. Różnorodne tryby pozwalają Ci grać z innymi lub rywalizować z nimi. Otwarty format piosenek i narzędzia edytora oparte na sztucznej inteligencji zapewniają nieograniczone możliwości.
+introSection_title: Ciesz się zabawną imprezą śpiewającą
+introSection_typewriterText_1: śpiewasz swoje ulubione piosenki?
+introSection_typewriterText_2: rzucisz wyzwanie znajomym?
+introSection_typewriterText_3: Zanurzasz się w muzyce?
+introSection_typewriterText_prefix: Chcesz
+introSection_wikiName: wiki
+navigationSection_download: Pobierz
+navigationSection_faq: FAQ
+navigationSection_features_community: Piosenki
+navigationSection_features_companionApp: Aplikacja towarzysząca
+navigationSection_features_crossPlatform: Cross Platform
+navigationSection_features_featureList: Lista funkcji
+navigationSection_features_openSource: Możliwość dostosowania
+navigationSection_features_overview: Przegląd
+navigationSection_features_plannedFeatures: Planowane funkcje
+navigationSection_features_songEditor: Edytor piosenek
+navigationSection_features: Nawiguj
+navigationSection_home: Strona główna
+navigationSection_newsletter: Newsletter
+navigationSection_pressKit: Zestaw prasowy
+navigationSection_testimonial: Referencje
+newsletterSection_email_hint: Adres e-mail
+newsletterSection_submit: SUBSKRYBUJ TERAZ
+newsletterSection_subtitle: Nie przegap więcej aktualizacji.
+newsletterSection_title: Pobierz Newsletter!
+openSourceSection_p_getInvolved: Stwórz <gradient>swoją grę</gradient>!<br /> UltraStar Play została zaprojektowana tak, aby można ją było <gradient>dostosowywać</gradient>, <gradient>rozszerzać</gradient> i <gradient>hakować</gradient>. Możesz nie tylko dodawać własne piosenki, ale także własne obrazy, motywy, a nawet kod. <a href="/learn/steam-workshop">Dowiedz się więcej</a>.
+openSourceSection_title: Konfigurowalny - kochający open source
+openSourceSection_whyOpenSource_p_1: Wyobraź sobie, że kupujesz kolejną grę śpiewającą na swoją obecną konsolę, ale okazuje się, że sprzedawca wyłącza funkcje online lub tracisz kolekcję piosenek podczas zmiany urządzenia.
+openSourceSection_whyOpenSource_p_2: Nie stanie się tak w przypadku UltraStar Play, ponieważ może ona <gradient>ewoluować wraz z przyszłością</gradient>, o ile stoi za nią społeczność.
+openSourceSection_whyOpenSource_title: Dlaczego otwarty format piosenki?
+page_legalNotice: Nota prawna
+page_privacyPolicy: Polityka prywatności
+songEditorSection_afterFeatureList: Dzięki tym wszystkim funkcjom tworzenie wersji śpiewanej do gry <gradient>nigdy nie było łatwiejsze.</gradient>
+songEditorSection_featureList_1: Izoluj wokale piosenek w celu wykrywania wysokości dźwięku i rozpoznawania mowy.
+songEditorSection_featureList_2: Importuj pliki MIDI
+songEditorSection_featureList_3: Dyktuj teksty lub użyj stukania w przycisk
+songEditorSection_featureList_4: Analiza jakości i wskazówki
+songEditorSection_featureList_5: ...i wiele więcej!
+songEditorSection_furtherDocumentation_documentation: dokumentacja
+songEditorSection_furtherDocumentation_video: wideo
+songEditorSection_furtherDocumentation: Sprawdź {{videoLink}} lub {{documentationLink}} po szczegóły.
+songEditorSection_p_2: Edytor piosenek UltraStar Play łączy w sobie funkcje, które wcześniej wymagały wielu narzędzi.<br /> Ponadto możesz szybko <gradient>przełączać się między edycją a testowaniem</gradient> utworu.
+songEditorSection_subtitle: Stwórz własne piosenki
+songEditorSection_title: Masz dziwny gust muzyczny? <gradient>Nie ma problemu!</gradient>
+testimonialSection_title: Prawdziwe recenzje, prawdziwa zabawa
+website_description: Poczuj się jak supergwiazda, celebruj muzykę i ciesz się niezapomnianymi wspomnieniami z rodziną i przyjaciółmi, gdy razem dacie czadu na wirtualnej scenie i pobijcie rekord!
+website_title: UltraStar Play - gra karaoke
+youTubeVideo_mustAcceptCookieHint: Zaakceptuj wszystkie pliki cookie, aby obejrzeć wideo YouTube.

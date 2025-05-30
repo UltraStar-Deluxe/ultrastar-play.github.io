@@ -1,0 +1,150 @@
+<!DOCTYPE html><html lang="en"><head><meta charSet="utf-8"/><meta name="viewport" content="width=device-width"/><meta name="next-head-count" content="2"/><meta charSet="utf-8"/><meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no"/><meta name="author" content=""/><link rel="icon" type="image/x-icon" href="favicon.ico"/><link rel="preload" href="/_next/static/media/1b5d9e0023509ad4-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/6d7e649312431bb5-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/9c064da0c6a8705d-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/a5f02fb6311fcdbc-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/34019fa29111defb-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/56da557e531d1081-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/c7128a8004343716-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/media/c4a2ca76cbcd952a-s.p.woff2" as="font" type="font/woff2" crossorigin="anonymous" data-next-font="size-adjust"/><link rel="preload" href="/_next/static/css/8d56ef95c77aa1dd.css" as="style"/><link rel="stylesheet" href="/_next/static/css/8d56ef95c77aa1dd.css" data-n-g=""/><noscript data-n-css=""></noscript><script defer="" nomodule="" src="/_next/static/chunks/polyfills-78c92fac7aa8fdd8.js"></script><script src="/_next/static/chunks/webpack-f981349e6b5d118b.js" defer=""></script><script src="/_next/static/chunks/framework-ecc4130bc7a58a64.js" defer=""></script><script src="/_next/static/chunks/main-2f04ca105e24fe1e.js" defer=""></script><script src="/_next/static/chunks/pages/_app-846cadebb5ead34e.js" defer=""></script><script src="/_next/static/chunks/424-37090e041c1bcfe6.js" defer=""></script><script src="/_next/static/chunks/pages/learn/mods-731cce9299e88923.js" defer=""></script><script src="/_next/static/rTTnEJAY-1ArV3e9weMop/_buildManifest.js" defer=""></script><script src="/_next/static/rTTnEJAY-1ArV3e9weMop/_ssgManifest.js" defer=""></script><style id="__jsx-1652321548">:root{--mulish-font:'__Mulish_875b40', '__Mulish_Fallback_875b40';--kanit-font:'__Kanit_a21479', '__Kanit_Fallback_a21479';--inter-font:'__Inter_c9a10c', '__Inter_Fallback_c9a10c';--roboto-font:'__Roboto_e8f27f', '__Roboto_Fallback_e8f27f'}</style></head><body id="page-top"><div id="__next"><nav class="navbar navbar-expand-lg navbar-light fixed-top shadow-sm" id="mainNav" style="padding-top:0.5rem;padding-bottom:0.5rem"><div class="container px-5"><a class="navbar-brand fw-bold" href="#page-top">UltraStar Play</a><button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarResponsive" aria-controls="navbarResponsive" aria-expanded="false" aria-label="Toggle navigation">Menu<i class="bi-list"></i></button><div class="collapse navbar-collapse" id="navbarResponsive"><ul class="navbar-nav ms-auto me-4 my-3 my-lg-0"><li class="nav-item"><a class="nav-link me-lg-3" href="/">Home</a></li></ul></div></div></nav><div class="mdx-content undefined "><div class="section"><div class="container"><div class="row justify-content-center"><div class="col-lg-6"><h1 id="what-is-a-mod">What is a Mod</h1>
+<ul>
+<li>UltraStar Play can be extended with custom code that can be used to modify (mod) the game.<!-- -->
+<ul>
+<li>TIP: Browse mods and other user-generated content on <a href="/learn/steam-workshop">Steam Workshop</a>.</li>
+</ul>
+</li>
+<li>A folder with such custom code is called a <em>mod folder</em> or short <em>mod</em>.</li>
+</ul>
+<h3 id="how-to-install-mods">How to Install Mods</h3>
+<ul>
+<li>Mod folders are searched in a specific folder called the <em>mods root folder</em>.</li>
+<li>The mods root folder can be found by executing the command <code>mod.path</code> in the game&#x27;s console (open via <code>F7</code>).</li>
+<li>To install a mod folder, copy it to the mods root folder. An app restart may be required afterwards.</li>
+</ul>
+<h1 id="how-to-develop-mods">How to Develop Mods</h1>
+<ul>
+<li>Mod development for UltraStar Play means C# programming.</li>
+<li>This can be done with <a href="https://code.visualstudio.com/">Visual Studio Code</a>
+and the <a href="https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit">C# Dev Kit</a>
+that provides IDE features such as code completion, error markers, parameter hints, go to definition, etc.</li>
+</ul>
+<h3 id="mod-interfaces">Mod Interfaces</h3>
+<ul>
+<li>A mod needs to implement certain C# interfaces that are instantiated by the game.</li>
+<li>Available interfaces for mods can be found by executing <code>mod.interfaces</code> in the game&#x27;s console.</li>
+</ul>
+<h3 id="create-a-new-mod">Create a New Mod</h3>
+<ul>
+<li>Press <code>F7</code> to open the game&#x27;s console</li>
+<li>Execute the command <code>mod.create MyModName</code> in the console.<!-- -->
+<ul>
+<li>This will create a new example mod with the given name.</li>
+</ul>
+</li>
+<li>Open the created mod folder in Visual Studio Code. Install C# Dev Kit if not done already.</li>
+<li>Write C# code as needed.</li>
+</ul>
+<h3 id="the-csproj-file">The .csproj file</h3>
+<ul>
+<li>The <code>.csproj</code> file holds information about the C# project structure of the mod.</li>
+<li>This file tells the IDE which C# libraries (DLL files) are available.<!-- -->
+<ul>
+<li>The file should point to the DLL files that are shipped with the game,
+plus the DLL files in the mod folder itself.</li>
+</ul>
+</li>
+<li>This file is used only by the IDE, not by the game.</li>
+</ul>
+<h3 id="the-modinfoyml-file">The modinfo.yml file</h3>
+<ul>
+<li>Information about the mod such as its name, description, and version should be specified in the file <code>modinfo.yml</code>.</li>
+<li>The information from <code>modinfo.yml</code> can be accessed by the user in the game without enabling the mod.</li>
+</ul>
+<h3 id="the-modsettingsjson-file">The modsettings.json file</h3>
+<ul>
+<li>Instances of <code>IModSettings</code> are saved and loaded from the file <code>modsettings.json</code> of their corresponding mod folder.</li>
+<li>There should only be a single IModSettings implementation per mod.</li>
+</ul>
+<h3 id="loading-assemblies-and-types">Loading Assemblies and Types</h3>
+<ul>
+<li>
+<p>Not all of the app domain (i.e. loaded libraries) is exposed to mods by default.</p>
+</li>
+<li>
+<p>To make all types from an assembly (e.g. <code>Newtonsoft.Json</code>) available to your mod, specify the assembly in <code>requiredAssemblies</code> of <code>modinfo.yml</code>.</p>
+</li>
+<li>
+<p>To make specific types in an already loaded assembly (e.g. <code>System.Uri</code>) available to your mod, specify the type in <code>requiredTypes</code> of <code>modinfo.yml</code>.</p>
+<ul>
+<li>NOTE: Types from the standard library (for example <code>System.Uri</code> from the assembly <code>mscorlib</code>) must be loaded using this field because <code>requiredAssemblies</code> cannot be used to load the standard library a second time.</li>
+</ul>
+</li>
+<li>
+<p>You can find the assembly of a type using <code>go to declaration</code> of Visual Studio Code (see below video).</p>
+</li>
+</ul>
+<video controls=""><source src="/videos/modding/find-assembly.webm" type="video/webm"/>Your browser does not support the video tag.</video>
+<h3 id="mod-loading">Mod Loading</h3>
+<ul>
+<li>Mods are loaded in alphabetical order.</li>
+<li>Enabled mod are loaded when<!-- -->
+<ul>
+<li>the game starts</li>
+<li>a mod becomes enabled</li>
+</ul>
+</li>
+<li>Instances of classes from mods are created only after all enabled mods have been loaded</li>
+</ul>
+<h3 id="script-loading-order">Script Loading Order</h3>
+<ul>
+<li>First, DLL files in the mod folder are loaded in alphabetical order.</li>
+<li>Second, C# files in the mod folder are loaded in alphabetical order.</li>
+<li>Thus, you can change the load order of your scripts be naming them accordingly, e.g., with a letter prefix.<!-- -->
+<ul>
+<li>Example: <code>a-MyCoolFile.cs</code> would be loaded before <code>b-MyAwesomeFile.cs</code></li>
+</ul>
+</li>
+</ul>
+<h3 id="evaluate-code-in-the-console">Evaluate Code in the Console</h3>
+<ul>
+<li>The game&#x27;s console can be used to evaluate C# code by using the <code>mod.eval</code> command.<!-- -->
+<ul>
+<li>Example: <code>mod.eval (UnityEngine.Debug.Log(&quot;Hello world!&quot;))</code>
+<ul>
+<li>Note that the first pair of parentheses is needed to handle the console argument as a single argument when there is a space</li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Using statements can be used as well<!-- -->
+<ul>
+<li>Example:<!-- -->
+<ul>
+<li><code>mod.eval (using UnityEngine)</code></li>
+<li><code>mod.eval (Debug.Log(&quot;Hello world!&quot;))</code></li>
+</ul>
+</li>
+</ul>
+</li>
+<li>Example to change style of a UI element:<!-- -->
+<ul>
+<li><code>mod.eval (using UnityEngine.UIElements)</code></li>
+<li><code>mod.eval (GameObject.FindObjectOfType&lt;UIDocument&gt;().rootVisualElement.Q(&quot;logo&quot;).style.opacity = 0.1f))</code></li>
+</ul>
+</li>
+<li>Loaded mods are not available in this code evaluation.</li>
+</ul>
+<h3 id="troubleshooting-hints">Troubleshooting Hints</h3>
+<ul>
+<li>Disable other mods while working on a new mod.</li>
+<li>Make sure C# Dev Kit and the C# project are loaded correctly.<!-- -->
+<ul>
+<li>Try to write something that is known to fail, e.g., <code>ThisIsWrong()</code> and check that an error marker appears as expected.</li>
+</ul>
+</li>
+<li>Make sure that there are no error markers in the IDE<!-- -->
+<ul>
+<li>Only a mod without errors will load properly in the game.</li>
+</ul>
+</li>
+<li>Make sure the dependencies of your scripts match their load order.<!-- -->
+<ul>
+<li>Scripts of a mod are loaded in alphabetical order.</li>
+</ul>
+</li>
+<li>Make sure <code>modinfo.yml</code> specifies all required assemblies in the <code>requiredAssemblies</code> field or specific types in the <code>requiredTypes</code> field.</li>
+<li>Use <code>UnityEngine.Debug.Log</code> to write information to the game&#x27;s console.</li>
+<li>Try to restart the app and see if errors are still present.</li>
+</ul></div></div></div></div></div></div><script id="__NEXT_DATA__" type="application/json">{"props":{"pageProps":{}},"page":"/learn/mods","query":{},"buildId":"rTTnEJAY-1ArV3e9weMop","nextExport":true,"autoExport":true,"isFallback":false,"scriptLoader":[]}</script></body></html>

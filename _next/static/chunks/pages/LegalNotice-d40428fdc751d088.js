@@ -1,0 +1,1 @@
+(self.webpackChunk_N_E=self.webpackChunk_N_E||[]).push([[172],{1484:function(n,u,_){(window.__NEXT_P=window.__NEXT_P||[]).push(["/LegalNotice",function(){return _(4037)}])},4037:function(n,u,_){"use strict";_.r(u);var e=_(7137);u.default=e.ae}},function(n){n.O(0,[137,888,774,179],function(){return n(n.s=1484)}),_N_E=n.O()}]);

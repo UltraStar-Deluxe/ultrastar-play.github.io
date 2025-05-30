@@ -1,0 +1,158 @@
+{
+    "products": {
+        "mm": "UltraStar Play",
+        "usplay": "UltraStar Play"
+    },
+    "features": [
+        {
+            "name": "UltraStar song format",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Duet songs",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Score modes",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Webcam",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Partial controller support",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Custom themes",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Custom player profile images",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Companion app - microphone",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Select microphone by singing",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Playback of microphone input",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Team & Tournament",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Song Queue",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Medleys",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Modding",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "MIDI support",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Playlists and Favorites",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Song editor - import MIDI files",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Song editor - import LRC lyrics",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "REST API to control the game",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Companion App - song queue",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Companion App - remote control",
+            "mm": true,
+            "usplay": true
+        },
+        {
+            "name": "Vocals isolation (AI)",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Song editor - speech recognition (AI)",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Song editor - pitch detection (AI)",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Visual Goodies from Unity Asset Store",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Many audio and video file formats",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Embedded browser (YouTube etc.)",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Microphones with multiple channels",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Steam Workshop integration",
+            "mm": true,
+            "usplay": false
+        },
+        {
+            "name": "Online Multiplayer via Steam",
+            "mm": true,
+            "usplay": false
+        }
+    ]
+}
