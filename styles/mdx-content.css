@@ -1,0 +1,27 @@
+.mdx-content {
+    padding-top: 40px;
+}
+
+.mdx-content h1 {
+    /* font-alt */
+    font-family: var(--kanit-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    margin-top: 32px;
+}
+
+.mdx-content h2 {
+    /* font-alt */
+    font-family: var(--kanit-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    margin-top: 32px;
+}
+
+.mdx-content h3 {
+    /* font-alt */
+    font-family: var(--kanit-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    margin-top: 16px;
+}
+
+.mdx-content h4 {
+    /* font-alt */
+    font-family: var(--kanit-font), -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto, "Helvetica Neue", Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji" !important;
+    margin-top: 8px;
+}

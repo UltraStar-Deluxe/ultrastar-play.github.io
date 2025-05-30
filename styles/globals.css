@@ -1,4 +1,16 @@
 @import "bootstrap-new-age-v6-0-0.css";
+@import "mdx-content.css";
+
+gradient {
+    /* text-gradient */
+    background: -webkit-linear-gradient(#2937f0, #9f1ae2);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+
+    /* bold */
+    font-weight: bold;
+}
 
 .cookie-notice-container {
     position: fixed;
@@ -65,13 +77,6 @@
     background-repeat: no-repeat;
 }
 
-.melody-mania-background {
-    background: url('/img/prairie-679014-dark.jpg');
-    background-position: top;
-    background-size: cover;
-    background-repeat: no-repeat;
-}
-
 .blue-to-darkblue-background {
     background: url('/img/blue-to-darkblue.jpg');
     background-position: center;
@@ -104,6 +109,13 @@
     width: 100%;
     height: 50vw;
     max-height: 50vh;
+}
+
+video {
+    width: 100%;
+    max-width: 560px;
+    margin-left: auto;
+    margin-right: auto;
 }
 
 .youtube-video-inner-container {

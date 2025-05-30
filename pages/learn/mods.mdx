@@ -1,0 +1,95 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+import TutorialVideo from '../../components/TutorialVideo'
+
+# What is a Mod
+- UltraStar Play can be extended with custom code that can be used to modify (mod) the game.
+    - TIP: Browse mods and other user-generated content on [Steam Workshop](/learn/steam-workshop).
+- A folder with such custom code is called a *mod folder* or short *mod*.
+
+### How to Install Mods
+- Mod folders are searched in a specific folder called the *mods root folder*.
+- The mods root folder can be found by executing the command `mod.path` in the game's console (open via `F7`).
+- To install a mod folder, copy it to the mods root folder. An app restart may be required afterwards.
+
+# How to Develop Mods
+- Mod development for UltraStar Play means C# programming.
+- This can be done with [Visual Studio Code](https://code.visualstudio.com/)
+and the [C# Dev Kit](https://marketplace.visualstudio.com/items?itemName=ms-dotnettools.csdevkit)
+that provides IDE features such as code completion, error markers, parameter hints, go to definition, etc.
+
+### Mod Interfaces
+- A mod needs to implement certain C# interfaces that are instantiated by the game.
+- Available interfaces for mods can be found by executing `mod.interfaces` in the game's console.
+
+### Create a New Mod
+- Press `F7` to open the game's console
+- Execute the command `mod.create MyModName` in the console.
+    - This will create a new example mod with the given name.
+- Open the created mod folder in Visual Studio Code. Install C# Dev Kit if not done already.
+- Write C# code as needed.
+
+### The .csproj file
+- The `.csproj` file holds information about the C# project structure of the mod.
+- This file tells the IDE which C# libraries (DLL files) are available.
+    - The file should point to the DLL files that are shipped with the game,
+      plus the DLL files in the mod folder itself.
+- This file is used only by the IDE, not by the game.
+
+### The modinfo.yml file
+- Information about the mod such as its name, description, and version should be specified in the file `modinfo.yml`.
+- The information from `modinfo.yml` can be accessed by the user in the game without enabling the mod.
+
+### The modsettings.json file
+- Instances of `IModSettings` are saved and loaded from the file `modsettings.json` of their corresponding mod folder.
+- There should only be a single IModSettings implementation per mod.
+
+### Loading Assemblies and Types
+- Not all of the app domain (i.e. loaded libraries) is exposed to mods by default.
+- To make all types from an assembly (e.g. `Newtonsoft.Json`) available to your mod, specify the assembly in `requiredAssemblies` of `modinfo.yml`.
+- To make specific types in an already loaded assembly (e.g. `System.Uri`) available to your mod, specify the type in `requiredTypes` of `modinfo.yml`.
+    - NOTE: Types from the standard library (for example `System.Uri` from the assembly `mscorlib`) must be loaded using this field because `requiredAssemblies` cannot be used to load the standard library a second time.
+
+- You can find the assembly of a type using `go to declaration` of Visual Studio Code (see below video).
+<TutorialVideo src="/videos/modding/find-assembly.webm" />
+
+### Mod Loading
+- Mods are loaded in alphabetical order.
+- Enabled mod are loaded when
+    - the game starts
+    - a mod becomes enabled
+- Instances of classes from mods are created only after all enabled mods have been loaded
+
+### Script Loading Order
+- First, DLL files in the mod folder are loaded in alphabetical order.
+- Second, C# files in the mod folder are loaded in alphabetical order.
+- Thus, you can change the load order of your scripts be naming them accordingly, e.g., with a letter prefix.
+    - Example: `a-MyCoolFile.cs` would be loaded before `b-MyAwesomeFile.cs`
+
+### Evaluate Code in the Console
+- The game's console can be used to evaluate C# code by using the `mod.eval` command.
+    - Example: `mod.eval (UnityEngine.Debug.Log("Hello world!"))`
+        - Note that the first pair of parentheses is needed to handle the console argument as a single argument when there is a space
+- Using statements can be used as well
+    - Example:
+        - `mod.eval (using UnityEngine)`
+        - `mod.eval (Debug.Log("Hello world!"))`
+- Example to change style of a UI element:
+    - `mod.eval (using UnityEngine.UIElements)`
+    - `mod.eval (GameObject.FindObjectOfType<UIDocument>().rootVisualElement.Q("logo").style.opacity = 0.1f))`
+- Loaded mods are not available in this code evaluation.
+
+### Troubleshooting Hints
+- Disable other mods while working on a new mod.
+- Make sure C# Dev Kit and the C# project are loaded correctly.
+    - Try to write something that is known to fail, e.g., `ThisIsWrong()` and check that an error marker appears as expected.
+- Make sure that there are no error markers in the IDE
+    - Only a mod without errors will load properly in the game.
+- Make sure the dependencies of your scripts match their load order.
+    - Scripts of a mod are loaded in alphabetical order.
+- Make sure `modinfo.yml` specifies all required assemblies in the `requiredAssemblies` field or specific types in the `requiredTypes` field.
+- Use `UnityEngine.Debug.Log` to write information to the game's console.
+- Try to restart the app and see if errors are still present.
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

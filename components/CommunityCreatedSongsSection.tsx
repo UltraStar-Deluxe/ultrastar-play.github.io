@@ -3,6 +3,11 @@ import { useTranslationUnescaped } from "../lib/utils";
 import { T } from "./T";
 import WaveBackground from "./WaveBackground"
 
+const songWebsiteUrls = [
+    'usdb.eu',
+    'ultrastar-es.org/en'
+]
+
 const SingIdeaEntry = (props: {title: string, image: string}) => 
 {
     let size = '150px';
@@ -15,6 +20,23 @@ const SingIdeaEntry = (props: {title: string, image: string}) =>
     </div>
 </div>
 )
+}
+
+const doSongSearch = () => {
+    if (typeof document == "undefined" || !document)
+    {
+        return;
+    }
+
+    const searchInputField = document.getElementById('example-search-input') as HTMLInputElement;
+    const searchText = searchInputField.value;
+    const escapedSearchText = encodeURI(searchText);
+    const sitesQuery = songWebsiteUrls.map(site => `site:${site}`).join(" OR ");
+    const url = `https://www.google.com/search?q=${escapedSearchText}+${sitesQuery}`
+
+    console.log(`searching for songs by text '${searchText}' via url ${url}`)
+    const newTab = open(url, '_blank');
+    newTab?.focus()
 }
 
 const CommunityCreatedSongsSection = () => {
@@ -36,6 +58,19 @@ const CommunityCreatedSongsSection = () => {
                     </div>
                 </div>
             </div>
+            
+            {/* <div className="row justify-content-center mt-3">
+                <div className="col col-md-4">
+                    <div className="input-group">
+                        <input className="form-control" type="search" id="example-search-input" placeholder={ t("communityCreatedSongs_searchHint") } onKeyUp={evt => evt.keyCode === 13 ? doSongSearch() : ""}  />
+                        <span className="input-group-append">
+                            <button className="btn btn-primary" type="button" style={{ borderTopLeftRadius: 0, borderBottomLeftRadius: 0 }} onClick={doSongSearch}>
+                                <span className="bi bi-search" />
+                            </button>
+                        </span>
+                    </div>
+                </div>
+            </div> */}
 
             <div className="container px-md-5">
                 <hr className="bg-light"/>
@@ -45,7 +80,17 @@ const CommunityCreatedSongsSection = () => {
                     <SingIdeaEntry title={ t("communityCreatedSongs_games") } image="/img/controller-1784573.svg"/>
                     <SingIdeaEntry title={ t("communityCreatedSongs_vocaloid") } image="/img/sing-570519.png"/>
                     <SingIdeaEntry title={ t("communityCreatedSongs_event") } image="/img/halloween-6784081.jpg"/>
-                    <SingIdeaEntry title={ t("communityCreatedSongs_regional") } image="/img/chorus-5977187-cut.jpg"/>
+                    <SingIdeaEntry title={ t("communityCreatedSongs_regional") } image="/img/singer-250933_1920-cut.jpg"/>
+                </div>
+                <hr className="bg-light"/>
+            </div>
+            
+
+            <div className="container px-md-5">
+                <div className="row justify-content-center">
+                    <div className="col-xl-8">
+                        <div className="fs-3 text-white font-alt"><T i18nKey="communityCreatedSongs_footer" /></div>
+                    </div>
                 </div>
             </div>
         </section>

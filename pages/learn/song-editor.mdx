@@ -1,0 +1,185 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+import TutorialVideo from '../../components/TutorialVideo'
+
+# Song Editor
+UltraStar Play includes an editor that can be used to create a sing-along version of any song.
+
+The following shows how to use the editor.
+
+## Table of Content
+- [Create Song From Local Audio File](#create-song-from-local-audio-file)
+- [View Shortcuts and Controls](#view-shortcuts-and-controls)
+- [Split Audio to Isolate Vocals](#split-audio-to-isolate-vocals)
+- [Change Playback Audio](#change-playback-audio)
+- [Dictate Lyrics](#dictate-lyrics)
+- [Speech Recognition in Selection](#speech-recognition-in-selection)
+- [Import LRC Lyrics](#import-lrc-lyrics)
+- [Edit Lyrics](#edit-lyrics)
+- [Pitch Detection](#pitch-detection)
+- [Select Cover, Background, Video](#select-cover-background-video)
+- [Draw to Add Notes](#draw-to-add-notes)
+- [Button Tapping to Add Notes](#button-tapping-to-add-notes)
+- [Button Tapping with Lyrics](#button-tapping-with-lyrics)
+- [Assign Notes to Player](#assign-notes-to-player)
+- [Adjust Following Notes](#adjust-following-notes)
+- [Note Layers](#note-layers)
+- [Play MIDI Sounds](#play-midi-sounds)
+- [Import MIDI / KAR File](#import-midi--kar-file)
+- [Fix Warnings and Errors](#fix-warnings-and-errors)
+- [Change GAP aka. Time to First Lyrics](#change-gap-aka-time-to-first-lyrics)
+- [Change Medley Start and End](#change-medley-start-and-end)
+- [Change Video Offset](#change-video-offset)
+- [Navigate Position History](#navigate-position-history)
+
+## Create Song From Local Audio File
+- Use the "Create New Song" dialog in the main menu to create a song from a local audio file.
+    - This will create a new UltraStar txt file next to the audio file and run the AI tools
+    (vocals isolation, speech recognition, pitch detection) for a quick start.
+<TutorialVideo src="/videos/song-editor/new-song-dialog.webm" />
+
+
+## View Shortcuts and Controls
+- The help dialog shows all available shortcuts and controls
+<TutorialVideo src="/videos/song-editor/view-controls-help.webm" />
+
+
+## Split Audio to Isolate Vocals
+- Click the button in the left side bar to split vocals audio and instrumental audio
+- Afterwards, speech recognition and pitch detection can be performed on the vocals audio
+<TutorialVideo src="/videos/song-editor/split-audio.webm" />
+
+
+## Change Playback Audio
+- You can select which audio should be played: the original music, vocals, insturmental, or your microphone recording
+<TutorialVideo src="/videos/song-editor/change-playback-audio.webm" />
+
+
+## Dictate Lyrics
+- Configure a microphone and click the recording button
+- Speak clearly in the microphone to dictate lyrics
+- TIP: More speech recognition models are available for download [here](https://huggingface.co/ggerganov/whisper.cpp). As a rule of thumb, larger models are more accurate but need more time.
+- TIP: Your recorded audio is shown in red in the overview bar at the bottom
+- NOTE: The speech recognition models have not been trained on singing data. Thus, you may achieve better results by dictating lyrics and speaking clearly, without singing.
+<TutorialVideo src="/videos/song-editor/dictate-lyrics.webm" />
+
+
+## Speech Recognition in Selection
+- As alternative to dictating lyrics, you can run the speech recognition on the vocals audio
+- Select a range or hit `Ctrl+A` to select all
+- Click the button in the settings to do speech recognition on the last selected range
+- NOTE: The speech recognition models have not been trained on singing data. Thus, you may achieve better results by dictating lyrics and speaking clearly, without singing.
+<TutorialVideo src="/videos/song-editor/speech-recognition-in-selection.webm" />
+
+
+## Import LRC Lyrics
+- You can import lyrics in [LRC format](https://en.wikipedia.org/wiki/LRC_(file_format))
+- TIP: Lyrics in LRC format can be found for example on [lyricsify.com](https://lyricsify.com/)
+<TutorialVideo src="/videos/song-editor/import-lrc-format.webm" />
+
+
+## Edit Lyrics
+- Double click a note or phrase to open its lyrics dialog
+- Or use the right click context menu to open the lyrics dialog
+- Switch to edit mode in the lyrics area to edit the lyrics of the whole song
+    - NOTE: Only notes that have been assigned to a player (P1 or P2) are shown in the lyrics area
+- TIP: You can split a note with space and semicolon when editing a note's lyrics
+
+*Special characters*
+- A `semicolon` can be used to separate syllables.
+- A `space` is shown as circle and can be used to separate words.
+- A `line break` is shown as arrow-left and can be used to separate phrases.
+<TutorialVideo src="/videos/song-editor/edit-lyrics.webm" />
+
+
+## Pitch Detection
+- Click the button in the left side bar to analyze the pitch of the vocals audio.
+- Move notes to the detected pitch using the right click context menu on a note or phrase.
+<TutorialVideo src="/videos/song-editor/pitch-detection.webm" />
+
+
+## Select Cover, Background, Video
+- Click the preview of the cover, background, or video to change it
+<TutorialVideo src="/videos/song-editor/select-cover-background-video.webm" />
+
+
+## Draw to Add Notes
+- Select an empty range to deselect all notes
+- Hold `Shift` while dragging to draw new notes
+- TIP: The target layer for new notes can be changed in the settings
+<TutorialVideo src="/videos/song-editor/draw-to-add-notes.webm" />
+
+
+## Button Tapping to Add Notes
+- Start playback then press the corresponding button to add notes
+- TIP: Reduce the playback speed for better accuracy
+- TIP: The used button and pitch can be changed in the settings
+<TutorialVideo src="/videos/song-editor/button-tapping-to-add-notes.webm" />
+
+## Button Tapping with Lyrics
+- Configure lyrics that should be used during button tapping.
+- TIP: Change the caret position in the text field to start at a different word in the lyrics.
+<TutorialVideo src="/videos/song-editor/button-tapping-to-add-notes-with-lyrics.webm" />
+
+## Assign Notes to Player
+- Assign selected notes to a player using the right click context menu
+- NOTE: Only notes that have been assigned to a player are saved to the file!
+<TutorialVideo src="/videos/song-editor/assign-notes-to-player.webm" />
+
+
+## Adjust Following Notes
+- Enable this option to move following notes accordingly
+<TutorialVideo src="/videos/song-editor/adjust-following-notes.webm" />
+
+
+## Note Layers
+- You can hide / show the notes of a layer in the layer menu
+- You can lock / unlock the notes of a layer in the layer menu. The notes of a locked layer can not be edited.
+- You can select all the notes of a layer in the layer menu
+<TutorialVideo src="/videos/song-editor/note-layers.webm" />
+
+
+## Play MIDI Sounds
+- Hold `Ctrl` while you click on a note to preview its pitch
+- Use the virtual piano to hear a MIDI sound of that pitch
+- MIDI sounds during playback can be enabled / disabled in the settings
+- TIP: MIDI sound during playback can be enabled / disabled per layer in the layer menu
+- TIP: Configure a (negative) delay for MIDIs sound during playback in the settings to synchronize playback and MIDI sounds
+<TutorialVideo src="/videos/song-editor/midi-sounds.webm" />
+
+
+## Import MIDI / KAR File
+- You can import lyrics and notes from a MIDI file (aka. KAR file if the MIDI file contains lyrics)
+<TutorialVideo src="/videos/song-editor/import-midi-file.webm" />
+
+
+## Fix Warnings and Errors
+- Click on a warning / error to view its message
+- Click on a warning / error in the menu to jump to its position
+<TutorialVideo src="/videos/song-editor/warning-and-error-markers.webm" />
+
+
+## Change GAP (aka. Time to First Lyrics)
+- Change the GAP (i.e. the time to first lyrics) using the right click context menu
+<TutorialVideo src="/videos/song-editor/set-gap.webm" />
+
+
+## Change Medley Start and End
+- Change the start and end of the song when used in a medley or as short song
+<TutorialVideo src="/videos/song-editor/set-medley-start-and-end.webm" />
+
+
+## Change Video Offset
+- Change the video offset by dragging left / right on the video preview
+- Reset the video offset using the right click context menu on the video preview
+<TutorialVideo src="/videos/song-editor/video-offset.webm" />
+
+
+## Navigate Position History
+- Go to previous positions via `Alt+Left Arrow`
+- Go to next positions via `Alt+Right Arrow`
+<TutorialVideo src="/videos/song-editor/navigate-position-history.webm" />
+
+
+export default ({ children }) => (
+    <MdxLayoutComponent additionalClasses="how-to-song-editor">{children}</MdxLayoutComponent>
+);

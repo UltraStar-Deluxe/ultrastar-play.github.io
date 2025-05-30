@@ -10,7 +10,9 @@ const LanguageSwitcher = () =>
                           || i18nextConfig.i18n.defaultLocale
 
     return <>
-        <a className="nav-link dropdown-toggle bi bi-translate cursor-pointer" data-bs-toggle="dropdown">&nbsp;</a>
+        <div className="nav-link dropdown-toggle cursor-pointer" data-bs-toggle="dropdown">
+          <span className="bi bi-translate">&nbsp;Language</span>
+        </div>
         <ul className="dropdown-menu">
             {i18nextConfig.i18n.locales.map((locale) => {
                 if (locale === currentLocale)

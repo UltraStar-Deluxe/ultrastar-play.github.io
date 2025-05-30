@@ -1,5 +1,5 @@
 import { useEffect } from "react"
-import { setInnerHtml, useTranslationUnescaped } from "../lib/utils"
+import { useUnescapedTranslations, setInnerHtml, useTranslationUnescaped } from "../lib/utils"
 import { T } from "./T"
 
 const PlannedFeaturesSection = () =>
@@ -16,12 +16,8 @@ const PlannedFeaturesSection = () =>
             <div className="col-12 col-md-8">
                 <h2 className="text-white display-1 lh-1 mb-4 font-alt"><T i18nKey="plannedFeaturesSection_title"/></h2>
                 <ul className="text-white fs-3 font-alt">
-                    <li><T i18nKey="plannedFeaturesSection_plannedFeature_1"/></li>
-                    <li><T i18nKey="plannedFeaturesSection_plannedFeature_2"/></li>
-                    <li><T i18nKey="plannedFeaturesSection_plannedFeature_3"/></li>
-                    <li><T i18nKey="plannedFeaturesSection_plannedFeature_4"/></li>
-                    <li><T i18nKey="plannedFeaturesSection_plannedFeature_5"/></li>
-                    <li><T i18nKey="plannedFeaturesSection_plannedFeature_6"/></li>
+                    { useUnescapedTranslations("plannedFeaturesSection_plannedFeature_<index>")
+                        .map(plannedFeature => <li>{plannedFeature}</li>) }
                     <li>&hellip;</li>
                 </ul>
 

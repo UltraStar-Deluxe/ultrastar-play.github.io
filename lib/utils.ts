@@ -57,7 +57,7 @@ const useTranslationUnescaped = (ns: string = "common"): { t: GetTranslationFunc
     const getTranslationFunction = (i18nKey: string, options: any = {}) =>
     {
         options.escapeValue = false;
-        const rawTranslation = t(i18nKey, options)
+        const rawTranslation = t(i18nKey, options) as string
         // Apply same replacements of T.tsx "components" attribute
         return rawTranslation
             .replaceAll("<gradient>", `<span class="text-gradient bold" />`)
@@ -74,9 +74,50 @@ const useTranslationUnescaped = (ns: string = "common"): { t: GetTranslationFunc
     return { t: getTranslationFunction };
 }
 
+const useUnescapedTranslations = (key: string, ns: string = "common"): string[] =>
+{
+    const { t } = useTranslationUnescaped(ns);
+    
+    const translations: string[] = [];
+    const getKeyForIndex = (i: number) =>
+    {
+        if (key.includes("<index>"))
+        {
+            return key.replace("<index>", i.toString());
+        }
+        else
+        {
+            return `${key}_${i}`;
+        }
+    };
+    const hasTranslationWithIndex = (i: number) => 
+    {
+        const keyForIndex = getKeyForIndex(i);
+        const translationForIndex = t(keyForIndex);
+        return translationForIndex && translationForIndex != keyForIndex;
+    };
+    const getTranslationForIndex = (i: number) => hasTranslationWithIndex(i) ? t(getKeyForIndex(i)) : undefined;
+    
+    const startIndex = hasTranslationWithIndex(0) ? 0 : 1;
+    for (var index = startIndex; hasTranslationWithIndex(index) && index < 100; index++)
+    {
+        const translationForIndex = getTranslationForIndex(index);
+        if (translationForIndex)
+        {
+            translations.push(translationForIndex);
+        }
+        else
+        {
+            return translations;
+        }
+    
+    }
+    return translations;
+}
+
 interface GetTranslationFunction
 {
     (i18nKey: string, options?: any): string
 }
 
-export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml, useTranslationUnescaped }
+export { tryParseInt, getVerticalScrollPercentage, doWithElement, setInnerHtml, useTranslationUnescaped, useTranslationUnescaped as useUnescapedTranslation, useUnescapedTranslations }

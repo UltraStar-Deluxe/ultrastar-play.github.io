@@ -1,0 +1,32 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# Search Expressions
+You can use C# expressions to search for songs in your local song library.
+
+Note however that this only works for selected song properties.
+
+Example:
+- `Genre == "Rock"`
+    - Finds songs where the `Genre` property is set to Rock
+- `1990 <= Year && Year <= 1999`
+    - Finds songs where the `Year` property is between 1990 and 1999
+- `Video != null && Video.Length > 0`
+    - Finds songs where the `Video` property is set to a non-empty value
+- `Title.ToLower().Contains("summer")`
+    - Finds songs where the `Title` property contains the text "summer", independent of upper and lower case
+
+## Syntax
+Syntax rules of C# apply.
+
+For example
+- Uppercase / lowercase is relevant: 
+    - Use `Title.Contains("something")`, not  `title.contains("something")`
+- Comparisons use `==` (equals), `!=` (not equals), `<` (less than), `>` (greater than), `<=` (less or equal), `>=` (greater or equal)
+    - Note the double equals sign. A single equals sign would be an assignment and will not work in the search.
+- AND is written as `&&`, OR is written as `||`
+- strings must be quoted
+- Parentheses can be used to order the evaluation
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

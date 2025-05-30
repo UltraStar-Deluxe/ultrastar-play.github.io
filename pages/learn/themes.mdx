@@ -1,0 +1,22 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# What is a Theme
+- A theme can be used to change the appearance and several sound effects of the game.
+    - TIP: Browse themes and other user-generated content on [Steam Workshop](/learn/steam-workshop).
+- A theme is defined in a JSON file called the *theme file*.
+
+## How to Install Themes
+- Themes files are searched in specific folders:
+    - `<mod-folder>/Themes`
+    - `<data-folder>/Themes`
+    - `<installation-path>/UltraStar Play_Data/StreamingAssets/Themes`
+- To install a theme, copy it to one of these locations. A restart of the game may be required afterwards.
+
+# How to Develop Themes
+- Theme development for UltraStar Play means editing a JSON file to adjust properties.
+- There is a commented example theme file that explains all available fields.
+- Note that a theme can reference one or more style sheets, which use a Unity specific variation of CSS. These can be used to change the style of most of the UI.
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

@@ -1,0 +1,31 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# Companion App
+The UltraStar Play Companion App for Android and iOS can be installed from [Google Play](https://play.google.com/store/apps/details?id=com.ultrastar.UltraStarPlayCompanion) and the [App Store](https://apps.apple.com/us/app/melody-mania-companion/id6476068878).
+It enables you to
+- Use your smartphone as mic
+- Search and enqueue songs (when others are still singing)
+- Control the game remotely
+
+## Connection
+The app connects automatically with the main game. Therefor,
+- Connect to the same WLAN as the main game
+- Check the recording options of the main game. Your Companion App should be listed.
+    - TIP: If your Companion App is not listed immediately then try to temporarily disable the firewall on the device that runs the main game. Do not forget to enable your firewall afterwards again!
+
+## Recording
+Click the corresponding button to start recording. A red button indicates that the microphone is recording now.
+
+- TIP: You do not need to start recording manually during the game because recording is synchronized automatically with song playback.
+- TIP: Use the same name for your player profile and Companion App to enable automatic matching.
+
+NOTE: The Companion App does not exchange raw audio data. Instead, only pitch information of your singing is exchanged with the main game.
+
+## Permissions
+Extra permissions are required to enqueue songs and control the main game remotely. To grant these permissions,
+- View the connected apps in the main game settings
+- Tick the corresponding checkboxes of your app to grant permissions
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

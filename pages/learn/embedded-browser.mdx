@@ -1,0 +1,50 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# Embedded Browser
+UltraStar Play includes a full Chromium browser to integrate third-party websites in the game.
+
+## Specify Website in Song File
+You can use `#WEBSITE` in an UltraStar txt file to specify the URL for the embedded browser.
+
+The URL will be loaded only when the local audio file does not exist.
+Thus, you can specify both, an audio file and a website as fallback.
+
+## Show Embedded Browser
+You can show / hide the embedded browser window in the game by pressing `F8` or `Ctrl+B`.
+
+## Integrate Website in the Game
+A new website can be integrated in the game by adding custom JavaScript code to the corresponding scripts folder of the game.
+
+### JavaScript Folder
+The folder with JavaScript files of the game can be opened by clicking the corresponding button in the the development options of the game.
+
+### File Name
+The file name of the script must be the host of the URL that is handled by the script.
+    - Example: To handle a URL `https://my-video-platform.com/?v=SomeVideoId`, the script should be named `my-video-platform.com.js`
+
+After adding a script, the game will assume that the corresponding host is supported.
+    - Example: Adding a file `my-video-platform.com.js` will allow you to use the URL `https://my-video-platform.com/?v=SomeVideoId` (with or without `www.`) as `#WEBSITE` tag in song files.
+
+### Synchronize Game and Website
+The JavaScript code is used to get and set properties such as volume and video playback position on the loaded website.
+
+### Loading Order
+The JavaScript files of the game are loaded after the website is loaded.
+
+### Open URL
+The game will load a URL into the embedded browser when the song file should play its audio.
+
+A script can indicate that it is able to load a new URL on the same host by itself.
+The game will then delegate loading a different URL to the script instead of navigating to a new URL.
+
+### Log Messages
+The `console.log` statements in the script are redirected to the game.
+
+You can see the log messages in the game by looking at the log file or by opening the in-game debug console, which opens with `F7`.
+
+### Reloading Scripts
+A file system watcher is monitoring the JavaScript files. If a script is changed, then the game will reload the script without requiring a restart.
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

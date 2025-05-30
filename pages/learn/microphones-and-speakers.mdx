@@ -1,0 +1,145 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# Recording Options
+
+The following explains recording options and gives tips for microphone and speaker configuration.
+
+- [Speaker Configuration](#speaker-configuration)
+- [Microphone Configuration](#microphone-configuration)
+  - [Delay](#delay)
+  - [Automatic Delay Configuration](#automatic-delay-configuration)
+  - [Mic Amplification](#mic-amplification)
+  - [Mic Noise Suppression](#mic-noise-suppression)
+  - [System audio backend delay](#system-audio-backend-delay)
+  - [Multi-Channel and Low-Latency Mode](#multi-channel-and-low-latency-mode)
+  - [Microphone Playback](#microphone-playback)
+  - [Assigning Mics to Players](#assigning-mics-to-players)
+  - [Troubleshooting](#troubleshooting)
+- [Smartphone as Microphone](#smartphone-as-microphone)
+  - [Alternatives to the Companion App](#alternatives-to-the-companion-app)
+    - [WO Mic](#wo-mic)
+    - [Audio Jack Connection](#audio-jack-connection)
+    - [Other alternatives](#other-alternatives)
+
+## Speaker Configuration
+Prefer wired speakers over wireless speakers.
+- Bluetooth and other wireless speakers typically have a higher latency. This means there is a larger gap between playing the music in game and hearing it in your ears. This may shift the timing of your singing, and thus the timing of the note recording in game.
+- As alternative, try to increase the configured mic delay to counter the increased latency of wireless speakers.
+
+## Microphone Configuration
+UltraStar Play supports several kinds of microphones,
+e.g., headset microphones, USB microhpones, and smartphone microphones via the [Companion App](/learn/companion-app). 
+
+- TIP: Make sure that your headset or USB microphone works as expected in other apps.
+- TIP: Disable microphones that you do not want to use in the settings.
+
+### Delay
+Configure the microphone delay such that the timing of the note recording matches your singing.
+    - TIP: The delay value in UltraStar Play is typically between 100ms and 300ms.
+    - TIP: This option should be as low as possible.
+
+The delay corresponds to the time
+
+- from playing the audio in game
+- to having the audio signal on the speaker and hearing it
+    - TIP: prefer wired speakers to keep this latency small
+- to having the sound of your voice on the mic
+- to having the mic's audio signal reach the game and processing it
+
+### Automatic Delay Configuration
+UltraStar Play can do an automatic calibration of the microphone delay for you. Therefor,
+- Hold your microphone to the speaker
+- Click the calibration button and wait
+
+This will measure the round-trip time from playing audio to analyzing microphone input.
+
+### Mic Amplification
+Increase the amplification until your microphone accepts input from you in normal voice volume.
+- TIP: This option should be as low as possible
+
+### Mic Noise Suppression
+Configure the noise suppression if your microphone is mistaken ambient noise for singing.
+
+- TIP: This option should be as low as possible
+
+This option will ignore input below the configured threshold volume.
+
+### System audio backend delay
+Option to counter latency that is equal for every microphone.
+
+This is similar to a "global microhpone delay" that is applied to every device,
+in addition to the regular delay.
+
+For example, if the speakers have some latency that is the same for every microphone
+then this option can be used to adjust the delay accordingly.
+
+### Multi-Channel and Low-Latency Mode
+By default, the game assumes microphones with a single channel.
+To use different channels of a microphone (e.g. left / right), you have to enable the multi-channel and low-latency mode.
+
+- NOTE: This mode uses the third-part library PortAudio, instead of the more limited Unity API.
+
+### Microphone Playback
+To hear your own singing, enable the option to play recorded audio.
+- TIP: Enable multi-channel and low-latency mode to reduce latency.
+- TIP: For best results, use a dedicated audio interface that directly outputs the microphone input on a speaker ([example](https://www.m-audio.com/products/view/m-track)).
+
+### Assigning Mics to Players
+- Microphones are assigned to players in song select before starting the song.
+- A free microphone is assigned automatically to a selected player if possible.
+    - TIP: Disable microphones that should not be used for singing in the settings
+- You can change the microphone of a player manually by clicking the microphone button.
+- TIP: Use the same name for your player profile and Companion App to enable automatic matching.
+
+### Troubleshooting
+- Test your microhpones in other apps.
+    - If your mic works in Windows, then it typically also works in the game.
+    - TIP: [Audacity](https://www.audacityteam.org) is a suited app for testing microphones. It is free and uses a similar audio backend as the game (PortAudio).
+- Enable multi-channel and low-latency mode (see above) if needed
+
+# Smartphone as Microphone
+You can use the [UltraStar Play Companion App](/learn/companion-app) to use your smartphone with the game.
+
+## Alternatives to the Companion App
+### WO Mic
+[WO Mic](https://wolicheng.com/womic/) allows you to use an Android or iOS device as microphone in Windows, Linux and MacOS.
+Only one such connection is possible at a time.
+
+- Install *WO Mic app* on your smartphone
+- Install *Wo Mic virtual device* on your PC
+- Install *WO Mic client* on your PC
+
+For UltraStar Play, Bluetooth connection is sufficient.
+
+- In WO Mic app settings, select Bluetooth as "Transport"
+- Start the WO Mic microphone recording
+- Pair your smartphone with your PC (see Bluetooth settings of your operating system)
+- Start the WO Mic client on your PC
+    - Under `Connection > Connect...` select Bluetooth and the smartphone device that has been paired in the above step. Hit Connect.
+- Finally, configure the WO Mic microphone device in UltraStar Play.
+    - A "Delay" around 300 ms has been found to work fine.
+
+### Audio Jack Connection
+Connecting the audio jack of the smartphone with the microphone input jack of the PC is another option.
+
+This requires a male-male audio cable.
+
+<img width="10%" src="https://images-na.ssl-images-amazon.com/images/I/51o5L9vOL3L._AC_SL1000_.jpg"></img>
+
+Furthermore, you need to install an app that sends your mic input to the audio jack of your smartphone. The following apps have been found to work (of course, there might be further alternatives).
+
+- Microphone by Gaz Davidson: [Google Play Store](https://play.google.com/store/apps/details?id=net.bitplane.android.microphone) | [F-Droid](https://f-droid.org/en/packages/net.bitplane.android.microphone/)
+    - Very simple, does not require additional permissions, no ads
+- Microphone by Wonder Grace: [Google Play Store](https://play.google.com/store/apps/details?id=com.grace.microphone)
+    - More features and more modern UI, also wants telephone permissions, no ads
+
+If your PC does not have a microphone input jack, then a USB-adapter might be an alternative.
+
+<img width="10%" src="https://images-na.ssl-images-amazon.com/images/I/61nVIv4OqIL._AC_SX450_.jpg"></img>
+
+### Other alternatives
+See [wikiHow](https://www.wikihow.com/Use-Your-Phone-As-a-Mic) for further alternatives.
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

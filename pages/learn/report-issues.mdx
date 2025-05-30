@@ -1,0 +1,39 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+import TutorialVideo from '../../components/TutorialVideo'
+
+# How to Report Issues
+The following contains all the information you need to make sure that your issues can be addressed promptly.
+
+## Questions and Answers
+- Questions about gameplay, songs, or technical support are best asked on
+    - [Discord](https://discord.gg/PAUJFKCGbb)
+    - [Steam Discussions](https://steamcommunity.com/app/2394070/discussions/).
+
+## Feature Requests
+- Suggestions for new features, improvements, or enhancements to the game are best reported on
+    - [GitHub](https://github.com/UltraStar-Deluxe/Play/issues/)
+    - NOTE: UltraStar Play shares the GitHub repository with its open source sister project UltraStar Play.
+
+## Bugs and Crashes
+- Issues that negatively affect the game's performance, functionality, or user experience are best reported on
+    - [GitHub](https://github.com/UltraStar-Deluxe/Play/issues/)
+    - NOTE: UltraStar Play shares the GitHub repository with its open source sister project UltraStar Play.
+- Make sure to include a log file (see below), screenshot, and information such as operating system and version when reporting a bug.
+
+### <a name="log-files"></a>Log Files
+
+- UltraStar Play uses log files for diagnosing and fixing bugs. They contain detailed information about the game's operations and any errors that occur.
+- Log files can be opened from within the development options.
+    - From the start screen go to `Settings > Development > Log Folder`.
+<TutorialVideo src="/videos/how-to-find-log-file.webm" />
+
+- A special log file named `Player.log` should be included in bug reports in case of a crash, i.e., when the application has exited unexpectedly. The file contains additional information in this case.
+    - The `Player.log` file is in the Data folder. This folder can be opened from the development options as well.
+<TutorialVideo src="/videos/how-to-find-player-log-file.webm" />
+
+### <a name="log-console"></a>View Log Console
+- In addition to log fiels, you can view the log console from within the game at any time by pressing `F7` or via the corresponding button in the development options.
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

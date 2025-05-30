@@ -5,7 +5,7 @@ module.exports = {
     // reloadOnPrerender: process.env.NODE_ENV === 'development',
     i18n: {
         defaultLocale: 'en',
-        locales: ['en', 'de'],
+        locales: ['en', 'de', 'es', 'fr', 'it', 'ja', 'ko', 'pl', 'pt', 'ru', 'zh'],
         localeExtension: 'yml',
     },
     // Reload translation properties when page is refreshed in developer mode

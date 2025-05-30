@@ -1,10 +1,9 @@
 
 import { useEffect } from 'react';
-import * as ReactDOM from 'react-dom';
 import { getCookie } from '../lib/cookieUtils';
-import { useTranslationUnescaped } from "../lib/utils"
 import { acceptAndHideCookieBanner, cookieBannerAcceptedCookieName } from './CookieBanner';
 import { T } from "./T"
+import { createRoot } from 'react-dom/client';
 
 const YouTubeVideoResolved = (props: { src: string }) =>
 {
@@ -22,8 +21,11 @@ const replaceVideoPlaceholderWithResolvedVideo = (containerId: string, src: stri
     const containerElement = document.getElementById(containerId);
     if (containerElement)
     {
-        const youTubeVideoElement =<YouTubeVideoResolved src={src} />;
-        ReactDOM.render(youTubeVideoElement, containerElement)
+        const youTubeVideoElement = <YouTubeVideoResolved src={src} />;
+        if (youTubeVideoElement)
+        {
+            createRoot(containerElement).render(youTubeVideoElement)
+        }
     }
     else
     {

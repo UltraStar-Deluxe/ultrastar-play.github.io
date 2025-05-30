@@ -1,0 +1,47 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# Song Format
+UltraStar Play supports songs in UltraStar format.
+
+- An UltraStar song consists of
+    - An audio file
+    - A plain text file (txt) with information about the song (audio file, artist, title, lyrics, notes, etc.)
+    - Optionally, image and video files for album art or backgrounds
+    - TIP: If your background video has an audio track then it can be used for both, audio file and background video.
+
+# How to Add Songs
+### Download Song Archive
+- UltraStar Play can download and unpack ZIP and TAR archives with songs directly in-game.
+    - TIP: There is an UltraStar [song package](https://github.com/UltraStar-Deluxe/songs) with Creative Commons licensed songs that can be added to your library this way
+- To download an archive
+    - navigate to the song library settings
+    - click the button to download songs
+    - add the song archive URL
+    - start the download
+    - NOTE: This will automatically add a new song folder to your local library.
+
+### Add Existing Songs
+- If you already have all files of an UltraStar song, you can
+    - add a song folder entry in the settings that points to your local song files
+        - NOTE: Android requires songs to be stored in special folders for security reasons. The required folder path is device specific and can be found in the song library settings.
+    - or store your song under an song folder path
+
+### Create Custom Songs
+- You can use the the integrated [song editor](/learn/song-editor) of UltraStar Play to create UltraStar songs of your local song library.
+
+# Loading Songs
+You can choose whether to load songs
+- Upfront: Scans all song folders for UltraStar txt files and loads their content.
+    - This requires more time initially, but afterwards it is smoother during song select.
+- On-demand: Scans all song folders for UltraStar txt files but does not load their content.
+    - This requires less time initially, but may take some time to load the txt file when the song is shown during song select.
+
+# Supported File Formats
+- Audio files: aac, aiff, flac, m4a, mp3, ogg (recommended), wav, wma
+- Video files: avi, f4v, flv, mkv, mov, mp4, mpg, webm (webm with VP8 recommended), wmv
+- Text files: UTF-8 encoding recommended.
+- TIP: You can find details about the UltraStar txt file format [here](https://usdx.eu/format/).
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);

@@ -20,13 +20,13 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v1
         with:
-          node-version: '18.x'
+          node-version: '20.x'
 
       - name: Install Packages
         run: npm ci
 
       - name: Build and Export
-        run: npm run build && npm run export && touch ./out/.nojekyll
+        run: npm run build && touch ./out/.nojekyll
 
       - name: Deploy
         uses: JamesIves/github-pages-deploy-action@v4.4.1

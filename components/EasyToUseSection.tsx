@@ -3,7 +3,7 @@ import { T } from "./T"
 const EasyToUseSection = () =>
 {
     return <>
-    <section>
+    <section className="pt-3">
         <div className="container">
             <div className="row justify-content-center">
                 <div className="col-auto">

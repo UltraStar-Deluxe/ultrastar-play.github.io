@@ -17,17 +17,22 @@ const NavigationSection = () =>
                     <li className="nav-item dropdown">
                         <a className="nav-link dropdown-toggle cursor-pointer" data-bs-toggle="dropdown"><T i18nKey="navigationSection_features" /></a>
                         <ul className="dropdown-menu">
-                            <li><a className="dropdown-item" href="#features"><T i18nKey="navigationSection_features_overview" /></a></li>
+                            <li><a className="dropdown-item" href="#overview"><T i18nKey="navigationSection_features_overview" /></a></li>
+                            <li><a className="dropdown-item" href="#companion-app"><T i18nKey="navigationSection_features_companionApp" /></a></li>
                             <li><a className="dropdown-item" href="#community-created-songs"><T i18nKey="navigationSection_features_community" /></a></li>
+                            <li><a className="dropdown-item" href="#features"><T i18nKey="navigationSection_features_featureList" /></a></li>
                             <li><a className="dropdown-item" href="#song-editor"><T i18nKey="navigationSection_features_songEditor" /></a></li>
-                            <li><a className="dropdown-item" href="#cross-platform"><T i18nKey="navigationSection_features_crossPlatform" /></a></li>
+                            {/* <li><a className="dropdown-item" href="#cross-platform"><T i18nKey="navigationSection_features_crossPlatform" /></a></li> */}
                             <li><a className="dropdown-item" href="#open-source"><T i18nKey="navigationSection_features_openSource" /></a></li>
-                            <li><a className="dropdown-item" href="#melody-mania"><T i18nKey="navigationSection_features_melodyMania" /></a></li>
+                            {/* <li><a className="dropdown-item" href="#planned-features"><T i18nKey="navigationSection_features_plannedFeatures" /></a></li> */}
+                            {/* <li><a className="dropdown-item" href="#testimonial"><T i18nKey="navigationSection_testimonial" /></a></li> */}
+                            {/* <li><a className="dropdown-item" href="#newsletter"><T i18nKey="navigationSection_newsletter" /></a></li> */}
                         </ul>
                     </li>
-                    <li className="nav-item"><a className="nav-link" href="#download"><T i18nKey="navigationSection_download" /></a></li>
-                    <li className="nav-item"><a className="nav-link" href="https://github.com/UltraStar-Deluxe/Play/wiki/Frequently-Asked-Questions-(FAQ)"><T i18nKey="navigationSection_faq" /></a></li>
+                    {/* <li className="nav-item"><a className="nav-link" href="#download"><T i18nKey="navigationSection_download" /></a></li> */}
+                    {/* <li className="nav-item"><a className="nav-link" href="https://github.com/UltraStar-Deluxe/Play/wiki/Frequently-Asked-Questions-(FAQ)"><T i18nKey="navigationSection_faq" /></a></li> */}
                     <li className="nav-item dropdown"><LanguageSwitcher /></li>
+                    {/* <li className="nav-item"><RedirectLink className="nav-link me-lg-3" href="https://drive.google.com/drive/folders/16iC2IsYZ-qgkYDddIVZWPsuU_dz6skMp"><T i18nKey="navigationSection_pressKit" /></RedirectLink></li> */}
                 </ul>
             </div>
         </div>

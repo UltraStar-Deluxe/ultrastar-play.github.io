@@ -15,9 +15,9 @@ After installing [nodejs](https://nodejs.org/), you use the following commands:
     - You can test the generated static website by deploying it locally using `npx http-server ./out`
 
 ## Translations
-Internationalization (i18n) for the [UltraStar website](https://github.com/UltraStar-Deluxe/ultrastar-play.github.io) has been prepared using `.yml` files.
+Internationalization (i18n) for the website has been prepared using `.yml` files.
 
-The files are located in `ultrastar-play.github.io/public/locales/`
+The files are located in `public/locales/`
 
 Behind the scenes, next-i18next uses these files to generate static HTML pages for every language.
 

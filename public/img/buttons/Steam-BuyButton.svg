@@ -11,7 +11,7 @@
    viewBox="0 0 612 191.25"
    enable-background="new 0 0 612 191.25"
    xml:space="preserve"
-   sodipodi:docname="Steam-BuyButton.svg"
+   sodipodi:docname="GitHub-DownloadButton.svg"
    inkscape:version="1.2.1 (9c6d41e410, 2022-07-14)"
    xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape"
    xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd"
@@ -41,9 +41,9 @@
    inkscape:zoom="2.2630719"
    inkscape:cx="239.27653"
    inkscape:cy="106.27148"
-   inkscape:window-width="2560"
-   inkscape:window-height="1411"
-   inkscape:window-x="1911"
+   inkscape:window-width="1920"
+   inkscape:window-height="991"
+   inkscape:window-x="-9"
    inkscape:window-y="-9"
    inkscape:window-maximized="1"
    inkscape:current-layer="Layer_1" />
@@ -102,4 +102,4 @@
      y="57.804031"
      id="tspan425"><tspan
        style="font-family:Inter;-inkscape-font-specification:Inter"
-       id="tspan423">BUY  ON</tspan></tspan></text></svg>
+       id="tspan423">BUY ON</tspan></tspan></text></svg>

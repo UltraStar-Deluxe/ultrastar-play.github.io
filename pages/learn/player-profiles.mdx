@@ -1,0 +1,20 @@
+import MdxLayoutComponent from '../../components/MdxLayoutComponent'
+
+# Player Profiles
+- Configure player profiles to quickly switch between players during the game.
+- You can disable player profiles in the settings. Only enabled player profiles are available during song select.
+
+## Custom Player Profile Images
+- You can add custom player profile images (PNG or JPG files).
+    - TIP: Browse player profile images and other user-generated content on [Steam Workshop](/learn/steam-workshop).
+- You can add a profile image using a webcam or integrated camera of your device.
+    - Therefor, select the the very last profile image in the list and take a snapshot.
+- Player profile images are searched in specific folders:
+    - `<mod-folder>/PlayerProfileImages`
+    - `<data-folder>/PlayerProfileImages`
+    - `<installation-path>/UltraStar Play_Data/StreamingAssets/PlayerProfileImages`
+- To install a player profile image, copy it to one of these locations. A restart of the game may be required afterwards.
+
+export default ({ children }) => (
+    <MdxLayoutComponent>{children}</MdxLayoutComponent>
+);
