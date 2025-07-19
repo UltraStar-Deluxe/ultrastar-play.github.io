@@ -25,6 +25,7 @@ const IntroSection = () =>
             // "wikiLink": `<a href='https://github.com/UltraStar-Deluxe/Play/wiki/First-Steps'>${wikiName}</a>`,
             // "faqLink": `<a href='https://github.com/UltraStar-Deluxe/Play/wiki/Frequently-Asked-Questions-(FAQ)'>${faqName}</a>`,
             "discordLink": `<a href='https://discord.gg/PAUJFKCGbb'>${discordName}</a>`,
+            "openMusicGames": `<a href='https://www.open-music-games.org'>www.open-music-games.org</a>`,
         }))
     })
 
